@@ -1,76 +1,76 @@
 {
- "generated_at": "2026-11-20T20:49:56+07:00",
+ "generated_at": "2026-11-20T22:11:44+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
-   "last": 7175.8301,
-   "asof": "2026-11-19",
-   "chg1d": -2.02,
-   "chg5d": -5.49,
-   "chg30d": -6.96,
+   "last": 7168.2002,
+   "asof": "2026-11-20",
+   "chg1d": -0.11,
+   "chg5d": -5.2,
+   "chg30d": -7.59,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "IXIC": {
-   "last": 23879.1992,
-   "asof": "2026-11-19",
-   "chg1d": -2.25,
-   "chg5d": -5.86,
-   "chg30d": -9.63,
-   "status": "ok",
-   "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
-  },
-  "VIX": {
-   "last": 31.4,
-   "asof": "2026-11-20",
-   "chg1d": 10.41,
-   "chg5d": 62.69,
-   "chg30d": 88.25,
-   "status": "ok",
-   "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
-  },
-  "GOLD": {
-   "last": 3559.3,
-   "asof": "2026-11-20",
-   "chg1d": -3.42,
-   "chg5d": -8.41,
-   "chg30d": -14.23,
-   "status": "ok",
-   "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
-  },
-  "DXY": {
-   "last": 103.63,
-   "asof": "2026-11-20",
-   "chg1d": -0.26,
-   "chg5d": 0.21,
-   "chg30d": 1.82,
-   "status": "ok",
-   "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
-  },
-  "WTI": {
-   "last": 82.41,
+   "last": 23649.6445,
    "asof": "2026-11-20",
    "chg1d": -0.96,
-   "chg5d": -6.94,
-   "chg30d": -15.17,
+   "chg5d": -5.91,
+   "chg30d": -11.43,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
+  },
+  "VIX": {
+   "last": 27.59,
+   "asof": "2026-11-20",
+   "chg1d": -2.99,
+   "chg5d": 42.95,
+   "chg30d": 65.41,
+   "status": "ok",
+   "source": "Yahoo Finance",
+   "fetched_at": "2026-11-20T22:11:44+07:00"
+  },
+  "GOLD": {
+   "last": 3577.2,
+   "asof": "2026-11-20",
+   "chg1d": -2.94,
+   "chg5d": -7.95,
+   "chg30d": -13.8,
+   "status": "ok",
+   "source": "Yahoo Finance",
+   "fetched_at": "2026-11-20T22:11:44+07:00"
+  },
+  "DXY": {
+   "last": 103.75,
+   "asof": "2026-11-20",
+   "chg1d": -0.14,
+   "chg5d": 0.33,
+   "chg30d": 1.94,
+   "status": "ok",
+   "source": "Yahoo Finance",
+   "fetched_at": "2026-11-20T22:11:44+07:00"
+  },
+  "WTI": {
+   "last": 81.62,
+   "asof": "2026-11-20",
+   "chg1d": -1.91,
+   "chg5d": -7.84,
+   "chg30d": -15.99,
+   "status": "ok",
+   "source": "Yahoo Finance",
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "BTC": {
-   "last": 61716.9805,
+   "last": 61115.4297,
    "asof": "2026-11-20",
-   "chg1d": -0.3,
-   "chg5d": -5.49,
-   "chg30d": -26.54,
+   "chg1d": -1.27,
+   "chg5d": -6.42,
+   "chg30d": -27.25,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "SET": {
    "last": 1453.28,
@@ -80,7 +80,7 @@
    "chg30d": null,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00",
+   "fetched_at": "2026-11-20T22:11:44+07:00",
    "note": "แหล่งข้อมูลให้มาแค่ 1 วัน ระบบกำลังเก็บประวัติสะสมเอง (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)"
   },
   "USDTHB": {
@@ -91,7 +91,7 @@
    "chg30d": 0.83,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "US2Y": {
    "last": 4.8,
@@ -101,17 +101,17 @@
    "chg30d": 0.03,
    "status": "ok",
    "source": "FRED DGS2",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "US10Y": {
-   "last": 5.07,
-   "asof": "2026-11-18",
-   "chg1d": -0.03,
-   "chg5d": 0.09,
-   "chg30d": -0.08,
+   "last": 4.992,
+   "asof": "2026-11-20",
+   "chg1d": -0.06,
+   "chg5d": -0.162,
+   "chg30d": -0.154,
    "status": "ok",
-   "source": "FRED DGS10",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "source": "Yahoo Finance ^TNX",
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "US30Y": {
    "last": 5.41,
@@ -121,7 +121,7 @@
    "chg30d": -0.07,
    "status": "ok",
    "source": "FRED DGS30",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   },
   "REAL10Y": {
    "last": 2.88,
@@ -131,7 +131,7 @@
    "chg30d": 0.08,
    "status": "ok",
    "source": "FRED DFII10",
-   "fetched_at": "2026-11-20T20:49:56+07:00"
+   "fetched_at": "2026-11-20T22:11:44+07:00"
   }
  }
 }
