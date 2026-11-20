@@ -1,1 +1,23 @@
-{"status": "missing"}
+{
+ "trade_date": "2026-11-19",
+ "foreign": -2499.55,
+ "institution": null,
+ "proprietary": null,
+ "retail": null,
+ "confirmed": true,
+ "sources": [
+  {
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,499.55 ลบ.(SET+MAI) : อินโฟเควสท์",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42ZWJYbDhQY3M0aFRHckxSZjh4RHhRcll2djVqQ3RxRVFXcVN1YlpwMUZIQU1IeXVzZjd5akFDTm9zSFpLXy1nUFQ5ZnU5RUtr?oc=5",
+   "source": "สำนักข่าวอินโฟเควสท์"
+  },
+  {
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,495.23 ลบ.(SET)",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2TFVHenNSY1RnSjcwVFdnRVJGeWlWczV5Yms3OExSLVhWQ1ZiWmNjSWxKMXlodGdyclE5bUQtdmNNWWhkRTNaZFh3?oc=5",
+   "source": "RYT9"
+  }
+ ],
+ "status": "ok",
+ "fetched_at": "2026-11-20T20:47:40+07:00",
+ "method": "พาดหัวข่าว"
+}
