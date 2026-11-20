@@ -125,16 +125,26 @@ def src_fred_csv(series):
 
 
 # ---------------- ตรวจความถูกต้อง + คำนวณ ----------------
+def merge_old(rows, old_hist):
+    """บางแหล่ง (เช่น SET บน Yahoo) ให้มาแค่วันล่าสุด -> ต่อกับประวัติที่เราเก็บไว้เองรอบก่อน ๆ"""
+    if len(rows) >= 20 or not old_hist:
+        return rows
+    merged = {d: v for d, v in old_hist}
+    merged.update(dict(rows))
+    return sorted(merged.items())
+
+
 def validate(rows, kind, max_jump):
     rows = [(d, v) for d, v in rows if v is not None and math.isfinite(v)]
-    if len(rows) < 2:
-        raise SourceError(f"ข้อมูลน้อยเกินไป (ได้ {len(rows)} แถว{', ล่าสุด ' + rows[-1][0] if rows else ''})")
+    if not rows:
+        raise SourceError("ไม่มีข้อมูล")
     if kind == "pct" and any(v <= 0 for _, v in rows[-5:]):
         raise SourceError("ราคาติดลบหรือเป็นศูนย์")
-    (_, a), (_, b) = rows[-2], rows[-1]
-    jump = abs(b - a) if kind == "abs" else abs(b / a - 1) * 100
-    if jump > max_jump:
-        raise SourceError(f"ขยับผิดปกติ ({jump:.2f}) สงสัยข้อมูลเพี้ยน")
+    if len(rows) >= 2:
+        (_, a), (_, b) = rows[-2], rows[-1]
+        jump = abs(b - a) if kind == "abs" else abs(b / a - 1) * 100
+        if jump > max_jump:
+            raise SourceError(f"ขยับผิดปกติ ({jump:.2f}) สงสัยข้อมูลเพี้ยน")
     if (date.today() - date.fromisoformat(rows[-1][0])).days > 10:
         raise SourceError(f"ข้อมูลล่าสุดเก่าเกินไป ({rows[-1][0]})")
     return rows
@@ -156,6 +166,9 @@ def change(rows, kind, back=None, days=None):
 
 
 def summarize(rows, kind, source, now):
+    if len(rows) < 2:
+        return {"last": round(rows[-1][1], 4), "asof": rows[-1][0], "chg1d": None, "chg5d": None,
+                "chg30d": None, "status": "ok", "source": source, "fetched_at": now}
     return {
         "last": round(rows[-1][1], 4),
         "asof": rows[-1][0],
@@ -175,13 +188,18 @@ def trim_history(rows, kind):
 
 
 # ---------------- ตัวหลัก ----------------
-def fetch_one(key, attempts, kind, max_jump, now):
+def fetch_one(key, attempts, kind, max_jump, now, old_hist=None):
     """attempts = [(ชื่อแหล่ง, ฟังก์ชัน), ...] คืน (summary, history, errors)"""
     errors = []
     for name, fn in attempts:
         try:
-            rows = validate(retry(fn), kind, max_jump)
-            return summarize(rows, kind, name, now), trim_history(rows, kind), errors
+            raw = retry(fn)
+            rows = validate(merge_old(raw, old_hist), kind, max_jump)
+            summ = summarize(rows, kind, name, now)
+            if len(raw) < 20:
+                summ["note"] = (f"แหล่งข้อมูลให้มาแค่ {len(raw)} วัน ระบบกำลังเก็บประวัติสะสมเอง"
+                                " (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)")
+            return summ, trim_history(rows, kind), errors
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
     return None, None, errors
@@ -210,10 +228,10 @@ def run(now=None):
                            (f"FRED {sid} (CSV)", lambda f=sid: src_fred_csv(f))], "abs", FRED_MAX_JUMP))
 
     for key, att, kind, mj in jobs:
-        summ, hist, errs = fetch_one(key, att, kind, mj, now)
+        summ, hist, errs = fetch_one(key, att, kind, mj, now, old_hist.get(key))
         if summ:
             series[key], history[key] = summ, hist
-            if errs:
+            if errs and "note" not in summ:
                 summ["note"] = "แหล่งหลักใช้ไม่ได้ ใช้แหล่งสำรอง"
         else:
             prev = old_latest.get("series", {}).get(key)

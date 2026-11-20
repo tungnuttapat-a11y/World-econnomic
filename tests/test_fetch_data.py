@@ -79,6 +79,19 @@ class TestFetch(Base):
         self.run_with(stooq=lambda s: series(start=1400, step=1))
         self.assertEqual(self.latest()["series"]["SET"]["source"], "Stooq (สำรอง)")
 
+    def test_single_row_source_builds_history(self):
+        today = date.today()
+        one = lambda d, v: (lambda s: [(d.isoformat(), v)])
+        self.run_with(yf=one(today - timedelta(days=1), 1460.0))
+        s = self.latest()["series"]["SET"]
+        self.assertEqual((s["last"], s["chg1d"]), (1460.0, None))   # วันแรก: มีราคา แต่ยังไม่มี %
+        self.assertIn("สะสม", s["note"])
+        self.run_with(yf=one(today, 1472.0))
+        s = self.latest()["series"]["SET"]
+        self.assertEqual(s["last"], 1472.0)
+        self.assertAlmostEqual(s["chg1d"], 0.82, places=2)          # วันที่สอง: ต่อกับของเก่าได้ %
+        self.assertEqual(len(json.loads(F.HISTORY.read_text())["SET"]), 2)
+
     def test_no_fred_key_uses_csv(self):
         with mock.patch.dict(F.os.environ, {"FRED_API_KEY": ""}):
             self.run_with(yf=lambda s: series(), api=F.src_fred_api, csv=lambda s: series(start=4.0, step=0.01))
