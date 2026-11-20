@@ -252,7 +252,12 @@
       ${f._example ? `<div class="banner">ตัวเลขตัวอย่างเพื่อดูหน้าตา ไม่ใช่ข้อมูลจริง</div>` : ""}
       ${summary}
       <div class="fl">${rows}</div>
-      <p class="note">หน่วย: ล้านบาท · ขวา/เขียว = ซื้อสุทธิ · ซ้าย/แดง = ขายสุทธิ · วันที่ซื้อขาย ${esc(fmtD(f.trade_date, true))} · กรอกเมื่อ ${esc(fmtDT(f.entered_at))}</p>
+      <p class="note">หน่วย: ล้านบาท · ขวา/เขียว = ซื้อสุทธิ · ซ้าย/แดง = ขายสุทธิ · วันที่ซื้อขาย ${esc(fmtD(f.trade_date, true))}</p>
+      ${f._src === "news" ? `<p class="note">ที่มา: ดึงอัตโนมัติจากพาดหัวข่าว ${f.confirmed ? "· ✓ ตรงกันอย่างน้อย 2 สำนักข่าว" : "· ⚠︎ เจอแค่แหล่งเดียว ยังไม่ยืนยัน"} · ดึงเมื่อ ${esc(fmtDT(f.fetched_at))}</p>
+        ${f.status === "stale" ? `<div class="banner">รอบล่าสุดหาตัวเลขในข่าวไม่เจอ แสดงข้อมูลเก่า ณ ${esc(fmtDT(f.fetched_at))}</div>` : ""}
+        <ul class="nw-list">${(f.sources || []).map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a><span class="nw-meta">${esc(a.source)}</span></li>`).join("")}</ul>
+        <p class="note">ข่าวส่วนใหญ่รายงานเฉพาะต่างชาติ กลุ่มอื่นจึงอาจขึ้น "—" ถ้าต้องการครบ 4 กลุ่ม กรอกเองใน config/manual.json (ระบบจะใช้ตัวที่วันที่ใหม่กว่า)</p>`
+      : `<p class="note">ที่มา: กรอกเอง · กรอกเมื่อ ${esc(fmtDT(f.entered_at))}</p>`}
       ${allIn && Math.abs(sum) > 50 ? `<p class="note mark unk" style="width:auto">⚠︎ 4 กลุ่มรวมกันได้ ${sum.toLocaleString("en-US")} ล้านบาท (ปกติควรใกล้ 0) ลองตรวจตัวเลขที่กรอก</p>` : ""}
       <details><summary class="note" style="min-height:44px;display:flex;align-items:center">แต่ละกลุ่มคือใคร</summary>
         <ul class="list">${FLOW_GROUPS.map(([, n, d]) => `<li><b>${esc(n)}:</b> ${esc(d)}</li>`).join("")}</ul>
@@ -402,15 +407,27 @@
     dlg.showModal();
   }
 
+  /* ยอดซื้อขายสุทธิ: เลือกระหว่าง "ดึงจากข่าวอัตโนมัติ" กับ "กรอกเอง" — ใช้ตัวที่วันที่ใหม่กว่า (เท่ากันใช้ที่กรอกเอง) */
+  function withFlow(manual, auto) {
+    const m = (manual || {}).set_investor_flow || {};
+    const hasM = ["foreign", "institution", "proprietary", "retail"].some(k => m[k] != null);
+    const hasA = auto && auto.foreign != null && auto.status !== "missing";
+    let pick = null;
+    if (hasM && (!hasA || (m.trade_date || "") >= (auto.trade_date || ""))) pick = { ...m, _src: "manual" };
+    else if (hasA) pick = { ...auto, _src: "news" };
+    return { ...(manual || {}), set_investor_flow: pick || m };
+  }
+
   /* ---------- เริ่มทำงาน ---------- */
   async function start() {
     try { state.tab = localStorage.getItem("tab") || "overview"; } catch (e) {}
     try {
-      const [latest, history, manual, news, newsCfg] = await Promise.all([
+      const [latest, history, manual, news, newsCfg, setFlow] = await Promise.all([
         loadJSON("data/latest.json"), loadJSON("data/history.json").catch(() => ({})), loadJSON("config/manual.json").catch(() => null),
         loadJSON("data/news.json").catch(() => null), loadJSON("config/news.json").catch(() => null),
+        loadJSON("data/set_flow.json").catch(() => null),
       ]);
-      Object.assign(state, { latest, history, manual, news, newsCfg });
+      Object.assign(state, { latest, history, news, newsCfg, manual: withFlow(manual, setFlow) });
     } catch (e) {
       $("#mode").innerHTML = `<div class="banner">โหลดข้อมูลไม่ได้ ลองเปิดใหม่อีกครั้ง หรือเช็กอินเทอร์เน็ต</div>`;
       return;

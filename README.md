@@ -32,6 +32,7 @@
   - ราคา: yfinance → Yahoo chart API → FRED (เฉพาะ S&P, Nasdaq, VIX, WTI, BTC, USD/THB)
   - ดอกเบี้ย: FRED API (ต้องมี `FRED_API_KEY`) → ไฟล์ CSV สาธารณะของ FRED
   - ทุกแหล่งลอง 3 ครั้ง ตรวจตัวเลขผิดปกติ ถ้าล้มทุกทางใช้ข้อมูลรอบก่อนพร้อมป้าย "ข้อมูลเก่า ณ ..."
+- `scripts/fetch_set_flow.py` ยอดซื้อขายสุทธิ SET จากพาดหัวข่าว → `data/set_flow.json` (ต้องตรงกัน 2 สำนักข่าวถึงนับว่ายืนยัน)
 - `scripts/fetch_news.py` ดึงพาดหัวข่าวจาก Google News → `data/news.json` (ลิงก์ไปเว็บต้นฉบับ)
 - `scripts/make_sample_data.py` สร้างข้อมูลตัวอย่าง (ขั้นที่ 1 เท่านั้น)
 
