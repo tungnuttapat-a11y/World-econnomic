@@ -36,6 +36,16 @@ YAHOO = {
     "USDTHB": ("THB=X",    "DEXTHUS",    "pct", 8),
 }
 FRED = {"US2Y": "DGS2", "US10Y": "DGS10", "US30Y": "DGS30", "REAL10Y": "DFII10"}
+# ดอกเบี้ยที่มีตัวเลขระหว่างวันใน Yahoo -> ใช้ Yahoo ก่อน (FRED ช้า 1-2 วัน) แล้วค่อยสำรองด้วย FRED
+YAHOO_YIELD = {"US10Y": "^TNX"}
+
+
+def yahoo_yield(fn, symbol):
+    """^TNX บางช่วงรายงานเป็น x10 (เช่น 45.0 = 4.5%) -> ปรับให้เป็น % เสมอ"""
+    rows = fn(symbol)
+    if rows and rows[-1][1] > 20:
+        rows = [(d, v / 10) for d, v in rows]
+    return rows
 FRED_MAX_JUMP = 0.6     # ดอกเบี้ยขยับเกิน 0.6 จุดในวันเดียว = ข้อมูลน่าสงสัย
 
 
@@ -138,6 +148,8 @@ def validate(rows, kind, max_jump):
     rows = [(d, v) for d, v in rows if v is not None and math.isfinite(v)]
     if not rows:
         raise SourceError("ไม่มีข้อมูล")
+    if kind == "abs" and not all(-5 < v < 20 for _, v in rows[-5:]):
+        raise SourceError("ดอกเบี้ยอยู่นอกช่วงที่เป็นไปได้ สงสัยหน่วยผิด")
     if kind == "pct" and any(v <= 0 for _, v in rows[-5:]):
         raise SourceError("ราคาติดลบหรือเป็นศูนย์")
     if len(rows) >= 2:
@@ -224,8 +236,14 @@ def run(now=None):
                     (f"FRED {fred} (สำรอง CSV)", lambda f=fred: src_fred_csv(f))]
         jobs.append((key, att, kind, mj))
     for key, sid in FRED.items():
-        jobs.append((key, [(f"FRED {sid}", lambda f=sid: src_fred_api(f)),
-                           (f"FRED {sid} (CSV)", lambda f=sid: src_fred_csv(f))], "abs", FRED_MAX_JUMP))
+        att = []
+        if key in YAHOO_YIELD:
+            y = YAHOO_YIELD[key]
+            att += [(f"Yahoo Finance {y}", lambda y=y: yahoo_yield(src_yfinance, y)),
+                    (f"Yahoo Finance {y} (สำรอง)", lambda y=y: yahoo_yield(src_yahoo_chart, y))]
+        att += [(f"FRED {sid}", lambda f=sid: src_fred_api(f)),
+                (f"FRED {sid} (CSV)", lambda f=sid: src_fred_csv(f))]
+        jobs.append((key, att, "abs", FRED_MAX_JUMP))
 
     for key, att, kind, mj in jobs:
         summ, hist, errs = fetch_one(key, att, kind, mj, now, old_hist.get(key))

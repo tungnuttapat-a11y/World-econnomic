@@ -75,6 +75,21 @@ class TestFetch(Base):
         self.assertEqual(s["GOLD"]["status"], "missing")       # ไม่มีแหล่งสำรอง และไม่มีของเก่า
         self.assertIsNone(s["GOLD"]["last"])                  # ห้ามเดาตัวเลข
 
+    def test_us10y_prefers_yahoo_tnx(self):
+        self.run_with(yf=lambda s: series(start=4.5, step=0.005) if s == "^TNX" else series(),
+                      api=lambda s: series(start=4.0, step=0.01))
+        v = self.latest()["series"]
+        self.assertEqual(v["US10Y"]["source"], "Yahoo Finance ^TNX")
+        self.assertEqual(v["US2Y"]["source"], "FRED DGS2")
+
+    def test_tnx_x10_is_normalized(self):
+        self.run_with(yf=lambda s: series(start=45.0, step=0.05) if s == "^TNX" else series())
+        self.assertLess(self.latest()["series"]["US10Y"]["last"], 10)
+
+    def test_us10y_falls_back_to_fred(self):
+        self.run_with(yf=lambda s: boom() if s == "^TNX" else series(), api=lambda s: series(start=4.0, step=0.01))
+        self.assertEqual(self.latest()["series"]["US10Y"]["source"], "FRED DGS10")
+
     def test_set_falls_back_to_stooq(self):
         self.run_with(stooq=lambda s: series(start=1400, step=1))
         self.assertEqual(self.latest()["series"]["SET"]["source"], "Stooq (สำรอง)")
@@ -96,7 +111,7 @@ class TestFetch(Base):
         with mock.patch.dict(F.os.environ, {"FRED_API_KEY": ""}):
             self.run_with(yf=lambda s: series(), api=F.src_fred_api, csv=lambda s: series(start=4.0, step=0.01))
         s = self.latest()["series"]
-        self.assertEqual(s["US10Y"]["source"], "FRED DGS10 (CSV)")
+        self.assertEqual(s["US2Y"]["source"], "FRED DGS2 (CSV)")
 
     def test_total_failure_keeps_old_data_as_stale(self):
         self.run_with(yf=lambda s: series(), api=lambda s: series(start=4.0, step=0.01))
