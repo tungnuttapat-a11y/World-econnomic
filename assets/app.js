@@ -237,12 +237,12 @@
   }
   function cashCard() {
     const c = (state.regime || {}).cash;
-    if (!c) return `<section class="card"><h2>เงินพักในกองทุนตลาดเงิน</h2><p class="empty">ยังไม่มีข้อมูล (FRED อัปเดตรายสัปดาห์)</p></section>`;
+    if (!c) return `<section class="card"><h2>เงินพักในกองทุนตลาดเงิน</h2><p class="empty">ยังไม่มีข้อมูล (FRED เผยแพร่ช้า 1–2 เดือน)</p></section>`;
     return `<section class="card"><h2>เงินพักในกองทุนตลาดเงิน (สหรัฐ)</h2>
       <p class="t-val num ${c.chg4w > 0 ? "up" : "down"}">${c.chg4w > 0 ? "+" : ""}${c.chg4w.toFixed(2)}% <span class="t-short">ใน 4 สัปดาห์</span></p>
       ${c.pct == null ? "" : `<div class="pctbar"><span style="width:${c.pct}%"></span></div><p class="note">เงินไหลเข้ามากกว่า ${c.pct}% ของช่วงเดียวกันในอดีต 2 ปี</p>`}
       <p>เงินไหลเข้ากองทุนตลาดเงินเยอะ = คนย้ายเงินมาพักเป็น "เงินสดที่ได้ดอกเบี้ย" (รอดู กลัว หรือมองว่าของแพง)</p>
-      <p class="note">ข้อมูล ณ ${esc(fmtD(c.asof, true))} · รายสัปดาห์ ช้ากว่าราคา</p></section>`;
+      <p class="note">ข้อมูล ณ ${esc(fmtD(c.asof, true))} · FRED เผยแพร่ช้ากว่าความจริงราว 1–2 เดือน จึงใช้ดูแนวโน้ม ไม่ใช่สัญญาณรายวัน</p></section>`;
   }
 
   function manualFed() {
