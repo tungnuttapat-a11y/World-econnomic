@@ -194,3 +194,6 @@ dialog.sheet::backdrop { background: rgb(5 12 18 / .55); }
 .fx-chip.na { color: var(--muted); font-weight: 400; }
 .sheet .card { border: 0; padding: 0; background: transparent; }
 .fx-chip.on { background: color-mix(in srgb, var(--accent) 16%, var(--surface)); color: var(--accent); }
+.fx-sum { font-size: .92rem; }
+.fx-more summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; color: var(--accent); border-top: 1px solid var(--line); }
+.fx-more .fx-list { margin-top: 4px; }

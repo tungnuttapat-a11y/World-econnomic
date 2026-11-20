@@ -267,36 +267,37 @@
       <p class="t-val num ${v < 0 ? "down" : ""}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(2)} จุด</p>
       <p>${v < 0 ? "ติดลบ (ดอกเบี้ยสั้นสูงกว่ายาว) ในอดีตมักเป็นสัญญาณเตือนเศรษฐกิจถดถอย" : "เป็นบวก ปกติ ดอกเบี้ยยาวสูงกว่าสั้น"}</p></section>`;
   }
-  function factorsHTML(list, title, upWord, downWord) {
+  function factorsHTML(id, inSheet = false) {
+    const F = window.FACTORS[id]; if (!F) return "";
     const S = state.latest.series, M = state.manual;
-    let up = 0, down = 0;
-    const rows = list.map(f => {
+    let up = 0, down = 0, nodata = 0;
+    const row = f => {
       let t = null; try { t = f.today(S, M); } catch (e) {}
-      if (t === "up") up++; if (t === "down") down++;
-      const chip = t === "up" ? `<span class="fx-chip on">▲ วันนี้: ${upWord}</span>`
-        : t === "down" ? `<span class="fx-chip on">▼ วันนี้: ${downWord}</span>`
+      if (t === "up") up++; if (t === "down") down++; if (f.daily && t == null) nodata++;
+      const chip = t === "up" ? `<span class="fx-chip on">▲ วันนี้: ${F.upWord}</span>`
+        : t === "down" ? `<span class="fx-chip on">▼ วันนี้: ${F.downWord}</span>`
         : t === "flat" ? `<span class="fx-chip na">วันนี้: ไม่ชัด</span>`
-        : f.daily ? `<span class="fx-chip na">ไม่มีข้อมูล</span>` : `<span class="fx-chip na">ไม่ได้วัดรายวัน</span>`;
+        : f.daily ? `<span class="fx-chip na">ไม่มีข้อมูล</span>` : "";
       return `<li class="fx"><div class="fx-head"><b>${esc(f.name)}</b>${chip}</div><p>${esc(f.how)}</p><p class="note">${esc(f.gauge)}</p></li>`;
-    }).join("");
-    return `<section class="card"><h2>${esc(title)}</h2>
-      <p>วันนี้ปัจจัยที่วัดได้: <b>▲ ${upWord} ${up} ข้อ</b> · <b>▼ ${downWord} ${down} ข้อ</b></p>
-      <ul class="fx-list">${rows}</ul>
-      <p class="note">"วันนี้" อนุมานจากการขยับของราคา/ตัวเลขที่กรอก ปัจจัยระยะยาวต้องติดตามจากข่าว</p></section>`;
+    };
+    const daily = F.items.filter(f => f.daily).map(row).join("");
+    const long = F.items.filter(f => !f.daily);
+    return `<section class="card fx-card"><h2>${esc(F.title)}</h2>
+      <p class="fx-sum">วันนี้: <b>▲ ${F.upWord} ${up}</b> · <b>▼ ${F.downWord} ${down}</b>${nodata ? ` · <span class="note">ไม่มีข้อมูล ${nodata}</span>` : ""}</p>
+      <ul class="fx-list">${daily}</ul>
+      ${long.length ? `<details class="fx-more"><summary>ปัจจัยระยะยาว ${long.length} ข้อ (ไม่ได้วัดรายวัน ติดตามจากข่าว)</summary><ul class="fx-list">${long.map(row).join("")}</ul></details>` : ""}
+      <p class="note">"วันนี้" อนุมานจากการขยับของราคาและตัวเลขที่กรอก ไม่ได้อ่านข่าว</p></section>`;
   }
-  const dollarCard = () => factorsHTML(window.DOLLAR_FACTORS, "อะไรทำให้ดอลลาร์แพงหรือถูก", "หนุนดอลลาร์แข็ง", "กดดอลลาร์อ่อน");
-  const bahtCard = () => factorsHTML(window.BAHT_FACTORS, "อะไรทำให้เงินบาทอ่อนหรือแข็ง", "กดบาทอ่อน", "หนุนบาทแข็ง");
+  const tabFactors = id => (window.TAB_FACTORS[id] || []).map(f => factorsHTML(f)).join("");
   const EXTRA = {
-    overview: () => "",
-    thai: () => `<section class="card"><h2>ตลาดโลกส่งผลถึงไทยยังไง</h2>
+    overview: () => tabFactors("overview"),
+    thai: () => tabFactors("thai") + `<section class="card"><h2>ตลาดโลกส่งผลถึงไทยยังไง</h2>
       <ul class="list"><li>ดอลลาร์แข็ง/ดอกเบี้ยสหรัฐสูง → ต่างชาติมักดึงเงินกลับ → หุ้นไทยลง บาทอ่อน</li>
       <li>บาทอ่อน (ดอลลาร์/บาทขึ้น) → ของนำเข้าแพงขึ้น แต่ส่งออกและท่องเที่ยวได้ประโยชน์</li>
       <li>SET ปิดเร็วกว่าสหรัฐ ราคาปิด SET จึงมักเป็นของ "วันก่อนหน้า" เมื่อเทียบกับหุ้นสหรัฐ</li></ul></section>`,
-    gold: () => `<section class="card"><h2>ทองชอบอะไร ไม่ชอบอะไร</h2>
-      <ul class="list"><li><b>ชอบ:</b> ดอกเบี้ยแท้จริงลง, ดอลลาร์อ่อน, คนกลัวเศรษฐกิจ/สงคราม, ธนาคารกลางซื้อทอง</li>
-      <li><b>ไม่ชอบ:</b> ดอกเบี้ยแท้จริงสูง, ดอลลาร์แข็ง, วันที่ตลาดตื่นตระหนกจนต้องขายทุกอย่างเพื่อเอาเงินสด</li></ul>
+    gold: () => tabFactors("gold") + `<section class="card">
       <p class="note">ราคาทองในไทย (บาทละ) อิงราคาโลก × ค่าเงินบาท แต่สมาคมค้าทองคำกำหนดเอง จึงไม่คำนวณให้ที่นี่เพื่อไม่ให้เข้าใจผิด</p></section>`,
-    rates: () => dollarCard() + bahtCard() + spreadCard() + manualFed(),
+    rates: () => spreadCard() + manualFed() + tabFactors("rates"),
   };
 
   function render() {
@@ -348,7 +349,7 @@
         <div><h3>มันคืออะไร</h3><p>${esc(m.what)}</p></div>
         <div><h3>ขึ้น/ลง แปลว่าอะไร</h3><p><span class="up">ขึ้น:</span> ${esc(m.up)}<br><span class="down">ลง:</span> ${esc(m.down)}</p></div>
         ${missing ? "" : `<div><h3>ทำไมวันนี้ขยับ</h3><p>${esc(whyToday(key, s))}</p><p class="note">อธิบายจากความสัมพันธ์ของราคา ไม่ได้อ่านข่าว</p></div>`}
-        ${key === "DXY" ? dollarCard() : key === "USDTHB" ? bahtCard() : ""}
+        ${window.KEY_FACTORS[key] ? factorsHTML(window.KEY_FACTORS[key], true) : ""}
         <p class="note">ที่มา: ${esc(s.source || "—")} · ดึงเมื่อ ${esc(fmtDT(s.fetched_at))}</p>
       </div></div>`;
     const svg = $("#big", dlg);
