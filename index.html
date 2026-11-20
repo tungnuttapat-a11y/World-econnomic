@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>เข็มทิศตลาด</title>
+<meta name="description" content="ตลาดตอนนี้กลัวอะไร และเงินไหลไปไหน">
+<meta name="theme-color" content="#eef2f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c1319" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="เข็มทิศตลาด">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@500;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="wrap top">
+  <div class="brand">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 5l4 11-4 11-4-11z" fill="var(--accent)"/><circle cx="16" cy="16" r="2.2" fill="var(--surface)"/></svg>
+    <span>เข็มทิศตลาด</span>
+  </div>
+  <button class="btn-ghost" id="btn-gloss" type="button">คำศัพท์</button>
+</header>
+<main>
+  <div class="wrap">
+    <div id="banners"></div>
+    <div id="mode"><div class="banner">กำลังโหลดข้อมูล…</div></div>
+  </div>
+  <div class="tabs-bar"><div class="wrap"><nav class="tabs" id="tabs" role="tablist" aria-label="หมวดข้อมูล"></nav></div></div>
+  <div class="wrap" id="panel" role="tabpanel"></div>
+</main>
+<footer class="wrap page">
+  <span>ข้อมูลราคา: Yahoo Finance (ผ่าน yfinance ซึ่งไม่ใช่ช่องทางทางการ อาจช้าหรือหยุดชั่วคราว) · ดอกเบี้ย: FRED (ธนาคารกลางสหรัฐสาขาเซนต์หลุยส์ อัปเดตวันละครั้ง ช้ากว่าตลาด 1 วัน)</span>
+  <span>ใช้ประกอบการตัดสินใจเท่านั้น ไม่ใช่คำแนะนำการลงทุน</span>
+</footer>
+<dialog class="sheet" id="sheet" aria-label="รายละเอียด"></dialog>
+<script src="assets/indicators.js"></script>
+<script src="assets/rules.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
