@@ -222,14 +222,41 @@
       : `<p class="empty">ยังไม่ได้กรอก ดึงอัตโนมัติไม่ได้ ต้องกรอกเองในไฟล์ <code>config/manual.json</code></p>`}
     </section>`;
   }
+  const FLOW_GROUPS = [
+    ["foreign", "ต่างชาติ", "กองทุนและนักลงทุนต่างประเทศ เงินก้อนใหญ่สุด มักเป็นตัวกำหนดทิศทาง SET"],
+    ["institution", "สถาบันไทย", "สถาบันในประเทศ: กองทุนรวม กองทุนบำนาญ ประกันชีวิตของไทย"],
+    ["proprietary", "บัญชีโบรกเกอร์", "บริษัทหลักทรัพย์ซื้อขายด้วยเงินตัวเอง (พอร์ตบริษัท) มักเทรดระยะสั้น"],
+    ["retail", "รายย่อย", "นักลงทุนบุคคลทั่วไปในประเทศ (แบบเรา)"],
+  ];
   function manualFlow() {
-    const f = (state.manual || {}).set_foreign_flow || {};
-    const has = f.net_million_thb != null;
-    const v = f.net_million_thb;
-    return `<section class="card"><h2>ต่างชาติซื้อ/ขายหุ้นไทยสุทธิ</h2>
-      ${has ? `<p class="t-val ${v >= 0 ? "up" : "down"}">${v >= 0 ? "ซื้อสุทธิ +" : "ขายสุทธิ −"}${Math.abs(v).toLocaleString("en-US")} ล้านบาท</p>
-        <p class="note">วันที่ซื้อขาย ${esc(fmtD(f.trade_date, true))} · กรอกเมื่อ ${esc(fmtDT(f.entered_at))}</p>`
-      : `<p class="empty">ยังไม่ได้กรอก ตัวเลขนี้เป็นข้อมูลเงินไหลจริง (ไม่ใช่การอนุมาน) แต่ดึงอัตโนมัติไม่ได้ ต้องกรอกเองใน <code>config/manual.json</code></p>`}
+    const f = (state.manual || {}).set_investor_flow || {};
+    const has = FLOW_GROUPS.some(([k]) => f[k] != null);
+    const head = `<h2>ใครซื้อ ใครขายหุ้นไทย (สุทธิ)</h2>`;
+    if (!has) return `<section class="card">${head}<p class="empty">ยังไม่ได้กรอก ตัวเลขนี้เป็นข้อมูลเงินไหลจริงจากตลาดหลักทรัพย์ฯ (ไม่ใช่การอนุมาน) แต่ดึงอัตโนมัติไม่ได้ ต้องกรอกเองใน <code>config/manual.json</code></p></section>`;
+    const max = Math.max(...FLOW_GROUPS.map(([k]) => Math.abs(f[k] || 0)), 1);
+    const rows = FLOW_GROUPS.map(([k, name, desc]) => {
+      const v = f[k];
+      if (v == null) return `<div class="fl-row"><div class="fl-name">${esc(name)}</div><div class="fl-bar"></div><div class="fl-val num flat">—</div></div>`;
+      const w = (Math.abs(v) / max) * 50;
+      const cls = v > 0 ? "up" : v < 0 ? "down" : "flat";
+      return `<div class="fl-row" title="${esc(desc)}"><div class="fl-name">${esc(name)}</div>
+        <div class="fl-bar"><span class="fl-fill ${cls}" style="${v >= 0 ? "left:50%" : `left:${50 - w}%`};width:${w}%"></span></div>
+        <div class="fl-val num ${cls}">${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toLocaleString("en-US", { maximumFractionDigits: 2 })}</div></div>`;
+    }).join("");
+    const sum = FLOW_GROUPS.reduce((a, [k]) => a + (f[k] || 0), 0);
+    const allIn = FLOW_GROUPS.every(([k]) => f[k] != null);
+    const fv = f.foreign;
+    const summary = fv == null ? "" : `<p>${fv >= 0 ? "ต่างชาติ<b class=\"up\">ซื้อสุทธิ</b>" : "ต่างชาติ<b class=\"down\">ขายสุทธิ</b>"} ${Math.abs(fv).toLocaleString("en-US")} ล้านบาท` +
+      (fv < 0 ? " แปลว่ามีเงินไหลออกจากหุ้นไทยจริง" : fv > 0 ? " แปลว่ามีเงินไหลเข้าหุ้นไทยจริง" : "") + `</p>`;
+    return `<section class="card">${head}
+      ${f._example ? `<div class="banner">ตัวเลขตัวอย่างเพื่อดูหน้าตา ไม่ใช่ข้อมูลจริง</div>` : ""}
+      ${summary}
+      <div class="fl">${rows}</div>
+      <p class="note">หน่วย: ล้านบาท · ขวา/เขียว = ซื้อสุทธิ · ซ้าย/แดง = ขายสุทธิ · วันที่ซื้อขาย ${esc(fmtD(f.trade_date, true))} · กรอกเมื่อ ${esc(fmtDT(f.entered_at))}</p>
+      ${allIn && Math.abs(sum) > 50 ? `<p class="note mark unk" style="width:auto">⚠︎ 4 กลุ่มรวมกันได้ ${sum.toLocaleString("en-US")} ล้านบาท (ปกติควรใกล้ 0) ลองตรวจตัวเลขที่กรอก</p>` : ""}
+      <details><summary class="note" style="min-height:44px;display:flex;align-items:center">แต่ละกลุ่มคือใคร</summary>
+        <ul class="list">${FLOW_GROUPS.map(([, n, d]) => `<li><b>${esc(n)}:</b> ${esc(d)}</li>`).join("")}</ul>
+        <p class="note">ทุกการซื้อมีคนขาย 4 กลุ่มจึงรวมกันได้ศูนย์ ที่น่าดูคือ "ใครเป็นฝ่ายซื้อ ใครเป็นฝ่ายขาย" เช่น ต่างชาติขาย รายย่อยรับซื้อ มักแปลว่าเงินก้อนใหญ่กำลังออก</p></details>
     </section>`;
   }
   function spreadCard() {
@@ -242,7 +269,7 @@
   }
   const EXTRA = {
     overview: () => "",
-    thai: () => manualFlow() + `<section class="card"><h2>ตลาดโลกส่งผลถึงไทยยังไง</h2>
+    thai: () => `<section class="card"><h2>ตลาดโลกส่งผลถึงไทยยังไง</h2>
       <ul class="list"><li>ดอลลาร์แข็ง/ดอกเบี้ยสหรัฐสูง → ต่างชาติมักดึงเงินกลับ → หุ้นไทยลง บาทอ่อน</li>
       <li>บาทอ่อน (ดอลลาร์/บาทขึ้น) → ของนำเข้าแพงขึ้น แต่ส่งออกและท่องเที่ยวได้ประโยชน์</li>
       <li>SET ปิดเร็วกว่าสหรัฐ ราคาปิด SET จึงมักเป็นของ "วันก่อนหน้า" เมื่อเทียบกับหุ้นสหรัฐ</li></ul></section>`,
@@ -264,7 +291,7 @@
     $("#banners").innerHTML = banners.map(b => `<div class="banner">${esc(b)}</div>`).join("");
     $("#mode").innerHTML = modeHTML();
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" id="tab-${t.id}" aria-selected="${t.id === tab.id}" data-tab="${t.id}">${esc(t.name)}</button>`).join("");
-    $("#panel").innerHTML = `<div class="grid">${tab.keys.map(tileHTML).join("")}</div>${EXTRA[tab.id]()}`;
+    $("#panel").innerHTML = `${tab.id === "thai" ? manualFlow() : ""}<div class="grid">${tab.keys.map(tileHTML).join("")}</div>${EXTRA[tab.id]()}`;
     $("#panel").setAttribute("aria-labelledby", "tab-" + tab.id);
   }
 

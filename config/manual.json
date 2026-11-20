@@ -10,10 +10,13 @@
     "entered_at": null
   },
 
-  "set_foreign_flow": {
-    "_วิธีกรอก": "ดูจากเว็บ SET (สรุปการซื้อขายตามประเภทนักลงทุน) หน่วยล้านบาท ซื้อสุทธิเป็นบวก ขายสุทธิเป็นลบ",
+  "set_investor_flow": {
+    "_วิธีกรอก": "ดูจากเว็บ set.or.th > ข้อมูลตลาด > สรุปการซื้อขายตามประเภทนักลงทุน ใส่ยอด 'สุทธิ' หน่วยล้านบาท ซื้อสุทธิเป็นบวก ขายสุทธิเป็นลบ (4 กลุ่มรวมกันจะได้ราว 0)",
     "trade_date": null,
-    "net_million_thb": null,
+    "foreign": null,
+    "institution": null,
+    "proprietary": null,
+    "retail": null,
     "entered_at": null
   }
 }

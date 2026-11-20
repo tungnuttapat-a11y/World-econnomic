@@ -177,3 +177,11 @@ dialog.sheet::backdrop { background: rgb(5 12 18 / .55); }
 .gloss dd { margin: 0; color: var(--muted); }
 
 @media (prefers-reduced-motion: reduce) { .tile:active { transform: none; } }
+
+/* ---------- ใครซื้อใครขาย SET ---------- */
+.fl { display: grid; gap: 8px; }
+.fl-row { display: grid; grid-template-columns: 6.6em minmax(0, 1fr) 5.2em; align-items: center; gap: 8px; font-size: .9rem; }
+.fl-bar { position: relative; height: 14px; background: var(--surface-2); border-radius: 4px; }
+.fl-bar::after { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--muted); }
+.fl-fill { position: absolute; top: 0; bottom: 0; border-radius: 3px; background: currentColor; }
+.fl-val { text-align: right; font-weight: 600; }
