@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:30:50+07:00",
+ "generated_at": "2026-11-20T18:39:29+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
@@ -10,7 +10,7 @@
    "chg30d": -6.96,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "IXIC": {
    "last": 23879.1992,
@@ -20,97 +20,97 @@
    "chg30d": -9.63,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "VIX": {
-   "last": 29.28,
+   "last": 29.57,
    "asof": "2026-11-20",
-   "chg1d": 2.95,
-   "chg5d": 51.71,
-   "chg30d": 75.54,
+   "chg1d": 3.97,
+   "chg5d": 53.21,
+   "chg30d": 77.28,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "GOLD": {
-   "last": 3587.2,
+   "last": 3592.3,
    "asof": "2026-11-20",
-   "chg1d": -2.67,
-   "chg5d": -7.7,
-   "chg30d": -13.56,
+   "chg1d": -2.53,
+   "chg5d": -7.57,
+   "chg30d": -13.44,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "DXY": {
-   "last": 103.847,
+   "last": 103.844,
    "asof": "2026-11-20",
    "chg1d": -0.05,
    "chg5d": 0.42,
    "chg30d": 2.03,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "WTI": {
-   "last": 82.23,
+   "last": 82.36,
    "asof": "2026-11-20",
-   "chg1d": -1.18,
-   "chg5d": -7.15,
-   "chg30d": -15.36,
+   "chg1d": -1.02,
+   "chg5d": -7.0,
+   "chg30d": -15.22,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "BTC": {
-   "last": 61763.0586,
+   "last": 61710.9883,
    "asof": "2026-11-20",
-   "chg1d": -0.22,
-   "chg5d": -5.42,
-   "chg30d": -26.48,
+   "chg1d": -0.31,
+   "chg5d": -5.5,
+   "chg30d": -26.55,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "SET": {
    "last": null,
    "status": "missing",
    "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
-   "error": "Yahoo Finance: ข้อมูลน้อยเกินไป | Yahoo Finance (สำรอง): ข้อมูลน้อยเกินไป"
+   "error": "Yahoo Finance: ข้อมูลน้อยเกินไป (ได้ 1 แถว, ล่าสุด 2026-11-20) | Yahoo Finance (สำรอง): ข้อมูลน้อยเกินไป (ได้ 1 แถว, ล่าสุด 2026-11-20) | Stooq (สำรอง): stooq: ไม่พบข้อมูล"
   },
   "USDTHB": {
-   "last": 33.89,
+   "last": 33.9,
    "asof": "2026-11-20",
-   "chg1d": -0.16,
-   "chg5d": 0.12,
-   "chg30d": 0.86,
+   "chg1d": -0.13,
+   "chg5d": 0.15,
+   "chg30d": 0.89,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T18:30:50+07:00"
+   "fetched_at": "2026-11-20T18:39:29+07:00"
   },
   "US2Y": {
    "last": null,
    "status": "missing",
    "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
-   "error": "FRED DGS2: ไม่มี FRED_API_KEY | FRED DGS2 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)"
+   "error": "FRED DGS2: ไม่มี FRED_API_KEY | FRED DGS2 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)"
   },
   "US10Y": {
    "last": null,
    "status": "missing",
    "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
-   "error": "FRED DGS10: ไม่มี FRED_API_KEY | FRED DGS10 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)"
+   "error": "FRED DGS10: ไม่มี FRED_API_KEY | FRED DGS10 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)"
   },
   "US30Y": {
    "last": null,
    "status": "missing",
    "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
-   "error": "FRED DGS30: ไม่มี FRED_API_KEY | FRED DGS30 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)"
+   "error": "FRED DGS30: ไม่มี FRED_API_KEY | FRED DGS30 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)"
   },
   "REAL10Y": {
    "last": null,
    "status": "missing",
    "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
-   "error": "FRED DFII10: ไม่มี FRED_API_KEY | FRED DFII10 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)"
+   "error": "FRED DFII10: ไม่มี FRED_API_KEY | FRED DFII10 (CSV): HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)"
   }
  }
 }
