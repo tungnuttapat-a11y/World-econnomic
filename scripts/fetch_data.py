@@ -20,6 +20,9 @@ UA = {"User-Agent": "Mozilla/5.0 (market-compass)"}
 HIST_DAYS = 90          # เก็บกราฟย้อนหลัง 90 วัน
 LOOKBACK_DAYS = 130     # ดึงเผื่อไว้ให้คำนวณ % 30 วันได้
 
+# แหล่งสำรองจาก Stooq (เฉพาะตัวที่ Yahoo มักมีปัญหา)
+STOOQ = {"SET": "^set"}
+
 # key: (Yahoo symbol, FRED สำรอง, ชนิด, ขยับต่อวันได้มากสุดก่อนถือว่าผิดปกติ %)
 YAHOO = {
     "SPX":    ("^GSPC",    "SP500",      "pct", 15),
@@ -80,6 +83,20 @@ def src_yahoo_chart(symbol):
     raise SourceError(f"yahoo chart: {last}")
 
 
+def src_stooq(symbol):
+    """แหล่งสำรองเพิ่มเติม (Stooq) ใช้กับตัวที่ Yahoo มีข้อมูลไม่ครบ เช่น SET"""
+    r = requests.get("https://stooq.com/q/d/l/", params={"s": symbol, "i": "d"}, headers=UA, timeout=30)
+    r.raise_for_status()
+    rows = list(csv.reader(io.StringIO(r.text)))
+    if not rows or rows[0][:1] != ["Date"]:
+        raise SourceError("stooq: ไม่พบข้อมูล")
+    cut = (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat()
+    out = [(row[0], float(row[4])) for row in rows[1:] if len(row) > 4 and row[0] >= cut and row[4]]
+    if not out:
+        raise SourceError("stooq: ว่าง")
+    return out
+
+
 def src_fred_api(series):
     key = os.environ.get("FRED_API_KEY", "").strip()
     if not key:
@@ -98,7 +115,7 @@ def src_fred_api(series):
 def src_fred_csv(series):
     start = (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat()
     r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv",
-                     params={"id": series, "cosd": start}, headers=UA, timeout=20)
+                     params={"id": series, "cosd": start}, headers=UA, timeout=60)
     r.raise_for_status()
     rows = list(csv.reader(io.StringIO(r.text)))
     out = [(d, float(v)) for d, v in rows[1:] if v not in (".", "")]
@@ -111,7 +128,7 @@ def src_fred_csv(series):
 def validate(rows, kind, max_jump):
     rows = [(d, v) for d, v in rows if v is not None and math.isfinite(v)]
     if len(rows) < 2:
-        raise SourceError("ข้อมูลน้อยเกินไป")
+        raise SourceError(f"ข้อมูลน้อยเกินไป (ได้ {len(rows)} แถว{', ล่าสุด ' + rows[-1][0] if rows else ''})")
     if kind == "pct" and any(v <= 0 for _, v in rows[-5:]):
         raise SourceError("ราคาติดลบหรือเป็นศูนย์")
     (_, a), (_, b) = rows[-2], rows[-1]
@@ -182,6 +199,8 @@ def run(now=None):
     for key, (sym, fred, kind, mj) in YAHOO.items():
         att = [("Yahoo Finance", lambda s=sym: src_yfinance(s)),
                ("Yahoo Finance (สำรอง)", lambda s=sym: src_yahoo_chart(s))]
+        if key in STOOQ:
+            att.append(("Stooq (สำรอง)", lambda s=STOOQ[key]: src_stooq(s)))
         if fred:
             att += [(f"FRED {fred} (สำรอง ช้ากว่า 1 วัน)", lambda f=fred: src_fred_api(f)),
                     (f"FRED {fred} (สำรอง CSV)", lambda f=fred: src_fred_csv(f))]

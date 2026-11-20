@@ -38,8 +38,8 @@ class Base(unittest.TestCase):
     def latest(self):
         return json.loads(F.LATEST.read_text())
 
-    def patch_sources(self, yf=boom, chart=boom, api=boom, csv=boom):
-        return [mock.patch.object(F, "src_yfinance", yf), mock.patch.object(F, "src_yahoo_chart", chart),
+    def patch_sources(self, yf=boom, chart=boom, api=boom, csv=boom, stooq=boom):
+        return [mock.patch.object(F, "src_stooq", stooq), mock.patch.object(F, "src_yfinance", yf), mock.patch.object(F, "src_yahoo_chart", chart),
                 mock.patch.object(F, "src_fred_api", api), mock.patch.object(F, "src_fred_csv", csv)]
 
     def run_with(self, **kw):
@@ -74,6 +74,10 @@ class TestFetch(Base):
         self.assertTrue(s["SPX"]["source"].startswith("FRED SP500"))
         self.assertEqual(s["GOLD"]["status"], "missing")       # ไม่มีแหล่งสำรอง และไม่มีของเก่า
         self.assertIsNone(s["GOLD"]["last"])                  # ห้ามเดาตัวเลข
+
+    def test_set_falls_back_to_stooq(self):
+        self.run_with(stooq=lambda s: series(start=1400, step=1))
+        self.assertEqual(self.latest()["series"]["SET"]["source"], "Stooq (สำรอง)")
 
     def test_no_fred_key_uses_csv(self):
         with mock.patch.dict(F.os.environ, {"FRED_API_KEY": ""}):
