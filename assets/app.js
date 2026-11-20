@@ -62,6 +62,12 @@
     const fear = results.filter(r => r.id !== "normal").sort((a, b) => b.score - a.score || a.priority - b.priority);
     const normal = results.find(r => r.id === "normal");
     let primary = fear[0] && fear[0].score >= S.minScore ? fear[0] : normal;
+    if (primary === normal && normal.score < S.minScore && window.MODE_MIXED) {
+      const best = fear[0];
+      return { primary: { ...window.MODE_MIXED, checks: best.checks, met: best.met, total: best.total, unknown: best.unknown, score: best.score },
+        results, confidence: "ต่ำ", alsoStrong: [],
+        confWhy: `โหมดที่ใกล้สุดคือ "${best.name}" เข้า ${best.met}/${best.total} ข้อ และ "ปกติ" เข้า ${normal.met}/${normal.total} ข้อ` };
+    }
     const others = results.filter(r => r !== primary);
     // สัญญาณขัดกัน: ดูเฉพาะเงื่อนไขของโหมดคู่ขัดที่ "ไม่ซ้ำ" กับโหมดหลัก (เช่น หุ้นลง ซ้ำกันได้ ไม่นับว่าขัด)
     const own = new Set(primary.checks.map(c => c.label));
@@ -439,9 +445,17 @@
       const k = ev.target.closest(".tile[data-key]");
       if (k) { openDetail(k.dataset.key); return; }
       if (ev.target.closest("#btn-gloss")) openGlossary();
+      if (ev.target.closest("#btn-export") && window.openExport) window.openExport();
     });
     $("#sheet").addEventListener("click", ev => { if (ev.target.id === "sheet") ev.target.close(); });
   }
+
+  /* ให้ไฟล์ส่งออก (export.js) ใช้ข้อมูลและตัวช่วยชุดเดียวกัน */
+  window.MC = { state, computeMode, flow, fmtVal, fmtChg, fmtDT, fmtD, dir, esc, sparkSVG, factorsToday: id => {
+    const F = window.FACTORS[id]; let up = 0, down = 0;
+    for (const f of F.items) { let t = null; try { t = f.today(state.latest.series, state.manual); } catch (e) {} if (t === "up") up++; if (t === "down") down++; }
+    return { title: F.title, upWord: F.upWord, downWord: F.downWord, up, down };
+  } };
 
   if ("serviceWorker" in navigator && !window.__EMBED__) {
     navigator.serviceWorker.register("sw.js").catch(() => {});

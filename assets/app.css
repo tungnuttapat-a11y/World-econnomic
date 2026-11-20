@@ -76,6 +76,7 @@ button { font: inherit; color: inherit; }
 .mode.recession { background: var(--recession-bg); --m-ink: var(--recession-ink); --m-dot: var(--recession-dot); }
 .mode.panic { background: var(--panic-bg); --m-ink: var(--panic-ink); --m-dot: var(--panic-dot); }
 .mode.normal { background: var(--normal-bg); --m-ink: var(--normal-ink); --m-dot: var(--normal-dot); }
+.mode.mixed { background: var(--surface); border: 1px dashed var(--line); --m-ink: var(--ink); --m-dot: var(--muted); }
 .mode-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 .eyebrow { font-size: .82rem; letter-spacing: .02em; color: var(--m-ink); display: flex; align-items: center; gap: 8px; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--m-dot); box-shadow: 0 0 0 4px color-mix(in srgb, var(--m-dot) 25%, transparent); }
@@ -207,3 +208,40 @@ dialog.sheet::backdrop { background: rgb(5 12 18 / .55); }
 .nw-meta { font-size: .74rem; color: var(--muted); }
 .nw-more summary { cursor: pointer; font-size: .82rem; color: var(--accent); min-height: 36px; display: flex; align-items: center; }
 .nw-search { justify-self: start; font-size: .82rem; color: var(--accent); min-height: 36px; display: inline-flex; align-items: center; text-decoration: none; font-weight: 600; }
+
+/* ---------- ส่งออก ---------- */
+.top-actions { display: flex; gap: 8px; }
+.ex-row { display: grid; gap: 6px; }
+.ex-lb { font-weight: 600; font-size: .92rem; }
+.ex-seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.ex-seg button { min-height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); cursor: pointer; }
+.ex-seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); font-weight: 600; }
+.ex-checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+.ex-check { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-2); cursor: pointer; }
+.ex-check input { width: 20px; height: 20px; accent-color: var(--accent); }
+.ex-go { min-height: 52px; border: 0; border-radius: 14px; background: var(--accent); color: var(--surface); font-weight: 700; font-size: 1.05rem; cursor: pointer; }
+.ex-go:disabled { opacity: .6; cursor: progress; }
+.ex-share { background: var(--surface-2); color: var(--accent); border: 1px solid var(--accent); width: 100%; }
+#ex-result { display: grid; gap: 8px; }
+#ex-result p { margin: 0; }
+#ex-result a { color: var(--accent); }
+.ex-err { color: var(--down); }
+
+/* หน้า A4 สำหรับ PDF (วาดนอกจอ สีสว่างเสมอ) */
+.rp-host { position: fixed; left: -10000px; top: 0; }
+.rp { width: 794px; background: #fff; color: #0f1d27; padding: 28px 30px; font-family: var(--f-body); font-size: 13px; line-height: 1.45; display: grid; gap: 12px; }
+.rp .up { color: #11804a; } .rp .down { color: #c9302c; } .rp .flat { color: #6b7a86; }
+.rp-head { display: flex; justify-content: space-between; border-bottom: 2px solid #0f1d27; padding-bottom: 6px; font-size: 14px; }
+.rp-head b { font-family: var(--f-display); font-size: 18px; }
+.rp-mode { border-radius: 10px; padding: 10px 14px; display: grid; gap: 3px; background: #f1f4f6; }
+.rp-mode.rates { background: #fff2df; } .rp-mode.recession { background: #ebeafd; } .rp-mode.panic { background: #fde8e6; } .rp-mode.normal { background: #e3f4ea; }
+.rp-mname { font-family: var(--f-display); font-size: 22px; font-weight: 700; }
+.rp-k, .rp-s { font-size: 11px; color: #5a6b78; }
+.rp-t { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.rp-t th { text-align: right; font-size: 11px; color: #5a6b78; border-bottom: 1px solid #d9e1e7; padding: 4px 6px; }
+.rp-t th:first-child, .rp-t td:first-child { text-align: left; }
+.rp-t td { text-align: right; border-bottom: 1px solid #eef2f5; padding: 4px 6px; font-family: var(--f-num); }
+.rp-t td:first-child { font-family: var(--f-body); }
+.rp-sp { width: 110px; } .rp-sp svg { width: 100px; height: 26px; }
+.rp-box { background: #f5f8fa; border-radius: 8px; padding: 8px 12px; display: grid; gap: 2px; }
+.rp-foot { font-size: 10px; color: #5a6b78; border-top: 1px solid #d9e1e7; padding-top: 6px; }

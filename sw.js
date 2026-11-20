@@ -1,8 +1,8 @@
 /* Service worker: ทำให้ติดตั้งเป็นแอปได้ และเปิดดูข้อมูลล่าสุดที่โหลดไว้ได้ตอนออฟไลน์
    - ไฟล์หน้าเว็บ: ใช้ของในเครื่องก่อน แล้วอัปเดตเบื้องหลัง
    - ไฟล์ข้อมูล (data/, config/): ดึงใหม่จากเน็ตก่อนเสมอ ถ้าไม่ได้ค่อยใช้ของเก่า */
-const VERSION = "v1";
-const SHELL = ["./", "index.html", "assets/app.css", "assets/app.js", "assets/rules.js", "assets/indicators.js",
+const VERSION = "v2";
+const SHELL = ["./", "index.html", "assets/app.css", "assets/app.js", "assets/rules.js", "assets/indicators.js", "assets/export.js",
   "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {
@@ -32,7 +32,7 @@ self.addEventListener("fetch", e => {
   }
   e.respondWith(caches.match(e.request).then(hit => {
     const net = fetch(e.request).then(r => {
-      if (r.ok && (url.origin === location.origin || url.hostname.endsWith("gstatic.com") || url.hostname.endsWith("googleapis.com"))) {
+      if (r.ok && (url.origin === location.origin || url.hostname.endsWith("gstatic.com") || url.hostname.endsWith("googleapis.com") || url.hostname === "cdnjs.cloudflare.com")) {
         const copy = r.clone(); caches.open("shell-" + VERSION).then(c => c.put(e.request, copy));
       }
       return r;

@@ -10,7 +10,7 @@ if "--example-flow" in sys.argv:
     embed["config/manual.json"]["set_investor_flow"].update(
         {"_example": True, "trade_date": "2026-11-18", "foreign": -2850.4, "institution": 1120.6,
          "proprietary": -310.2, "retail": 2040.0, "entered_at": "2026-11-20T07:00:00+07:00"})
-js = "".join((R / f"assets/{n}.js").read_text() + "\n" for n in ["indicators", "rules", "app"])
+js = "".join((R / f"assets/{n}.js").read_text() + "\n" for n in ["indicators", "rules", "app", "export"])
 out = f"""<title>เข็มทิศตลาด</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@500;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@500;600&display=swap">

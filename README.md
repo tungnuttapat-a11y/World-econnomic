@@ -6,7 +6,7 @@
 - [x] ขั้นที่ 1: หน้าตัวอย่างใช้ข้อมูลตัวอย่าง 19 พ.ย. 2026 (`data/` ตอนนี้เป็นข้อมูลตัวอย่าง)
 - [x] ขั้นที่ 2: สคริปต์ดึงข้อมูลจริง (Yahoo/yfinance + FRED) + ทดสอบกรณีดึงไม่ได้ (`tests/`)
 - [x] ขั้นที่ 3: GitHub Actions + GitHub Pages (`.github/workflows/update.yml`)
-- [ ] ขั้นที่ 4: ส่งออก PDF / CSV / Markdown
+- [x] ขั้นที่ 4: ปุ่มส่งออก PDF 1 หน้า / Excel / CSV / Markdown (`assets/export.js`) ทำในเบราว์เซอร์ทั้งหมด
 
 ## ตั้งค่าครั้งแรก (ทำครั้งเดียว)
 1. ขอ FRED API key ฟรีที่ https://fred.stlouisfed.org/docs/api/api_key.html
