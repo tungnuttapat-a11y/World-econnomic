@@ -4,7 +4,7 @@
   const IND = window.INDICATORS, TABS = window.TABS;
   const $ = (s, el = document) => el.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const state = { latest: null, history: {}, manual: null, tab: "overview", offline: false };
+  const state = { latest: null, history: {}, manual: null, news: null, newsCfg: null, tab: "overview", offline: false };
 
   /* ---------- โหลดข้อมูล ---------- */
   async function loadJSON(path) {
@@ -267,6 +267,31 @@
       <p class="t-val num ${v < 0 ? "down" : ""}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(2)} จุด</p>
       <p>${v < 0 ? "ติดลบ (ดอกเบี้ยสั้นสูงกว่ายาว) ในอดีตมักเป็นสัญญาณเตือนเศรษฐกิจถดถอย" : "เป็นบวก ปกติ ดอกเบี้ยยาวสูงกว่าสั้น"}</p></section>`;
   }
+  const ago = iso => {
+    const m = Math.round((Date.now() - new Date(iso)) / 6e4);
+    if (m < 60) return `${Math.max(1, m)} นาทีที่แล้ว`;
+    if (m < 1440) return `${Math.round(m / 60)} ชม.ที่แล้ว`;
+    return fmtD(iso);
+  };
+  function newsHTML(topic) {
+    if (!topic) return "";
+    const q = ((state.newsCfg || {}).topics || {})[topic];
+    const t = ((state.news || {}).topics || {})[topic];
+    const items = (t && t.items) || [];
+    const search = q ? `<a class="nw-search" href="https://news.google.com/search?q=${encodeURIComponent(q.th)}&hl=th&gl=TH&ceid=TH:th" target="_blank" rel="noopener">ค้นข่าวล่าสุดเรื่องนี้ ↗</a>` : "";
+    const li = a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      <span class="nw-meta">${esc(a.source || "")}${a.lang === "en" ? " · อังกฤษ" : ""} · ${esc(ago(a.published))}</span></li>`;
+    const stale = t && t.status === "stale" ? `<p class="nw-meta">ดึงข่าวรอบล่าสุดไม่สำเร็จ แสดงข่าวเก่า ณ ${esc(fmtDT(t.fetched_at))}</p>` : "";
+    if (!items.length) return `<div class="nw">${search}</div>`;
+    const first = items.slice(0, 2), more = items.slice(2);
+    return `<div class="nw"><ul class="nw-list">${first.map(li).join("")}</ul>
+      ${more.length ? `<details class="nw-more"><summary>ข่าวอีก ${more.length} ข่าว</summary><ul class="nw-list">${more.map(li).join("")}</ul></details>` : ""}
+      ${stale}${search}</div>`;
+  }
+  function newsNote() {
+    const g = (state.news || {}).generated_at;
+    return g ? `ข่าวจาก Google News อัปเดต ${fmtDT(g)} กดหัวข่าวเพื่ออ่านที่เว็บต้นฉบับ` : "ระบบดึงข่าวอัตโนมัติจะเริ่มทำงานเมื่อตั้ง GitHub Actions (ขั้นที่ 3) ตอนนี้กด \"ค้นข่าวล่าสุด\" ได้ก่อน";
+  }
   function factorsHTML(id, inSheet = false) {
     const F = window.FACTORS[id]; if (!F) return "";
     const S = state.latest.series, M = state.manual;
@@ -278,7 +303,7 @@
         : t === "down" ? `<span class="fx-chip on">▼ วันนี้: ${F.downWord}</span>`
         : t === "flat" ? `<span class="fx-chip na">วันนี้: ไม่ชัด</span>`
         : f.daily ? `<span class="fx-chip na">ไม่มีข้อมูล</span>` : "";
-      return `<li class="fx"><div class="fx-head"><b>${esc(f.name)}</b>${chip}</div><p>${esc(f.how)}</p><p class="note">${esc(f.gauge)}</p></li>`;
+      return `<li class="fx"><div class="fx-head"><b>${esc(f.name)}</b>${chip}</div><p>${esc(f.how)}</p><p class="note">${esc(f.gauge)}</p>${newsHTML(f.news)}</li>`;
     };
     const daily = F.items.filter(f => f.daily).map(row).join("");
     const long = F.items.filter(f => !f.daily);
@@ -286,7 +311,7 @@
       <p class="fx-sum">วันนี้: <b>▲ ${F.upWord} ${up}</b> · <b>▼ ${F.downWord} ${down}</b>${nodata ? ` · <span class="note">ไม่มีข้อมูล ${nodata}</span>` : ""}</p>
       <ul class="fx-list">${daily}</ul>
       ${long.length ? `<details class="fx-more"><summary>ปัจจัยระยะยาว ${long.length} ข้อ (ไม่ได้วัดรายวัน ติดตามจากข่าว)</summary><ul class="fx-list">${long.map(row).join("")}</ul></details>` : ""}
-      <p class="note">"วันนี้" อนุมานจากการขยับของราคาและตัวเลขที่กรอก ไม่ได้อ่านข่าว</p></section>`;
+      <p class="note">"วันนี้" อนุมานจากการขยับของราคาและตัวเลขที่กรอก ไม่ได้อ่านข่าว · ${newsNote()}</p></section>`;
   }
   const tabFactors = id => (window.TAB_FACTORS[id] || []).map(f => factorsHTML(f)).join("");
   const EXTRA = {
@@ -381,10 +406,11 @@
   async function start() {
     try { state.tab = localStorage.getItem("tab") || "overview"; } catch (e) {}
     try {
-      const [latest, history, manual] = await Promise.all([
+      const [latest, history, manual, news, newsCfg] = await Promise.all([
         loadJSON("data/latest.json"), loadJSON("data/history.json").catch(() => ({})), loadJSON("config/manual.json").catch(() => null),
+        loadJSON("data/news.json").catch(() => null), loadJSON("config/news.json").catch(() => null),
       ]);
-      Object.assign(state, { latest, history, manual });
+      Object.assign(state, { latest, history, manual, news, newsCfg });
     } catch (e) {
       $("#mode").innerHTML = `<div class="banner">โหลดข้อมูลไม่ได้ ลองเปิดใหม่อีกครั้ง หรือเช็กอินเทอร์เน็ต</div>`;
       return;

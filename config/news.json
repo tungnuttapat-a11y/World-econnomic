@@ -1,0 +1,131 @@
+{
+ "_อ่านก่อน": "คำค้นข่าวของแต่ละหัวข้อ (th = ข่าวไทย, en = ข่าวต่างประเทศ) แก้คำค้นได้ ระบบจะดึงจาก Google News และ Yahoo Finance",
+ "max_per_topic": 4,
+ "max_age_days": 3,
+ "topics": {
+  "us_yields": {
+   "th": "ผลตอบแทนพันธบัตรสหรัฐ",
+   "en": "Treasury yields"
+  },
+  "fed": {
+   "th": "เฟด ดอกเบี้ย",
+   "en": "Federal Reserve interest rates"
+  },
+  "vix": {
+   "th": "ตลาดหุ้น ความกังวล นักลงทุน",
+   "en": "VIX volatility stocks"
+  },
+  "dollar": {
+   "th": "ดอลลาร์ แข็งค่า OR อ่อนค่า",
+   "en": "dollar index"
+  },
+  "oil": {
+   "th": "ราคาน้ำมันดิบ",
+   "en": "oil prices"
+  },
+  "earnings": {
+   "th": "ผลประกอบการ บริษัทสหรัฐ",
+   "en": "S&P 500 earnings"
+  },
+  "us_economy": {
+   "th": "เศรษฐกิจสหรัฐ ตัวเลขจ้างงาน OR GDP",
+   "en": "US jobs report OR GDP OR retail sales"
+  },
+  "ai": {
+   "th": "หุ้น AI Nvidia",
+   "en": "AI stocks Nvidia"
+  },
+  "trade_policy": {
+   "th": "ภาษีนำเข้า สหรัฐ สงครามการค้า",
+   "en": "tariffs trade policy markets"
+  },
+  "us_stocks": {
+   "th": "วอลล์สตรีท ดาวโจนส์ ปิด",
+   "en": "Wall Street stocks close"
+  },
+  "set_foreign": {
+   "th": "นักลงทุนต่างชาติ ขายสุทธิ OR ซื้อสุทธิ หุ้นไทย",
+   "en": "Thai stocks foreign investors"
+  },
+  "baht": {
+   "th": "ค่าเงินบาท",
+   "en": "Thai baht"
+  },
+  "bot_rate": {
+   "th": "กนง. ดอกเบี้ยนโยบาย",
+   "en": "Bank of Thailand interest rate"
+  },
+  "thai_politics": {
+   "th": "รัฐบาล มาตรการกระตุ้นเศรษฐกิจ ตลาดหุ้นไทย",
+   "en": "Thailand government economy stimulus"
+  },
+  "thai_earnings": {
+   "th": "กำไร บริษัทจดทะเบียน ไตรมาส",
+   "en": "Thai listed companies earnings"
+  },
+  "china_tourism": {
+   "th": "นักท่องเที่ยว ไทย จีน",
+   "en": "Thailand tourism China"
+  },
+  "thai_exports": {
+   "th": "ส่งออกไทย ดุลบัญชีเดินสะพัด",
+   "en": "Thailand exports current account"
+  },
+  "gold": {
+   "th": "ราคาทองคำ",
+   "en": "gold prices"
+  },
+  "real_yield": {
+   "th": "ดอกเบี้ยแท้จริง ทองคำ",
+   "en": "real yields TIPS"
+  },
+  "cb_gold": {
+   "th": "ธนาคารกลาง ซื้อทองคำ",
+   "en": "central bank gold buying"
+  },
+  "geopolitics": {
+   "th": "สงคราม ความขัดแย้ง ตลาดการเงิน",
+   "en": "geopolitical tensions markets"
+  },
+  "inflation": {
+   "th": "เงินเฟ้อสหรัฐ CPI",
+   "en": "US CPI inflation"
+  },
+  "gold_etf": {
+   "th": "กองทุนทองคำ ความต้องการทอง จีน อินเดีย",
+   "en": "gold ETF flows demand India China"
+  },
+  "treasury_supply": {
+   "th": "สหรัฐ ขาดดุล ประมูลพันธบัตร",
+   "en": "Treasury auction deficit borrowing"
+  },
+  "qt": {
+   "th": "เฟด งบดุล QT",
+   "en": "Fed balance sheet quantitative tightening"
+  },
+  "other_cb": {
+   "th": "ECB OR BOJ ดอกเบี้ย",
+   "en": "ECB OR BOJ rate decision"
+  },
+  "us_debt": {
+   "th": "หนี้สาธารณะสหรัฐ เพดานหนี้",
+   "en": "US debt deficit dollar"
+  },
+  "opec": {
+   "th": "โอเปกพลัส กำลังการผลิต",
+   "en": "OPEC+ output"
+  },
+  "oil_war": {
+   "th": "น้ำมัน ตะวันออกกลาง รัสเซีย คว่ำบาตร",
+   "en": "oil supply Middle East Russia sanctions"
+  },
+  "oil_stocks": {
+   "th": "สต็อกน้ำมันดิบสหรัฐ EIA",
+   "en": "EIA crude inventories"
+  },
+  "china_oil": {
+   "th": "จีน นำเข้าน้ำมัน",
+   "en": "China oil demand imports"
+  }
+ }
+}

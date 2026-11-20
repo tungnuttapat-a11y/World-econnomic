@@ -13,12 +13,14 @@
 |---|---|
 | `config/manual.json` | กรอกตัวเลขที่ดึงอัตโนมัติไม่ได้ (CME FedWatch, ยอดซื้อขายสุทธิหุ้นไทย 4 กลุ่ม: ต่างชาติ สถาบัน โบรกเกอร์ รายย่อย) พร้อมวันที่กรอก |
 | `assets/rules.js` | กฎตัดสินโหมดตลาด และเกณฑ์ตัวเลข |
-| `assets/indicators.js` | ชื่อ คำอธิบาย และแท็บของแต่ละตัวชี้วัด |
+| `assets/indicators.js` | ชื่อ คำอธิบาย แท็บ และปัจจัยที่ทำให้ราคาขยับ |
+| `config/news.json` | คำค้นข่าวของแต่ละหัวข้อ (ไทย/อังกฤษ) |
 
 ## โครงสร้าง
 - `index.html`, `assets/` หน้าเว็บ (HTML/CSS/JS ล้วน)
 - `data/latest.json`, `data/history.json` ข้อมูลที่หน้าเว็บอ่าน
 - `manifest.webmanifest`, `sw.js`, `icons/` ทำให้ติดตั้งเป็นแอปและเปิดตอนออฟไลน์ได้
+- `scripts/fetch_news.py` ดึงพาดหัวข่าวจาก Google News → `data/news.json` (ลิงก์ไปเว็บต้นฉบับ)
 - `scripts/make_sample_data.py` สร้างข้อมูลตัวอย่าง (ขั้นที่ 1 เท่านั้น)
 
 ## ข้อจำกัด
