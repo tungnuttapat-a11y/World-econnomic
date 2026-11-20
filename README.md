@@ -5,8 +5,16 @@
 ## สถานะ
 - [x] ขั้นที่ 1: หน้าตัวอย่างใช้ข้อมูลตัวอย่าง 19 พ.ย. 2026 (`data/` ตอนนี้เป็นข้อมูลตัวอย่าง)
 - [x] ขั้นที่ 2: สคริปต์ดึงข้อมูลจริง (Yahoo/yfinance + FRED) + ทดสอบกรณีดึงไม่ได้ (`tests/`)
-- [ ] ขั้นที่ 3: GitHub Actions + GitHub Pages
+- [x] ขั้นที่ 3: GitHub Actions + GitHub Pages (`.github/workflows/update.yml`)
 - [ ] ขั้นที่ 4: ส่งออก PDF / CSV / Markdown
+
+## ตั้งค่าครั้งแรก (ทำครั้งเดียว)
+1. ขอ FRED API key ฟรีที่ https://fred.stlouisfed.org/docs/api/api_key.html
+2. Settings → Secrets and variables → Actions → New repository secret ชื่อ `FRED_API_KEY`
+3. Settings → Pages → Source เลือก **GitHub Actions**
+4. Actions → "อัปเดตข้อมูลและเว็บ" → Run workflow
+
+เว็บ: https://tungnuttapat-a11y.github.io/World-econnomic/
 
 ## ไฟล์ที่แก้เองได้
 | ไฟล์ | ใช้ทำอะไร |

@@ -1,0 +1,82 @@
+# ดึงข้อมูลตลาด + ข่าว แล้ว deploy หน้าเว็บขึ้น GitHub Pages
+# เวลาใน cron เป็นเวลา UTC (เวลาไทย = UTC + 7) และ GitHub อาจรันช้ากว่ากำหนด 5-30 นาที
+name: อัปเดตข้อมูลและเว็บ
+
+on:
+  schedule:
+    - cron: "23 2-8/2 * * 1-5"   # 09:23-15:23 น. ช่วงตลาดไทยเปิด ทุก 2 ชม.
+    - cron: "43 10 * * 1-5"      # 17:43 น. หลังตลาดไทยปิด (สรุป SET)
+    - cron: "23 14-21 * * 1-5"   # 21:23-04:23 น. ช่วงตลาดสหรัฐเปิด ทุก 1 ชม.
+    - cron: "47 22 * * 1-5"      # 05:47 น. สรุปท้ายวันหลังตลาดสหรัฐปิด
+    - cron: "13 6 * * 0,6"       # เสาร์-อาทิตย์ วันละครั้ง (Bitcoin + ข่าว)
+  workflow_dispatch: {}           # ปุ่ม "Run workflow" กดรันเองได้
+  push:
+    paths-ignore: ["data/**", "**.md"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: ติดตั้งไลบรารี
+        run: pip install -r requirements.txt
+
+      - name: ทดสอบสคริปต์
+        run: python -m unittest discover -s tests -v
+
+      - name: ดึงข้อมูลตลาด
+        timeout-minutes: 15
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/fetch_data.py
+        continue-on-error: true   # ล้มบางตัวก็ยัง deploy ได้ (หน้าเว็บจะแสดง "ข้อมูลเก่า ณ ...")
+
+      - name: ดึงข่าว
+        timeout-minutes: 8
+        run: python scripts/fetch_news.py
+        continue-on-error: true
+
+      - name: บันทึกข้อมูลใหม่ลง repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "ไม่มีข้อมูลเปลี่ยน"; exit 0; fi
+          git commit -m "data: อัปเดต $(TZ=Asia/Bangkok date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          echo "push ไม่สำเร็จ แต่ยัง deploy ข้อมูลรอบนี้ต่อ"
+
+      - name: เตรียมไฟล์หน้าเว็บ
+        run: |
+          mkdir -p _site
+          cp -r index.html manifest.webmanifest sw.js assets icons data config _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
