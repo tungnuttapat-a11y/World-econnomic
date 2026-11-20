@@ -17,8 +17,7 @@
    "source": "สำนักข่าวอินโฟเควสท์"
   }
  ],
- "status": "stale",
- "fetched_at": "2026-11-20T22:12:38+07:00",
- "method": "พาดหัวข่าว",
- "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87; 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87; 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A5; 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A"
+ "status": "ok",
+ "fetched_at": "2026-11-20T23:13:58+07:00",
+ "method": "พาดหัวข่าว"
 }
