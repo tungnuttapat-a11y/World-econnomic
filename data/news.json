@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-20T17:15:11.656603+00:00",
+ "generated_at": "2026-11-20T18:13:09.513182+00:00",
  "topics": {
   "us_yields": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "U.S. Treasury Yields Fall as Global Stocks Retreat and AI Doubts Grow",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aQlBscnVWbW9xTjMwc1puN0wzWm1FNk5lbDRDU1UxOVRzX3kzaTctMDQxNFFJYkEzZl9CUjJ4WG1KTVM3ejlxc00yWHdBalZ4eVZSYW9BQTNMUQ?oc=5",
-     "source": "www.tokenpost.com",
-     "source_url": "https://www.tokenpost.com",
-     "published": "2026-11-20T16:37:39+00:00",
+     "title": "Treasuries Eye Longest Rally in Five Months on Haven Demand",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVdKYnk3ZUtXTER3VDhFcTRqcHdrbWZhS3BYY2hEQ1JFRFZ0VEZoNEtxS1ZuM0h0Zmhod0E0VS1qWWhPaHBXRl83bVRNZEpvMzdXQlhXNzBlRndqdFdGWk84VlNPcHJQSzVKLW0xY3AzbHFGUFVkLWdBanhvdUJSWG42T1cwRW9tMzFMR0pnbF83emtmRkNPVTIzMWxzVG4tc3Vfb3NEWmd2ZWZaaExz?oc=5",
+     "source": "Bloomberg.com",
+     "source_url": "https://www.bloomberg.com",
+     "published": "2026-11-20T17:37:29+00:00",
      "lang": "en"
     },
     {
-     "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVk9zbGU4eTZYdzdXS01mT1VNcFZwd1NqYU44dlJObXlVZVdHejRfQnkxZGJLN2JxemtQNmZFbVlOVmhJWDA5REZPMU8tUHo2QllDaFNiRW5fa3VmajR6ZW9HU0NjQ2djZ3dZaGR5UWdTcGVPUUN6WE1Pb1ljRHo4bVAtTFdoSlZ6WWxUWGdJcWU1UE0tZzIxZzNZbkIyRjE1UTFNUjlteFpyZFpIa0ZQN2JSU2VVUQ?oc=5",
-     "source": "marketscreener.com",
-     "source_url": "https://www.marketscreener.com",
-     "published": "2026-11-20T16:37:27+00:00",
+     "title": "Flight to safety drives Treasury yields lower as tech tumbles",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUkNCV0wwN3JRWDdDeTVlYVhwdTNCQVplUWdPMTdaSzZFdi0yckg3NjlFV3dJaG1vZUt4cGFsUFZlM3VxNVY1b3BCTnc2c0xmdUJWWGNDb21tZUlKLWlSaHE1MEVJLThQQkNhcTRkT3JwUk5fZG1IMjdoYmNTVW9ycllYNW5fQk9ybzdEYXdMM1pneUxzZVlOSlJrNDYzZTNrT1NNZVZuSkcyY2xmNlBSeExjdlJ0Vm9RMFphYzlhLUlKQQ?oc=5",
+     "source": "TradingView",
+     "source_url": "https://www.tradingview.com",
+     "published": "2026-11-20T17:15:10+00:00",
      "lang": "en"
     },
     {
@@ -41,31 +41,31 @@
   },
   "fed": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "‘ดาวโจนส์’ ลดเล็กน้อยไม่ถึง 100 จุด เจอแรงขายหุ้นเทคโนฯ-AI ฉุดตลาด | The Bangkok Insight",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXp0YnBLazYtVGJmbmVYb1VwVF9TR1lhdWxQQ2hNbEI4UlN5VXVpbGRmQnVBNGRoMlc5OThpZVJMRUF4cW9HWnlKV092cXpheWpUZjJ2a29BYVU1X2FkOEhLYzZwTUZpNkJjUmUxbGhpOFczaVFheGFhSWotNHFTRg?oc=5",
-     "source": "LINE TODAY",
-     "source_url": "https://today.line.me",
-     "published": "2026-11-20T16:55:38+00:00",
+     "title": "Fed's Cook says rate hikes needed to lower high inflation",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmozU25KVVhFc05rNnFjcWFxSk11WG8yTHJCMDlYTGdma2RYaGJFTlMzQnFPY1k3bXFMMHdId0VtajM1YlBXVElxY2ZVX1hvMml5NUlRZ2N3M1lyQkZTTlFmZWNFQjRJU05Bbi1IQkVHWWFuVnVjbmJjTTJ6cUp0WXpuX1lPYnRYakl4alo5azFxZmhMYjUtdVZKUF9ZVW5LaEHSAacBQVVfeXFMTm9pcGx0MnJQMmNOMWduWm43Y1duVHlVQ19qTGgydm9qT1lkMmg0YTNNNlRDSFZUd1IzYXoyR253aHNXTnBYUGRGNFhBX2pYZWx0VjB4aDhhT0tPb2E4UGgzc0VRVF9jbUdMRHVuVjN2eDVqVGd3NXA4UWNRMzZTS3J4djBkMVRibkJmYnY5YUZOZ1ZfQ21Rc2FHS0hheEVTQXpxVEVERVk?oc=5",
+     "source": "The Korea Times",
+     "source_url": "https://www.koreatimes.co.kr",
+     "published": "2026-11-20T17:25:00+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "Inflation Rose 0.4%. Why Did That Send Stocks Falling?",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUmhobVNxUmkyUk1CU0dLNkhmd0VMOTF2RDVjaEREeDJSbFNqMC03ajZOcjdXSnJ3TWJVcWtxQV9YcGNJUkJHMC1ya1oweGhPMUF6cnQ0NGRkMWJDRmVoMUp2ZFBsSGh0R0JHNTZLeEx2dmllV0I5cXNGMjZxTWRVdnBNQmZrSTA5Zm1iMzhKUXIyWGdyY3c?oc=5",
+     "source": "SchiffGold.com",
+     "source_url": "https://www.schiffgold.com",
+     "published": "2026-11-20T17:21:16+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "‘ดาวโจนส์’ ลดเล็กน้อยไม่ถึง 100 จุด เจอแรงขายหุ้นเทคโนฯ-AI ฉุดตลาด",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wQTlGUGZ0R01ITHkxMGxXSmN4dnNzT3dfd2JlTnRtbHpTUUNJV0ZVNVBXVEZYNV9LRENycXdPQkJKR1oxR3BtTkhpcXRUbHY3SVJpR1BNMmN3dlJOdUs2Um1wWU1nNkJIUUY4eUlEdGRRbGR5S0E?oc=5",
+     "source": "The Bangkok Insight",
+     "source_url": "https://www.thebangkokinsight.com",
+     "published": "2026-11-20T16:43:15+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CZGVYYlZTODBOZUpYNkFCQWloR3JjOGhRTWwxR3N5R3diQ3Y0Ql9lcm5HYS1jUl9ld2lKbF9PaC04bXZDN3EyWV9pOTdka0pZNVJJRWxsMDV3SVZBcWlOTEotc3Q1QmhkWXA4dHNjNTAzOXE2RUp1ODlSa0x1bGfSAYQBQVVfeXFMT0ptTzRIZzNaUW9ZSkY1akd4VWx6QjBXaE5jN3BTckZ6WElXWE1iQW9ieURtMmptenhNbm1BeFBDTE5FdVM4UkpDSVQ1NEJwRkE1Ym5fUnRiRHNmWUNPcUdzdC1XRlRVREg1N05jZ09GaDI5clM5UVlweGtabWFKYWNRNERH?oc=5",
-     "source": "CNBC",
-     "source_url": "https://www.cnbc.com",
-     "published": "2026-11-20T14:58:46+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Gold heads for worst week since March as Fed rate hike bets and forced selling weigh",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUHdUSjAxbnhzMHFmUjZheXJxNUZ5SDJzZGVvVGxycXNYRm1SejNWaFdLblI1dFFOdVVpWmZhZ1FJVlI3YVFsNlZ3T0VlTWYyRkNQcTczSjhxeXJ2eHlSQVJBQ3ZRQVdodmdkYUVMekdqakJXSFRiMmY3X29tRHFUSzNEY3VTNGdSZWVmVm1pSk8zUTRqYlBRbE9HMVdWaGJyc0JBX012cHJCc3pSUDFUZ2cxd255Wmhqc3BaVWhHbnZKWjVuaVZkLU93?oc=5",
-     "source": "FXStreet",
-     "source_url": "https://www.fxstreet.com",
-     "published": "2026-11-20T14:42:13+00:00",
-     "lang": "en"
     },
     {
      "title": "*เฟดประกาศ: ประชุม FOMC ต.ค.70 ไม่มีการลงมติดอกเบี้ย",
@@ -79,22 +79,22 @@
   },
   "vix": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "This VIX Signal Is Bullish For The S&P 500.",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbWpLbV83dXhiZTE0dklWV3dKMkZTUGdHR2JFNWpjN1dMeUJQbGk3TTdIUXF4N19aVDBfbkpYbkJtd1RFMlRTdE50VHI4SmdkdzQ0OGRwVFdQRHEtWXpEX2doTFE3SGp4NTFZYlFMS1YtZjQwVkJkMndoTGhLTVZ3U3pNYlQ4bHVP?oc=5",
+     "source": "Investor's Business Daily",
+     "source_url": "https://www.investors.com",
+     "published": "2026-11-20T17:33:00+00:00",
+     "lang": "en"
+    },
     {
      "title": "What happens after the VIX tops 30? What history shows for stocks, and where it has failed",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeW5ORENrV0JxUnpwUlhuU21XUGZUNWtRaUhuaDZIRkRrdFFKamRmNFBQSnhKWDRhbmtpWUtENThjQUNkeFE5b1FlLWtxaHJYd0o3WDFtaVpvdkZyeVM4LXZYd2FVeHltQUEtWW56bHNJVEEtTWRZeU90a0JOTGNqUTVDT1JFbjhlUlF5Y0ZtZXYtVndCUm5FVVZBY1JRZHVBMHlEQ2J1TzJmN1c3NTRF?oc=5",
      "source": "Nacionale",
      "source_url": "https://www.nacionale.com",
-     "published": "2026-11-20T16:50:30+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Wall Street's Fear Gauge Tops 30 To Hit Seven-Month High: What CBOE Volatility Index Tells Investors",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZFpna1ktWG1YQVpmc0dYajl6SnFRSjNrQ1BLRmFBWC13VUFYTU1NMHZ6STlNS0phUThiR3lUY3dqNFQzQnoyR3pNQnVYYnEtSmlaTnpndm84R3E3TjRwWS1rbXlQaDhQbENIcjZ2WVRJSzJ5X2tyRWEyOWdWcGhqUXZsSV9QdE5MNWw1RHZXTXpiVFpvRHVIMjA5d2hqbkIwaEVSdlRJLVhKaGN4dEVyTmRTSjRTVHdKUUptSEw0SFVTYWVPemZLSUxtU3N3T0dHcVh5V3NTNU8td9IB4gFBVV95cUxNdjROWW1rZ1VpUl9OUjhDMHNOOFB5WHByTTNyMHJiOUNrUUo5cmw4ekFuYXpBN0RSWUlVbWhxdVFrRzRyX2xZV0xsaldRZVc2dGMwT0toRjhYSXdlRnB2T2w3RHBkYVBJdmQyVEZpRUp5NnJVTzBLSGZzNHd0NzEyMTM2bnVIMWhIRGRkRE5LTkoxdWx5Ulo4OXBjb09zbjVJSGs2T25UV0pKX0R0Mm9zYXdYaFJPR2J4anNLOW1jejRGenBlcnZ4M21rREdoX0ZRb21uR3BuTDlMeVd6eDF2b25R?oc=5",
-     "source": "NDTV Profit",
-     "source_url": "https://www.ndtvprofit.com",
-     "published": "2026-11-20T16:34:59+00:00",
+     "published": "2026-11-20T16:53:05+00:00",
      "lang": "en"
     },
     {
@@ -117,23 +117,31 @@
   },
   "dollar": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "U.S. Dollar Moves Lower Amid Profit-Taking: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjRhTUlSMHRMaDMtZi1pcnJCS0Y4emVZY29QWmR0RGVVMnZTZml5LVBWQVp3eHY1ZFZFdTRQXzNDT2tRLTRDRFl3cklIQjBOQmUtSFBYaWlUVVREdkQ3djZybUZTNkxSRVpMUjEwb091c2tHVFRnWWJYb3hlRHp3WktJMjZ6Z29VNlhOXy1BOTZOVWdYdDFFMUlLM0xac2VfRm9lNzFndjF3RDJIOFdXcEJwY1I1SDdNeFc4WG02VkI1SUl1TlRZLV9EdFBNNVBXUHU0?oc=5",
-     "source": "FXEmpire",
-     "source_url": "https://www.fxempire.com",
-     "published": "2026-11-20T16:52:49+00:00",
+     "title": "Japanese Yen Forecast: USD/JPY Bulls Falter at Major Resistance—Critical Range Break in Focus",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdWZyX1A3X2h1c3ZQVGF5UmVOMlJXcG0tdkxTZnUtS3lKbmhVVG9OcXBidTFfZXN1RGU1V1lPS3NJUzg2WkI2Y095OHZ1OHdWam5LcXZmcE9NdkJXN2ZzQlhkM3VRTzFPNDMtb1ZQYlZKVGdJQ3BvRFZISndxSS1uNHVpQl9mOVcyc0I5RzNBOXh4Yy1CWnVkZVpVOHZWcDRiTEFKWExXRFZfUTNHZ2UyNld6bG1oRzFLR2VxdHZQVGlYRVRfejNBUjBJWUo3TThaQWRENlprdVNBY05ORHNGTdIB7AFBVV95cUxPVzFFNlNYQWphVXRwUFg0el9pOWFZeUV4ZVllT1p0X3lDNTdmQ05tZTczbXlta0Rzb2VOaUFYbmRlcGJnT3IxWjJRa3FkMUtZa28zaUxBQ0E2Sk94dTZBeFlxUU1kM2I1bGFxdFRKdGdYcFd1N2c0YUwyYkY2aC1tQ1VFWWpFOTRoWGs0c2JQai1MZUJrWjVfWWx4Y19VV1RnanJKLTJZNGZJbXJKUkE1WnBsWGRTLWo1QWpmMVNjWHMxd21YSHpXcUt3R3JHYjFmM2hkTEJlQUVJQWhBQk1OTEozOUNMREwtWVdidg?oc=5",
+     "source": "FOREX.com",
+     "source_url": "https://www.forex.com",
+     "published": "2026-11-20T17:58:47+00:00",
      "lang": "en"
     },
     {
-     "title": "Euro edges higher as US Dollar eases, still set for third weekly loss",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVR3Si1FSkMzZHltU1RpYlBOVnFsSGc0bGJJT1pkcGpWbnZ1VUxyY3NkOXBsbDhDaW1ETnlSNVBnblhUYTQwbVFocU9tRkVoOEpiYi1lVTFOU3NIM0tHWjRmSVpkZ054WUpRMDlBUzlLYXB3NU5sUVlOcHY1TEE4U2duQk11QUdBRTlwdmI5dW9VUWNIbVh0MVRSWV80NGFEak9XWFFhV1ZvZU5ZeWcyQg?oc=5",
-     "source": "FXStreet",
-     "source_url": "https://www.fxstreet.com",
-     "published": "2026-11-20T15:46:13+00:00",
+     "title": "AI Selloff Boosts Haven Demand for Yen, Franc as Dollar Slips",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMGVIODlldlpGNjhfeGJZQk1jNjEtN0dINDFYNTREQ2hkNmJ2eDd5YmxoTmZsakdfUnhJRnhVUDRYbjF2YmdiZllpTUUwZUUyendZOG5HZFVtQXR1RlRZeFRPeTZfTHJHNjBvWXZHaUszbndhcmNydlBERVdneEdFS1NMa0wxbkVSbWJCTk5fQzBJVnVUaDVrandpek53V3VYWEFwSXpBdkRyRE1PSXNWcA?oc=5",
+     "source": "Bloomberg.com",
+     "source_url": "https://www.bloomberg.com",
+     "published": "2026-11-20T17:00:06+00:00",
      "lang": "en"
+    },
+    {
+     "title": "ราคาทองโลกดิ่งไม่หยุด! ร่วงกว่า 100 ดอลล์ หลุด 3,600 ดอลลาร์ ต่ำสุดรอบ 14 เดือน",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03eGJna183d2tuREpSS3k5VTc5Ri1LVmc4dzQ0NlE1SEtRbm1HV0JwYU5SUFRKTGFJdU1wRXN3clhfV2ZRNVE5VTBxZnhYbkU3UnJmckhROWdXLXVBNVBkLTV3c3dQYnFrZWpoZ0NJUzNEZGRKa01kMw?oc=5",
+     "source": "The Bangkok Insight",
+     "source_url": "https://www.thebangkokinsight.com",
+     "published": "2026-11-20T16:53:22+00:00",
+     "lang": "th"
     },
     {
      "title": "ราคาทองโลกดิ่งหนัก! จับตาหลุด 3,500 ดอลลาร์ เสี่ยงฉุดทองไทยแตะ 5.6 หมื่นบาท",
@@ -142,59 +150,67 @@
      "source_url": "https://www.thebangkokinsight.com",
      "published": "2026-11-20T11:56:45+00:00",
      "lang": "th"
-    },
-    {
-     "title": "ทำไม ‘ทองคำ’ ร่วงกว่า 30%? เปิด ‘4 สาเหตุ’ ทุบราคาทอง จากสินทรัพย์หลบภัย สู่ของที่นักลงทุนแห่ขาย . เกิดอะไรขึ้นกับ “ทองคำ” ที่เคยเป็นสินทรัพย์หลบภัยอันดับต้น ๆ ของโลก หลังราคาทะยานทำสถิติสูงสุดเป็นประวัติการณ์ที่ 5,589 ดอลลาร์ต่อออนซ์ (81,950 บาทต่อบาททองคำ) ในวันที่",
-     "url": "https://news.google.com/rss/articles/CBMisgdBVV95cUxPWEpsVXItSUlJaWZQWDRVbWNMRzNwdzlDanA2NXVnNUZSaWtMTzBSdFFWZGRPcHJqZzk3cEh4Y1ROenV5QTZjQVRJY0JaUkwwYnhqVUtOQkZNdW9kX2lpZXNaSzkwOVQ4ZWdDNlpoUzJmTC1qYWhOUk9xYUo3OUZjZHBtZTN0cWw0MlI5QkJRUGFvM3ppVERfMHMtVUltTW84UkZHWG9NRU5qajdSVlRWdi00cV9NdGhKRmFUd18xSmt2Ukxpcy1YUmxSMElXZWhXTXUzNXJZVnVxOG45eU9XdFRNZmNRRDdLU0lSUzFaVlZLRWxPeEhBdUFGaFlXOEtTcnlUX0pCOHJzWXJ0V2labjBDLVJEbTM4N1RJcFc4bVlCd3AxeGNYYlI1WHBuVWQteEs5NDJPOHNZVDBzOVRIVDVWOHUyNFRUQkZLemkybU8zUmVWZkVPZGZJQWY0a1JnY2Qtc19yX0RJbkFBS2hnUE9pbEJvV3BBa0o5Wkt0ZklVRnZGTFAxbzl1RFJRTHN1aGcxemh3eTFGbWlLVDF0cURvMnZCLUZwRUVhTUlqM2pKckVqd3o4LURyTkZpdjIxQlFUY3FLZUh1cnJGLWZHZDF6VW42UUV6OW9sWFlxQm8ydkt1X1FYMXhxdHQ2elNpQjg0bVdlSVp0SXdLanFRVGQzeFZrVm5xbG90MmJQaENnMXBnQlQ5ZGpTbllLVElHNlJIc2pZb0FEeHdEVWJLWWtQVlF5dzhQZUdSWEQ0dUh4SnF1UzFuLXJHN3VaSFlWRjBUd1JQdzhPaTV1V1RiSm5UOExSZFdRMmgyRURvU3hpblBmVmhzTHpwTmRGdzVUdjNnMGlmQk1IRE9RU0kxNWVZWnVYSDZTUWZnOXc4OTR2NGNMT3dRaXNLbFhYSVp6WDJFNFdTYzRRZER6ZVFYQWE4a0czRjZaZ0J5My0zSWRlWWNkUUdPVmpvdDFweGlPWjc1QnZLa0YxMGJMb1h4MkJnV3pKcnpGTzR0X2M1UjNnZGtnUEx1c1I4Z3gwbGVCTy1NN3ZVRnFpNVRzTkxhaXZRc25ERk10NmZxNXBJeWtxT0lYdjBJVkQ5c3dNY0Q1blBEMnlCVDA1cTl3dzFwZXdJcGVfbkYwSzlIWGNwUDdLb1Z6MW9hUzZfWGhkaVpwMTNkdmU5RkpmYk9VOUs0MDRZM0RGRVFhNHMxcXFLaXRRM0xmMjBtUGtNQ3B1bjV4ZHpUR01wdmxuQldWTDNoQ0V3?oc=5",
-     "source": "Facebook",
-     "source_url": "https://www.facebook.com",
-     "published": "2026-11-20T07:39:35+00:00",
-     "lang": "th"
     }
    ]
   },
   "oil": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "‘ราคาน้ำมันโลก’ ร่วงต่อเนื่อง คาดอุปทานล้นตลาด",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3Q1RoaGZsUkVsaVZVQk84b04tVDhkcjE5dmxHc3Zfd2I1aVNCSkxUZGVpazhxWk5BWTlPWW1Oc3R4V29EQzdta1lTVmdtcTlILVkzdXB3?oc=5",
-     "source": "LINE TODAY",
-     "source_url": "https://today.line.me",
-     "published": "2026-11-20T17:09:50+00:00",
+     "title": "U.S. Oil Drillers Pick Up the Pace Just as Oil Prices Fall",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmVscEdxa2JzSzZQUzk0N1RMQi1odzBVTGNkNXNvRUE5XzNqeUhEbU1KOGcwVGJxai15SHNQazAtX0x4YURhNmRCOWpRUjRlWlc5TUkxWkFncWdDeXhqVjZhVmR6R2VrWE54cWxlUDctVlIzY2pRaVo2cS1rZUdkeXU4YUgxWVFyUmdVSnFTREdLUEhVUllwa04tVXU0UF84SlU3Z09OWdIBrAFBVV95cUxOYi03NFNEWVdpeVJzcmRiNXdWQUluamtMX3pzTi1SaXQyTG5lMkwxbXhLNlBDdnBGcmQ1NlZzLVlfVjZDSU9FaVhZamNmb2JDbU0zc1k2TmNqR3I3MVdHOFhEenFhcC1Lb2Jqa0p1Y1lreEwweUM0Q0FRbmZpdHFENnV5SzJkWThrZDdQX0Zod2V0emNFNUU5c0tNSmgyMFBuTlZFc3c5cE1udnAt?oc=5",
+     "source": "Crude Oil Prices Today | OilPrice.com",
+     "source_url": "https://oilprice.com",
+     "published": "2026-11-20T18:09:09+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "เจ็บใจไหมคนไทย ก๊าซหุงต้ม ผลิตที่ไทยแท้ๆ แต่จ่ายแพงกว่ามาเลย์ 20/11/69 #ก๊าซหุงต้ม #ราคา LPG #ต้นทุนก๊าซ #พลังงาน",
+     "url": "https://news.google.com/rss/articles/CBMiqgdBVV95cUxQNzVmeDFtSFhtVEpOZmZlU0N3c3lKbGxQLV9ELUd2SVRVUC15REx6UmxJM253elBJWVZvNC1qT0FET21ZWmFEaVNYMloxTnZnb0JmYzRpZ0tZdWN6TV92R0VPUWRVeU5YamZZUGhyTWRBSFcwRjcyQ0lzZGh5N3ozV2lGX0sxMlA3THo3OTdHMFEzTjBJSzRiNGluNFBObjBCamlQVlhYem1zNG1sYkxUa0JEelFzRjMxR1NscTJOMUFDT1VOcjlMeG1kSjZjQWNPR2xrb01CcGJTMXN5Z2tsZUowaGdvQlpDNHUtUy1vbklGWk5QSGVEUG0yVGdXM1V0bktNVDRWam9vMjY4SnhPd1NyRTdmdUZEM3N6Vm1BR25PRVJvbkVuX1NTMWUwa1RRazBkMk1OWEZyVXhFdDBfd2ZtQlhxbThCUDR5cksySWFLTDdRYm1mYmtKY255Y25YZkFaOVBzZkFONzgzem5jcExFMldxSUNIcG1KRkRhTUhqTnh5RzRYZldxUVNGRHZfTUV4TWRJcThZODlfUUxRZDVuV3pUcThzMnROUmhxWXVrUE02Y0x0QVozQ0dSdEowV0VIVFpOMGc4YTdKYWlwUTgzZjYtMl9nMTAyOEVCaHJMYmw3d21lbm9Xd01PVzZfNjBYbDZ4c1o3NmtTSGhkOW9Pb1N2UmFIMW1UVExzMWVXOEJSdnlnd3dpT1h3cnpGaVFZSkxqWFlTdThCeFJlMjktcHNacEwwSWFvekJTdHMwd2tuU0pwRWUzb24yNVhoeDZIN2VFU19zc2VIb1c2dWxsQkVYWjh0cUdLY3BkaXVseWtma2VKZHhOMlhxdzdrMVdHYUhKbS15cVhLdER5aXFtZHNaR04wRHBPZVkzaWs0cXRScGxQdDhMOUpHa0gyQVZURFVNc2ExNHBndUhGZU1iTUVzaEduYWQtdFBCTmxGSHBYYnBSSGhoaE9DUUJzS3A4Ui1oSmN1bXM3bklHWUVpR21zdFp5QzNYZGFIalAzRGI5cXdXWko4d1RDMThXTnJURmVoNU5hYUFaNnFLSnhKbV8zaHVldk9hSUpCRk1aUHdGcWxuUFdrb1NNTUk2OEpYQjd0NEE1THc3ZjV6eGRYTlpCWEVHVjBlcVZ1Mk5JTW9UNmFRdWVXTDhfSndFMFdQLTVtaXQtU05lUGJkVm9uY3ZEMGswclpyUnpuckJ1azdtWVJtalZxMTdRSzAwRHE3MmxOVmx5UQ?oc=5",
+     "source": "Facebook",
+     "source_url": "https://www.facebook.com",
+     "published": "2026-11-20T17:44:30+00:00",
      "lang": "th"
     },
     {
-     "title": "AAA says Oregon gas prices have dropped, recommends best times for Thanksgiving travel",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRlozbGthTk81XzY3MDl4Y3FKcjNuaGFzTTRTUXU1N191WkxEXzI5bi1ldVpNY3d4cjdEaXZPbnRGbV9UU0d5d2wtZEJlUGV2RlktTjlKU0xyOVJVcmllM3UxMmx5N3pmUHYyeG5XWU11dlVOWGg3VGdPZUh1ejNRcTJEdjlCX0pXN3BlbWl3RXpxcnRYSGJySG9Hb0JwNXBISnhlYUhTQV9vMG5GWTBnMzJDMkNBV1ZBQzA4MkhIUFZOcnZ0RWlHWllBQ3VyOGM?oc=5",
-     "source": "NPR for Oregonians",
-     "source_url": "https://www.klcc.org",
-     "published": "2026-11-20T17:04:00+00:00",
+     "title": "Valley gas prices continue downward trend as Thanksgiving arrives",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDUxVHNBa0pXZXlDY3ZFQUF0TUNua21pQmtJMXJja1dIbTN1QlAwLURnRGF1TDUtUGYtQzh6QzVMajJqejVYaXljYWRZUFBBeGFPRVIzTzk2T2tkMEZGZkRZa01ySGw5alVZVHRnQk9JZXpqRnhXam1DMlpxRDNFb3YyRzZTLTNkNG13dFNFRkZGQzJ4Qkw4NWNpNmFBYU8tbWFrTlNn?oc=5",
+     "source": "Your Valley",
+     "source_url": "https://yourvalley.net",
+     "published": "2026-11-20T17:35:18+00:00",
      "lang": "en"
     },
     {
-     "title": "The 2026 Midterms Have Changed the Battle for American Energy",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOW9NZjhFT050cHZadjktb1VWeG94R21SMTJtSlBRWTF4c2Y5TjhPZ0VZV0ZzSkhsNElaWjFfdHdEX0x6THdjX0FzUjZKNVZnVFl4dVVzbjFVTWEtQjBCZ1ZPVjV3Y050LXN2XzhMNTIzcXIzTXZrWmt1OWxwX2o4ZTV1bmttdEdOUGx1UGFBYVpSc0Fna0lyZzdDNGlqd00td1RJcWRDUjZudnZBbGJHcnhrNNIBswFBVV95cUxQOW9NZjhFT050cHZadjktb1VWeG94R21SMTJtSlBRWTF4c2Y5TjhPZ0VZV0ZzSkhsNElaWjFfdHdEX0x6THdjX0FzUjZKNVZnVFl4dVVzbjFVTWEtQjBCZ1ZPVjV3Y050LXN2XzhMNTIzcXIzTXZrWmt1OWxwX2o4ZTV1bmttdEdOUGx1UGFBYVpSc0Fna0lyZzdDNGlqd00td1RJcWRDUjZudnZBbGJHcnhrNA?oc=5",
-     "source": "Crude Oil Prices Today | OilPrice.com",
-     "source_url": "https://oilprice.com",
-     "published": "2026-11-20T17:00:00+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Nhóm xăng dầu khí bứt tốc lợi nhuận quý III/2026 nhờ giá dầu vượt 100 USD/thùng",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1lTajRpbDB4UUpHWGJlZHZMUmtETFBQbkU1OGlsaEdmLXp6N0FOXzJZNnpaM3QtbnE0Qmk4Y1lyd01CenFiQkNFSTNKZmJ6WHB6WUJ3VGk5NVkzbmVNeW9oZi1yUEl0c3BvZU05ckRTS0FjTW5rZWVtUEdPaFpLNzFyU3Z3TG5qa3N2dE03QnJJazFKdGNwSWExYUZoaTZ4d2JWU19IOGg?oc=5",
-     "source": "Vietnam.vn",
-     "source_url": "https://www.vietnam.vn",
-     "published": "2026-11-20T15:56:11+00:00",
+     "title": "‘ราคาน้ำมันโลก’ ร่วงต่อเนื่อง คาดอุปทานล้นตลาด",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05dHBhc0ZiQkY1TWVXd3ZWYi0tZEhZXzNzS2psYVllV0NINVBsSk1MaXExaS1obHBsT1VMSWp5dUVZZjNRMFNwZkYwOVdreHhUNl9lV1hnVlVaalRSaDl4ZTFpbHQzSUdMU1E?oc=5",
+     "source": "The Bangkok Insight",
+     "source_url": "https://www.thebangkokinsight.com",
+     "published": "2026-11-20T16:59:57+00:00",
      "lang": "th"
     }
    ]
   },
   "earnings": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "เอกสารเผย 'ทรัมป์' ขาชอปหุ้น Nvidia อาจซื้อสูงสุดถึง 9 ล้านก่อนมีข่าวฉาว",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qVW1nVUdaZWpZWnkweUI0OWp4TVUyTkJVNU5fMHV1cWZZemloWmhCS2JvRElTMEdWTGgtLXdjM3hNY0Fla1c5OWdZdTR3Skl4ODRmaVdHb0lrWWtrNzE0VHRNRVU?oc=5",
+     "source": "bangkokbiznews",
+     "source_url": "https://www.bangkokbiznews.com",
+     "published": "2026-11-20T18:02:31+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "Danaher Corporation (DHR) Raised Its Earnings Guidance as Core Growth Recovered: Is the Turnaround Gaining Momentum?",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTjk0aWV2YzQ3U3Bsel9FT2RkdGU5UkFsUy1jSlN1eW1XUUQ5Q3h3em44Ry1tNzEtVDVZVHBXRVJ1VWVIUDFwV3dmRElCeThGMjJGalpGOVBBUUpCVzcxUDFvZnZiQzdCYlZCUmhPOFB2MXBZaVpYMlJqWFBRQWo0b3NBZ3ZtMUQ3aWFqeXdYdU9MTi1fem0zdlMxQi1wTmRKWE4zMUhjdw?oc=5",
+     "source": "Yahoo Finance",
+     "source_url": "https://finance.yahoo.com",
+     "published": "2026-11-20T17:22:31+00:00",
+     "lang": "en"
+    },
     {
      "title": "S&P 500 Price Forecast: AI Stock Selloff Puts 7,000 in Focus",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWklBUEJlbkhzQkk4UGZmM3B1SkxRNExMdVpiN3h3MU0zS0pwaDdmR3VVQWl3YmthTm1vUVJoOTU2MUYzZ2hnQ2VKUlo4U3Z5T3ZkaC1LSl9CMjZSMGY3SnFwSWZ6eU9pNVhuaWY0VjBUU21wdmUteUszaVJuMHRYZnZodUwwdFZrbmo4T2F5clpOdUhwSHNHWHZCY0ItTDlUajlNVUF4MkJLLW9p?oc=5",
@@ -204,34 +220,18 @@
      "lang": "en"
     },
     {
-     "title": "Goldman Sachs Predicts 18% Gain for S&P 500 by End of 2027",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSjlKRlVpM1VCWEVLOU81bFJEblYtdnZHWUFEQkppaWtOWlkyaVRBZmg0SEZDb25wbmVKanc5VGNuNktUNGd2b0R6YVhKcEhqaUNVWmxqSHlZRFNaVG5kTWVaRlZlaWo0bm41YzdJZnJTR01wb2NwZWdRLUZST3VDaXhLSjRWSmRYM1o2U3NTbWx5RXZtRDUxTA?oc=5",
-     "source": "CoinCodex",
-     "source_url": "https://coincodex.com",
-     "published": "2026-11-20T15:56:00+00:00",
-     "lang": "en"
-    },
-    {
      "title": "เจาะดีลสหรัฐฯ–อาเซียน 1.7 หมื่นล้านดอลลาร์ ไทยได้อะไร หลังเพื่อนบ้านรับลงทุนก้อนใหญ่?",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EWkZaSFlBV0t3RmEwc294QXR6eXdoOXJCNnprUjlsUF92RnV0UUxfZElBWGpMUFBfeE9xT0xjVFpqeUpnUHRVcmI2UldWWnB0ZXR2T2VjN0ZwNVlRNnVUdzRLU0NxUHM?oc=5",
      "source": "Businesstoday",
      "source_url": "https://www.businesstoday.co",
      "published": "2026-11-20T09:32:48+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Morgan Stanley คาดหุ้นโลกฟื้นปี 2027 ชูปีแห่งการลงทุนสินทรัพย์เสี่ยง มอง S&P 500 พุ่งแตะ 8,700 จุด",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdmFvX256eXVFdFNuVFVyTjNrWHhrcGhQcmZpaG9veDJfOVBmT0ZFeTJiZHJNQjVrVTlrSGQyZ2ZMUURvMU9ESlVONkJYR0xxTVo3SV9sX3d6RlZlb1dXLVFGdElFQ0hCemNPel9QdlJxdGViMF9hWFAwNHc2dw?oc=5",
-     "source": "LINE TODAY",
-     "source_url": "https://today.line.me",
-     "published": "2026-11-20T09:10:29+00:00",
-     "lang": "th"
     }
    ]
   },
   "us_economy": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "PCE to confirm the inflation problem, labor pulse still strong",
@@ -242,15 +242,15 @@
      "lang": "en"
     },
     {
-     "title": "A Plan to Alter the Unstainable US Debt Trajectory",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYTNrNVBoYUFIVnBsd1lnTGdMa0R3NE5SRndHcnVzVlZMNktVQ0NZRk10c1pNbzNYYUh6d2FSV2hjMk1jS2hvVVA2dW1PckhqYlRxV0RubmxfM3lBTlF4eC1Ic0ZNYXBfMHZLdWRHOEg4UXlscmQtSkNLaVVGbkVqQTdkb2xUZlZ5VW5NUzRlS1g3LU5OUHdHMGVaOUJPVlk?oc=5",
-     "source": "Bloomberg.com",
-     "source_url": "https://www.bloomberg.com",
-     "published": "2026-11-20T16:39:18+00:00",
+     "title": "Maryland adds 3,600 jobs in October as unemployment rate falls",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeHEzcjZ3OWg1VW9lY2p1VkVxdDJ2Smd6TDlQYURndVZUSGxvUWlNNXF0RXEwQkNRRGJGT2ZxUjZjaXVwOTIyUHVtTi1leG5ISWFSWGhaREJNZ0dvOE5lYm1rZ2c1UzluNGZIbnZOczFVUGpOU1pqSV9MLTM5WUI5WTRIS29XZlR6dkE4SnUzWQ?oc=5",
+     "source": "WBFF",
+     "source_url": "https://foxbaltimore.com",
+     "published": "2026-11-20T15:49:35+00:00",
      "lang": "en"
     },
     {
-     "title": "หุ้นไทยปิดทิ้งดิ่ง 19.36 จุด DELTA ฉุดตลาดหนัก โบรกชี้สัปดาห์หน้าจับตา GDP สหรัฐฯ-ทิศทางดอลลาร์ ลุ้นรีบาวด์",
+     "title": "หุ้นไทยปิดทิ้งดิ่ง 19.36 จุด DELTA ฉุดตลาดหนัก โบรกเกอร์ชี้สัปดาห์หน้าจับตา GDP สหรัฐ-ทิศทางดอลลาร์ ลุ้นรีบาวด์",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qdEdSbWktLTVCTER5dklHNjBFNnBIQkZCeVZCTjBLdzNuRi01bi1RNWpVZ2YxQzExTWFYNS1kMVpacElFVERyYmNqVEwwLWJHc3VvZnRQLURyRjlqaFVvY0JR?oc=5",
      "source": "bangkokbiznews",
      "source_url": "https://www.bangkokbiznews.com",
@@ -269,22 +269,30 @@
   },
   "ai": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "AI Stocks' Wild Ride Gets Bumpier As Nvidia Chaos, Blue Tsunami Spook Investors",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU291OEFTamphSmg2LXZBUzlrbzJzelRKUnZ0bEd6cTE1dFBWd1V4Xzk0RE1lOVBzTUprLUpDODVHb1J5RWNoT2FzODVnR2Fzd2tpb0NjckNxZlhMWXMzSGdjc2tadFFxREd3eFF6TDktOHRXZnNTMmJ6UEUxemNwdWNoMXNYWE5GY1piNlJxT0ZGaWRjR3pLSjNEekUxR251elAwWWdn?oc=5",
-     "source": "Investor's Business Daily",
-     "source_url": "https://www.investors.com",
-     "published": "2026-11-20T16:52:00+00:00",
+     "title": "เอกสารเผย 'ทรัมป์' ขาชอปหุ้น Nvidia อาจซื้อสูงสุดถึง 9 ล้านก่อนมีข่าวฉาว",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qVW1nVUdaZWpZWnkweUI0OWp4TVUyTkJVNU5fMHV1cWZZemloWmhCS2JvRElTMEdWTGgtLXdjM3hNY0Fla1c5OWdZdTR3Skl4ODRmaVdHb0lrWWtrNzE0VHRNRVU?oc=5",
+     "source": "bangkokbiznews",
+     "source_url": "https://www.bangkokbiznews.com",
+     "published": "2026-11-20T18:02:31+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
+     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOWHEwZzB6MUFKZDF0OW41SjF6OGtoOWs3N3RhZ2NRVzBVVkhjV1hhVFhEeWtteTZxVjVVVVY0Zk96LUw4SlNiMEFsRnM1eXhDRi1ULTh0UXpicWYzZHlCTXlsVmhLSVp4YjByeHluMWpVYUNkbFBRN3dueGdrVzh3R0RGeGlITGFacmNDZkhzM28yNEdVMTlDRl9IY1BiTXEzLU9yeExrTXlGcVZsemVkQTlsRi1EVVNaYUdoOXdqVDJBX0lfbmJ2ZFc3aHZUcmM2MjViZXVFNFJydHJOODZzUmJnMHd4UTZoYUR2bEF4MjRGbHp1eFRDZF9jUDlPZFZrZnF5QlkzMzBkQTl3VllnbTFUVWU?oc=5",
+     "source": "The Motley Fool",
+     "source_url": "https://www.fool.com",
+     "published": "2026-11-20T18:00:02+00:00",
      "lang": "en"
     },
     {
-     "title": "Buy Anthropic, Sell Nvidia? Cathie Wood Just Did.",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDROMzMxajY2Q282MkpMblJyRzBnMTRfa0VCVG1xUURzbERxa1BaMVNvTGRPZmxURVFXT0dUemFkbTZjZGhRX0JmcGFrempLMFhHZlplWlVNbGtoazV2eklvZEdfZEhsekZodkYwNWpLNWhTWERjWTB6aDRXRDJ6eHhB?oc=5",
+     "title": "Why Nvidia Stock Is Down Today",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2SDZaTzRja05KN0N1X19WMjlkb2VVTThuRURULU1vRmtQWWh2a1FKU0Q3ZDh2SFhIWFV2cVJnMk1hbmg2bVl5c3k2R0FyT2FnVEpOelBycVJfNFE3MDJGaEJieFp3WHdyYWV2alN4UE1KQU0tTVhfeVpKRQ?oc=5",
      "source": "AOL.com",
      "source_url": "https://www.aol.com",
-     "published": "2026-11-20T16:39:27+00:00",
+     "published": "2026-11-20T17:55:02+00:00",
      "lang": "en"
     },
     {
@@ -294,21 +302,29 @@
      "source_url": "https://www.efinancethai.com",
      "published": "2026-11-20T15:32:34+00:00",
      "lang": "th"
-    },
-    {
-     "title": "เอกสารเผย 'ทรัมป์' ขาชอปหุ้น Nvidia อาจซื้อสูงสุดถึง 9 ล้านก่อนมีข่าวฉาว",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qVW1nVUdaZWpZWnkweUI0OWp4TVUyTkJVNU5fMHV1cWZZemloWmhCS2JvRElTMEdWTGgtLXdjM3hNY0Fla1c5OWdZdTR3Skl4ODRmaVdHb0lrWWtrNzE0VHRNRVU?oc=5",
-     "source": "bangkokbiznews",
-     "source_url": "https://www.bangkokbiznews.com",
-     "published": "2026-11-20T08:45:00+00:00",
-     "lang": "th"
     }
    ]
   },
   "trade_policy": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "Waiting to act when a policy adjustment is required has a cost, says Fed's Cook",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQnBXd2syWk9IQjZEdXhWZEgzalRTNV90VkJ1TUp4T3lVdEV2bGNpTURKQjZxUWZBMlhzTkFCTl8tT0ZCZ2tqaVlaT3lmX1Q2TEg3Tm9lV01TU3ZNRi1vYmh4S3NWOVRQRnlfRnRNMnJILU43aUl3TEYtTUp5cXA4aHlYa2tsdGJkQmtiUEx5cHZfY1lkR1hBRDdXTHlqeXFsOXFaZTR6Z1VkV2p1MkMwSkk2RFpJWU1yekxoRmMwU2lzU2UyZnotOGJpcFJ1d0F1UEsxWU40NGg?oc=5",
+     "source": "TradingView",
+     "source_url": "https://www.tradingview.com",
+     "published": "2026-11-20T17:38:03+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "ตัวเลขการค้าไทยก.ย. ปีนี้ ร้อนแรงเกินคาด ส่งออกพุ่ง 24.0% รับคลื่น AI",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yR3VEQXh3S19hNjkyRFNpbEV3dnpueWxiSjkyNFlXRkpTSlZzMjVKVzVYOW1EU3VSLUI1bF9ncTlwbGlNT25vR1FabnlGZFdpSlFYX0NqT0RPMHlkNzF3VUc2VnoyOUN3T1NHLVZwN3A?oc=5",
+     "source": "thestandard.co",
+     "source_url": "https://thestandard.co",
+     "published": "2026-11-20T16:36:19+00:00",
+     "lang": "th"
+    },
     {
      "title": "UK-EU reset deal puts China EV tariffs in focus as Burnham prepares bill",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUW1tZ1l1M1IzYWxyNl9NbXRHMUsteFR2bDFOMVdYRU9XYzNaNlF6RE1rdU1OblQzZF9DU2xna0p1cTdZU0JiTTk2TVNBaXd0MGhnNUFQVFAzNndhdkVlTW5Ec0VFYzNSYkVQeHNYc1RoX3AzQ01sVm94bnNPYjVoT0xmNC1wSmNLc2Q0elVsOUh4Und0SFN2aVUyZWNZSGc5eU40NGo4aEpWZw?oc=5",
@@ -318,49 +334,33 @@
      "lang": "en"
     },
     {
-     "title": "USTR acknowledges tariff leverage, but notes \"Americans bear over half of tariff costs\" : Global : JKN",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYbV9ZdDYxYWZTbHh4NmpxcWR4aGFxNDdhNjhNMlNDdkp2ZVNyMnM3X1RvcWx4elFIdVpKRDJtWFlUZEtGbEZQT2ptMHZnYUhCcTA5NHhRVUFib1ZEbUNmN0J3?oc=5",
-     "source": "재경일보",
-     "source_url": "https://news.jkn.co.kr",
-     "published": "2026-11-20T13:00:08+00:00",
-     "lang": "en"
-    },
-    {
      "title": "ปิดดีลภาษีสหรัฐฯ ไทย19% เท่าเพื่อนบ้าน \"อนุทิน\" ทวงสัญญา\"ทรัมป์\" : 20-11-69 | iNN Top Story #ภาษีสหรัฐ #ทรัมป์ #อนุทิน #สีหศักดิ์ #iNNTopStory #INNNEWS",
      "url": "https://news.google.com/rss/articles/CBMikAZBVV95cUxQbmFKTnVUcFJpR2ZKMGstcDlGcjFJUVlaUjJWZnNBME9NMDRfbjhBUG04Q0RJbnVmZS1Vb0NWdFRaZzFOejBBc29MVm0zWE1WOG1NSEhkZVhZMXBNbUs4WnlvNFlJUzlQdGRFRk1nSDRYWS1Eb3dqQ3ZKeVJGQnNyMUpxZUhTUExGVFNKUXY2SkxSME1aemtYQUhqQWROTzhWdGZCekt6ZmZHb2ZmVFdVWl9YX0NwX3NaUFhZb3NGQU01M2Q0UjZPZ1dDZDZNdnU4ajYwT1dRVXdrR2hNaWt1dmczVlp6cTUzVWFFNWpwMENNWGtmOHFoN3R6R2RyVnBZcExkc1BXZWItZTFaVEVGZU9fZy1PWGxPZTZNT0pZclpTVFJTdFpKNDc3MFpDaXNLeHBjZjdKZlVYMXY5OXFwLUkwU29RN0tBRS0tdFUzY2I1djFZT0F5OTF3X1VZV0Fna0RxMmt0MU1La1hlNXNJSzkyaWVMT2Z6QTBfRzZpTDVVODFoTnhXOHVaWEc4b1NXbXNQcVZ5ZFdPSndkM1FVZjFHMWtianE1d21DV2tIRi1TUExNTFh6QTJ6NDJ0Qm8tclRSVDhsQTdDdk1vR2RWUUJPSDNDUXFVUDUtbUxEdzBWU3ZCVWFjRWZKQ2ZNUWY0c2ZQU3RnZV93VEtlRU5nck8xZG9EeHZMSkpSUGhDYXZJa29hVk1OOUNTbEg2Vl9kUW82OE1rak5oMUc4RFZEdmlwUzhYQVJrblAybXBXN1VmTGRHX1VubUlmM0ZsbTZHREV1NXZNcEVPcXU0TDYxOFRVRFUyNEY1NUlubG92SnpObk5PSWQyTUlGYlFfSm53TnNzZUtSYl96WmcxYkI1OTFqOTcwUGZWc2NoblQyZ3ctNFhnalZuZnlGOE50RGpfS0FibUd2a241YVdjLVZIRGh3NUx0Ni1iNUlDMmRwdFRyX3FuRVoyekVudjltc0tlVWhnemNLU3BOVnRkcXNwOG80YjR2OE1oSEs0bEVvalpVTXpPN2R6TUJKZUF3MjJx?oc=5",
      "source": "Facebook",
      "source_url": "https://www.facebook.com",
      "published": "2026-11-20T12:00:47+00:00",
      "lang": "th"
-    },
-    {
-     "title": "สงครามอิหร่าน-ภาษีทรัมป์จะเปลี่ยนทิศหรือไม่? หลังรีพับลิกันพ่ายศึกเลือกตั้งกลางเทอม",
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OSjBueWZmX2pBSGZFbU5sZ0Z5SGdydklCMVpkSWJNWnh5VUFjZ3haNktEd0lQTmczUEx1OUlvdG5YOUJKQ242ZzFR?oc=5",
-     "source": "RYT9",
-     "source_url": "https://www.ryt9.com",
-     "published": "2026-11-20T11:59:17+00:00",
-     "lang": "th"
     }
    ]
   },
   "us_stocks": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeDBWbUJJd2k5MWR4Q2VvS0Fnckc1OG9MVWNxSXBPSzJreVFPUHJTd3ROZ1lFa3RtWC1JMzUyZkE5cmFubEw0dDZLc05wcjFwR1I5cGNwZ2dfMVpmU3NXckNjMjR0MnRNaGwtbjZqb1RVUFU3cTRVc0JMMWZOeVA0aWNZd3FjYkw4UFRxT3dQNzRIR2k0enJmT2VReFRtamZTdFpDY1VzLUtjVXhXUUJYUWVKclRzVGVQUGE2NlA4cHRnc3poWVZTRkk1SFN1SmlDU2NMR05mQ051bURhaGZPQWV4Rkd5UTFBb3htNkZPUUlTMmgyQkhXVTFCazdnZTVKRnU4QUFSdw?oc=5",
+     "source": "24/7 Wall St.",
+     "source_url": "https://247wallst.com",
+     "published": "2026-11-20T17:41:00+00:00",
+     "lang": "en"
+    },
     {
      "title": "CME’s CEO Just Sold 43% of His Shares Near a Record",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOemliaGNnTkJleUxiN2NSMEFpYTlJM0R0MmM3S0VDUjBUVEpDdGZYMU9XQWF0OUllQmNCWXFScjlTanhyWHI4Rlh2SllNbkRIUDQ1UDJkc1NNVnBHSjhydVo2ekdFSm9ZYU01aS1jOThzanFyMHg2ZGpKS0VlbVp4WUk3NFZZUFJJV3JoZlRMcHRIZXJvTFVOZQ?oc=5",
      "source": "24/7 Wall St.",
      "source_url": "https://247wallst.com",
      "published": "2026-11-20T17:07:00+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Chip Stocks Just Had a Reversal Last Seen in March 2020",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVpybjBOTGxOTVlINmFhczRuVW5VMnhMXzc2aG5DR2NPVU5OUU11TEo2QTY1RGNKWXZyNFZxdXJHRTZCQ2N1dlFEV1VQRGVxRkY5LVVuZDBlMTM2QW0waUZWMGxfUWRNbG5xQTQxMmNFRkc4UXplbDQ4YVdPbEgtTDlBYURvOUpyWjJFaHRrajFsYTV4cnRKMWNESlBQS3Jk?oc=5",
-     "source": "24/7 Wall St.",
-     "source_url": "https://247wallst.com",
-     "published": "2026-11-20T16:43:00+00:00",
      "lang": "en"
     },
     {
@@ -383,14 +383,14 @@
   },
   "set_foreign": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "“กองทุน-ประกัน-ต่างชาติ” กวาดซื้อตราสารหนี้ไทย 2.9 พันล้านบาท | ข่าวหุ้นธุรกิจ",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBya1dDWkxZbGExNk9OTjBkQ3RENFZwa0I0Y3cySnNZMFlQTmlwU21PVVJYTmF5TEJmdTR3ZVhHYVdpVXNHT0pXM2tqdGpjU3FSd21NdXBLV1kzb25ua2V2TDZvTTlqeWhhV01nVHJXREtRRzN3aE9F?oc=5",
      "source": "LINE TODAY",
      "source_url": "https://today.line.me",
-     "published": "2026-11-20T13:04:53+00:00",
+     "published": "2026-11-20T16:45:30+00:00",
      "lang": "th"
     },
     {
@@ -421,15 +421,15 @@
   },
   "baht": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "เงินเยียวยาน้ำท่วม 2569 'ปภ.-ออมสิน' โอนเพิ่มวันนี้ 11 จังหวัด 7.99 ล้าน",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XQThJXzRvSEpjYzVFWS1XeHc3c0ZSZnFiekdMMUUzTDJmdmgyTThtMlVfSXpwV1pCQ2ZMSlJ4aUs5dFVYdUtOa3hrRWFJbTFEaDlXNEZ5T1BOYVZuSTJOMlBPX1RpQQ?oc=5",
-     "source": "bangkokbiznews",
-     "source_url": "https://www.bangkokbiznews.com",
-     "published": "2026-11-20T14:38:00+00:00",
-     "lang": "th"
+     "title": "1 IBIT to THB: Live Exchange Rate",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XNkJTd196aWNXS0JzLTIycktqNDl1bzNMRVN1Vm1RQXBUWV80MXlMMHM5UEZOMUhZMFY3SzRMZGpTNElqX0lObFpZby1VRE9NZ2dyWTdndmlaZUJBTU5HZkpoODMyLURpSU5WdnhtZDNuZjRKVlRid0VPYmc?oc=5",
+     "source": "WEEX",
+     "source_url": "https://www.weex.com",
+     "published": "2026-11-20T17:25:13+00:00",
+     "lang": "en"
     },
     {
      "title": "‘ปภ. – ออมสิน’ โอนเงินเยียวยาน้ำท่วมต่อเนื่อง ยอดสะสมกว่า 13,446 ล้านบาท",
@@ -440,26 +440,26 @@
      "lang": "th"
     },
     {
-     "title": "ทำไมทองลงแรง ? เปิด 7 ตัวการฉุดราคาทองร่วง",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE96cXBPRkpUSWVyeVhJRElmam52d05YaDE2Qms5ZS1ISU0tOV84anNiRWV2TWNKV01nT1VSelRpRnliNmFBMUZRemttZ0g?oc=5",
-     "source": "kapook.com",
-     "source_url": "https://money.kapook.com",
-     "published": "2026-11-20T14:20:54+00:00",
+     "title": "ราคาทองวันนี้ 20 พ.ย.69 ร่วง 2,300 บาท ผันผวนหนักปรับขึ้น-ลง 90 ครั้ง",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qTE93VXVWVnNHNGtMbFJXay1KTHlrM21EbUlDQ1ZPWGJjOFNmNzVqaDdxVmlLbWM2OERkZ3c2enVPNG1qbmItTTFpdEx2c2JRUHpoVQ?oc=5",
+     "source": "TNN Thailand",
+     "source_url": "https://www.tnnthailand.com",
+     "published": "2026-11-20T12:33:26+00:00",
      "lang": "th"
     },
     {
-     "title": "ปภ. แจงจ่ายค่าเยียวยาอุทกภัย 20 พ.ย. 69 ออมสินโอนเงิน 7.99 ล้านบาท ให้ 11 จังหวัด",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XRFlBX2hHMnl3a1hKZDI4TUdhcmtUVGlJcnJrdzV4aXF6TjRObUh4dzRldzFsc1VkUzV4dXV4TlRBd2QzN0h6dG9IaUZSLUpoWkFhUFpWTmpNbXN0ZFprWHFhdVo2VGFKcVlDUXp3?oc=5",
-     "source": "Head Topics",
-     "source_url": "https://th.headtopics.com",
-     "published": "2026-11-20T12:48:00+00:00",
-     "lang": "th"
+     "title": "Thai gold prices fall THB2,300 while a firm dollar weighs on spot gold",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jMzBxN2RhVjhfOTUwTVAtWnJuSlAwX2VuaHZORm1EYVpnbXNHZ21yYm1GRnZZeXBxZ1A3dWpsWVhPWGdQNUttdEZoby0xUFpVbEMtdHJDS2J1LTBBTzJxandxUXcwRDdqRWZlbnk0TkpQbkplX0E?oc=5",
+     "source": "Nation Thailand",
+     "source_url": "https://www.nationthailand.com",
+     "published": "2026-11-20T12:13:00+00:00",
+     "lang": "en"
     }
    ]
   },
   "bot_rate": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "Mortgage Rates Today: 20 November 2026",
@@ -497,7 +497,7 @@
   },
   "thai_politics": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "“เอกนิติ” เปิดภาษีใหม่! 6 ค่ายรถญี่ปุ่นขานรับ ทุ่มลงทุนกว่า 1.34 แสนล้าน",
@@ -528,14 +528,14 @@
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sZlQzOTVadHgxeWw2YnlkSmxRb0M5bUpQRHRSTkctLWVVaXBIWGUySGRTdkdaRHNfNDlVcURuSmwycTBxOFc5NFF5WVAtMmZU?oc=5",
      "source": "สำนักข่าวอินโฟเควสท์",
      "source_url": "https://www.infoquest.co.th",
-     "published": "2026-11-20T06:08:40+00:00",
+     "published": "2026-11-20T06:08:00+00:00",
      "lang": "th"
     }
    ]
   },
   "thai_earnings": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "CLSA มองบวกหุ้นไทยปี 70 มอง SET วิ่งแตะ 1,735 จุด ชู “แบงก์-ค้าปลีก-รพ.” เด่น | ข่าวหุ้นธุรกิจ",
@@ -573,7 +573,7 @@
   },
   "china_tourism": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "Xi calls for promoting building of a China-Thailand community with a shared future to higher level",
@@ -584,34 +584,34 @@
      "lang": "en"
     },
     {
+     "title": "ไทยปรับเป้าท่องเที่ยวปี 69 เหลือ 31.24 ล้านคน กระตุ้นตลาด High Season",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zYldtOVZYTDNMQjZmbXB3VGFoYlh3M2lZeUZGM044Ym44ek5xczB0c0sxZVY4cEJVazR5bms1R3Z0VXcwN3pxaEhTMTVEUjFOdFhXVXRfd3NfRzV3X2hBNmpjQ0NIbU9XQzVGRWVR?oc=5",
+     "source": "Head Topics",
+     "source_url": "https://th.headtopics.com",
+     "published": "2026-11-20T16:29:00+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "นายกฯ สรุปผลประชุมอาเซียน–เอเปค จับมือจีน สหรัฐฯ รัสเซีย เปิดดีลการค้ารอบทิศ ย้ำไทยเป็นสะพานเชื่อมเศรษฐกิจภูมิภาค ประตูสู่คู่ค้าอาเซียน . วันนี้ (20 พ.ย.69) เวลา 15.50 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี แถลงข่าวสรุปผลการเข้าร่วมการประชุมสุดยอดอาเซียน ครั้งที่ 49 และการประ",
+     "url": "https://news.google.com/rss/articles/CBMi9AdBVV95cUxOMWRXLXlQTTZkaXhLcTNLNlpkalpwMzFEbV9lUGo0UmJvNk9BTmdkTmxDR3BnMWhkbG55MWtkLXRwRTd5S3U0bVlnV0lTZWdpUjM5MDRuYkxLeHRQS3FyME9HcW9GT2w0Z25xbzZoR3Y1a0FfWnlIOWs5dnRKTUZMWUJReWFnOE9NRFhoTl9Yc0IzVmVoYkduQklSTTF2aGxuY2h0NVFrRVFHU3VkdGFidkw1Y0FaOGxDTVBjeFV4M1dnZWtPVkxGZWpCVHNVUk1mWm12WHdQN0dCRkItUHlPaWlyWldjRVlrbDdYamExUXl3QXhZU04zUmx3VTAxM0lNYzVTV1RhNkxnc1dFS1VtVWYyQnhLTlNFT2VKSGxDTlRaNmZuZ0JhRm1vVEdJOUhfQWdYOGZNU2xYdXF4MnRvdzVsdmREVW11RWMtbWRucjZXMkNHYjJQRS1Vamg4XzZnTWNsZjI2Wmt0ajFsSmRJTjJFUlVROGpsR2s2SFA4VWpxbGVaTFpTeUY1M2kyZnJPRkM5NGh1ODJEb2dPb2ZxTHhwcXAzaU5kTXF1UGVLMlJzX0VUQ0RxX1JiRVJ1c3I1MmdpVU52bVZzZW15ckdzN0FqOEFMX2lUTVJWelJnN0RSRWc0XzhBOVlKOFFGaUg2ME5JV3hLdHIyX1pLSFZLVnhYcUY0T05iRGc0dk9aZnBhYmEtM0Qydnh6Z1BsWmttaDdMZzdrMERkUVhQS1Eyd2hpaHBSdW1YR25uV3VRTVBieFNpcGp3a1NiUERYdmMtTFJhYWZVR0s3T3VEd09KWjBkc21adUZLQ0ZWbC1Pd2ZuZFhtU0dzRDRGUXFiQVFPNnBWQ3R6aWFnTG94QmdsQml4d05YRWprU0RnQ0ZCdWZaYXVRdWRhUkp2cEw3d1NNYVBRckQ0cFdPN1hydUo3NGJEWDlKNU5hTV9YYU5tdVJfUGNOd19yc3ctUUExRW1OYzJyNU1XY1Fhb1Y4aUJTZGRMSHZKaC1xQ2tVQUkyajhOVVhzSVptZERUSGQ5SU5MdEFfaEtVQ2E1Z1pOMFhlT2tNS1FLcHVwNlFJb1lNWkRKNXBabDJCQTRrV2hWYms3TUdxTk9ENlI3QmY0LTU2c1pFdk5VNHA3NVA1cklWdTZLc2Y3TzB0aDZBVm44eVJBREtxUDlNOTFWVGpwa3l3RmpVSmt2UDJCRlZTUWg3SEY4WlhCSjcycklLRGl5MkdoTU91SkFfb1JXMEtoOGFaWDNpTjlaWHNKM1NuVzFQWGE0OXRpSGVwUms5TUFYc2Y2SnFTSDh5R2VMRkRNb0Vic3FQdG5rLWZZZWE5ZnFZcXJNcnRS?oc=5",
+     "source": "Facebook",
+     "source_url": "https://www.facebook.com",
+     "published": "2026-11-20T15:59:43+00:00",
+     "lang": "th"
+    },
+    {
      "title": "ทลายเครือข่ายจีนเทาเช่านักบัญชีไทย จับ 5 ผู้ต้องหาถอนเงินเหยื่อรวม 15 ล้าน",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sNlFOQ1RLNEtRdDBCM0xmQ2wtZm0wLUNMQzZsa1pLZ29lLTBjSlhDVnF6cmJCOHByWDYwdjF5ZnViTk5YeWFwWnFROU8zTWRXdzY4NkZOeC1iTW8wYkR3Vm5pOUEtcHU5eUVHT3ZB?oc=5",
      "source": "Head Topics",
      "source_url": "https://th.headtopics.com",
      "published": "2026-11-20T15:31:00+00:00",
      "lang": "th"
-    },
-    {
-     "title": "เช็กอินปลายปี 69 คนไทยไป ‘ญี่ปุ่น’ ยืนหนึ่งไม่แผ่ว-‘จูไห่’ ม้ามืดเมืองจีนเบียดแซงสิงคโปร์",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6MkVMV2kyUTAtZXhTWXBiMkF0am9Qemhqd2NWZ2xQRW1fMUtkTURtWkpBeU1DcXpxbWptOFh1T1I2Tlh3V1R4NVlDTkEtVVZSdzc0aDRn?oc=5",
-     "source": "LINE TODAY",
-     "source_url": "https://today.line.me",
-     "published": "2026-11-20T15:21:54+00:00",
-     "lang": "th"
-    },
-    {
-     "title": "2026 World's Travel & Hotel Awards Gloriously Released in Hong Kong, China",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUEMybEM3dmtvM1FfUDFkQXJsanhCS0xneVo2UFZFX0VXLUNzYlh2Nk55Qk5tYkdib1FWbFRjaGphU1BaVHhfUzNLZTlLbVRaU0JXVXlGMWJlaUhuV2I5SldCaXRQVlZySkVXYnNNTS1yY29jMk5SZDNtOGgwZTdxMXBYMWNIb0JJdkVIQnlydG9VMGt5TVFjRzNYeGpGcEdpLU5OY3NmakNkLXNRYmNIRDRPb0hpQzRLODFv?oc=5",
-     "source": "Thailand Business News",
-     "source_url": "https://www.thailand-business-news.com",
-     "published": "2026-11-20T14:37:00+00:00",
-     "lang": "en"
     }
    ]
   },
   "thai_exports": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "Philippines Resumes Rice Imports from Vietnam, Thailand and Myanmar — CMB News",
@@ -649,15 +649,31 @@
   },
   "gold": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "When gold prices fell, they flocked to the Grand Bazaar! Long queues formed.",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYnBCU0M1UUZhTzR5WWF5eDhSbW9OUmFTejRWZDBtbDdjVjU2TllHR0VGSjR3OWtEYTFiVkhVdnFCaE5hTjR3dEtzbUNZbkhjRlVjRWVjZTN1c2tfM1Jkb2xJS0Z4UWFoc1NPVHBUZFhleWRmWWtHZmJJakhoVEttcE9sTWpuUQ?oc=5",
-     "source": "Haberler.com",
-     "source_url": "https://en.haberler.com",
-     "published": "2026-11-20T17:09:25+00:00",
+     "title": "Gold Fell 34% in 2008, Then Soared 166%. Is This the Buying Opportunity of a Lifetime?",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOelpxMHgtVV95R2lLdFluNXp2dUs5a1RHRGtWeTNSUjR5S2VhX19OZUticUN3TlZFV28yUXA0N19JRGk4VDZQLWF0TEs0VGVib0ZyeldHb2NYdVVDaUpqUl9YdXRGR3R0STNTWU5wRHNBTzNwempTaWxweXRwaEhkSzVrcUlIY0V3bDF2TUdTcVhRTUxub2l0NGU4V2x6cjZvd2ZLNGppb0FvRFZxNDVXeXVSMV91ay1LUXdKa3hEUWh0TUtUaXZrMS0xaDk?oc=5",
+     "source": "FXEmpire",
+     "source_url": "https://www.fxempire.com",
+     "published": "2026-11-20T17:50:39+00:00",
      "lang": "en"
+    },
+    {
+     "title": "Single-day cut brings gold price down to Tk 2.01 lakh a bhari",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXNZck9IdzIxSHVJeHVEc0U3UkRKSXNyRVVzZmxsTTlTQUhjQ1ZjWjJOTk1veTBVenh3cGI2RW8yLUZTeXVKcGpjMWgyVzZhRVVYWHBNNU5VWnA0cFpoZVV2VDVxT3lLcUMwWnMzZ2swRUh0V3REcUlJejlBcnJQdXJOVkRza1hjTUt1cjZLVzJYYzRZSksxSGRQczRPdjN3d1YxcHhoTmtYOE9DSnRYeTIwMmRHUWlt?oc=5",
+     "source": "New Age BD",
+     "source_url": "https://www.newagebd.net",
+     "published": "2026-11-20T17:42:20+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "ราคาทองโลกดิ่งไม่หยุด! ร่วงกว่า 100 ดอลล์ หลุด 3,600 ดอลลาร์ ต่ำสุดรอบ 14 เดือน",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03eGJna183d2tuREpSS3k5VTc5Ri1LVmc4dzQ0NlE1SEtRbm1HV0JwYU5SUFRKTGFJdU1wRXN3clhfV2ZRNVE5VTBxZnhYbkU3UnJmckhROWdXLXVBNVBkLTV3c3dQYnFrZWpoZ0NJUzNEZGRKa01kMw?oc=5",
+     "source": "The Bangkok Insight",
+     "source_url": "https://www.thebangkokinsight.com",
+     "published": "2026-11-20T16:53:22+00:00",
+     "lang": "th"
     },
     {
      "title": "ราคาทองวันนี้ สุดผันผวน ปรับขึ้นลงถึง 89 ครั้ง! ฟื้นช่วงท้ายตลาด 150 บาท แต่ภาพรวมยังร่วงหนัก 2,350 บาท/บาททองคำ | การเงินธนาคาร",
@@ -666,29 +682,29 @@
      "source_url": "https://today.line.me",
      "published": "2026-11-20T16:51:31+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Rising Factory Costs: Why Gold and Silver Still Matter",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkE1Ukp6bXdZcC1qaUZQZnJMeEJ2UDU0ZThLTVJlRXQybkM0UUczd1kzY3hNQy0yZ1hDZUQwMEZBWmRrWUQzTDc1WF9fWmFiQV9aTXBwc3NleU91S2dJWTZ6RU9OS1hSaUlFSXVoQWVDR01Rclpnblg3ZlZnbEtYWHNNVXhmelZPbGsyMlM1XzlGd2YyUlpUMnExNjNnNnZ2R01LOGE2dzBXdTFQTUZV?oc=5",
-     "source": "GoldSilver",
-     "source_url": "https://goldsilver.com",
-     "published": "2026-11-20T16:43:12+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "ทำไมทองลงแรง ? เปิด 7 ตัวการฉุดราคาทองร่วง",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE96cXBPRkpUSWVyeVhJRElmam52d05YaDE2Qms5ZS1ISU0tOV84anNiRWV2TWNKV01nT1VSelRpRnliNmFBMUZRemttZ0g?oc=5",
-     "source": "kapook.com",
-     "source_url": "https://money.kapook.com",
-     "published": "2026-11-20T14:20:54+00:00",
-     "lang": "th"
     }
    ]
   },
   "real_yield": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "ราคาทองโลกดิ่งไม่หยุด! ร่วงกว่า 100 ดอลล์ หลุด 3,600 ดอลลาร์ ต่ำสุดรอบ 14 เดือน",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzS1ktN3ZrLUduNTh6Y3FoLUoteDM1NTdqVHBFOVA1M0l5eUtDeU5LVDRWd2dRd21ITDQ4SFBEZU9ILUMtQ0dpd1BlaTdxYzYtczNOS3ZDSGNkbElmNnZWTHRnN0NzV2k0cDhGRXVfV2Y?oc=5",
+     "source": "LINE TODAY",
+     "source_url": "https://today.line.me",
+     "published": "2026-11-20T17:49:49+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "ทองโลกทรุดหนัก! แตะ 3,526 ต่ำสุดรอบ 14 เดือน เฟดส่งสัญญาณขึ้นดบ. 97.3% ดอลลาร์แข็งซ้ำเติมแรงขาย ลุ้นรีบาวด์ แต่ภาพใหญ่ยังเป็นขาลง!",
+     "url": "https://news.google.com/rss/articles/CBMi1gpBVV95cUxOaWpkQUc1TkJ2b1ZaNVRvTEFjWXBNNUZZTjhoV2hFb05ISGV6S0RaNVIwS1RMeEhIUDJKWS1JcWNpQVRlbmJybE1UR3dOSm9nSE1WYzkwOWhYbm1KY3lGRWUybEVnRjBpcnpSSWRPWnMyMmJlcERaSnJJcUNORWhpangydWV4TWIzNERMNGV4VHdKaGR4Smlzdlh3Z0ZVTFBtNlJ2azRPTmUwS3FmaFhCM2tYZFh1bG5VX1lLeFFvWGt4SFhkX1NmNHFLM3hJS2lBR2dmTHJsRVFQOWtTVlRsLXJrTnlSN052WW1qUTNnR2lDR3k1Q1pPdWZHa2xHVThBcHlOTEd4aXYxUFlYUVZNWUNuYjloa2tadGR2MU9ob3JwZjJJbXRHV0hVdmtDdnd3RGpzZ2tCWFBlaWRLRUtnQ2NtY25qMTUyMU1TemRxUTRySDJOVTNpT00tU1ZMeGVyY3lkTEgzNlY4eEdBckRYSXdwNEVSLVdleGRIQlp4bHZiUXZyNjhoa1NmLWxxYXFRRXdCVVo1cy1Hd3RGZXpJNklDVXd6VWxpUFNBM09Ya3J1eXFaMzU4RWdUTFRFYWNBa0tJM1pndUl0LU1sYzhEbFpGaUI3MWhxb1NfaXhrUV9yN3IxNnU3VXJTc213ZThWRUUyMzk2Z3BBbWd0b2V5OVZELVl1SE1sTTQwd2ZhWFVvWVVyV0U4NEtsWUhPVXNTem1Ra09yWVdqeU5YdXlzMHd0NFo1X1NOWmJrbEhYSl9IWFdqcFBIRVlrU0lNVkNWRHk1Y1Q5RHRaMHJYblpCTTdHVERFWnlCWEJ0THVpV2RXeFdWS2E3VmpvTGd1ZVRtNG9Deks5enBWZW5EeWlpYWs5UFRtakUwWXVmNVI0SU5SdEtUU01pSjRmVDRUYlViM01RNU9id0FwY05CRnJKYUI0VmxTT19mTVhkQmNIblNjREVCWFc0Ym8zLUZ1OHYzaGxxTWQ5bFo5eklOTmNZbUZYRUMxX1p4UGxhOWJrX2x1RGRoXzZ2ZXhFd2JWMUt4cDE2OE05RGhMUTg2ZEtRc25pRzhydDFTVkdRcFJMNVdsZ1NiMzd1WHZQYnpNSXd2dTZhUlNubFhCYlFEb2hKLVJzdUVJWnhKdHBpdzlPYVB2SFZkdFUwcGV4aE1lNFNCbjZJQkZCY2t3M2Rrb3d3Q0Z5bEYxcGFhVVE3eE5QZFhuMkZSQS1xd1E3UU5Gcko1SkxMbWVmc3ZLUWtqdWFBdEVqaFZseXVTazNkZ2d2Q3NwTDlmczl2MjZtaVJEMjZ5MFAzVVhGMDlXZGdIdzFBTUw2UXQxZ3I2M2tKNnpEdEw4VllJd0pUc0hJNUxzTXZTYWNKMWUzX3h6ZG1Bd1BFd1k0dU5MbjZyN2V4bXlYUmktNjVRd2RPUC1HeWxVcnQ4MGVNOTRhVVF4TUlCaTJNTVMwSmVUMi1zak5fdEdTN2ZLSzRKeUNwYzJkWHVkQ0JrYUV3a0tjenRQaE9YQ2VQdmpBOXhWVkgzSm5PSU1QY002dy04MUgxbFV0cUFqVWEyeDhJLWdtOGlveHNZZzhOcVpSUTdlWmI5LUhONUExMW5PUWF1R2NYVTRrRlU2LVQyXzQ0emx2bl84Q2RYT21SWHBRVEE3UEhwa3Jta2FTOXN6T2hUc3JxYk5RSHRXM3JhV0x6UHF5WnF0NlUyOFpnSWNJbmduMTlKaXVXN3BiMmp5ME5YS0NXc3c3WDBZdVNFV2l5ZW83TThWTUpYaVRCX0t4NU1DQ3hwbXJoeEswLV9QaWZnT2txNjRqbW5MLW83Y1k5TF9B?oc=5",
+     "source": "Share2Trade",
+     "source_url": "https://www.share2trade.com",
+     "published": "2026-11-20T15:13:49+00:00",
+     "lang": "th"
+    },
     {
      "title": "ราคาทองโลกดิ่งกว่า 100 ดอลลาร์ หลุด 3,800 ดอลลาร์ ต่ำสุดรอบกว่า 1 ปี | The Bangkok Insight",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qUGlPalpLSTJHYXVBN2d0U1FqVnR5a21NMk4tdGdmWllwbGZnTmhzUllqSG9tWTNCdXc0TkRDb0ZKZnpDbXhPclhmQmdQVzB6NzRPdUJn?oc=5",
@@ -704,29 +720,21 @@
      "source_url": "https://www.bloomberg.com",
      "published": "2026-11-20T12:13:18+00:00",
      "lang": "en"
-    },
-    {
-     "title": "ราคาทองโลกดิ่งหนัก! จับตาหลุด 3,500 ดอลลาร์ เสี่ยงฉุดทองไทยแตะ 5.6 หมื่นบาท",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51TThkTE1fZTM4LXdjZ3h0d1FTRGNEWjZQb1dqVEZPUTd3V2ZoZEFRWWR5MmxMbXBpX1d1MU5VdVZXMXoxRHI2VWpxcVJzazJhSVlSbDJCdG1EWHJNODJ3Rmd2M0dDbi1KcEFObmp3Z1hfWWExdDJiNA?oc=5",
-     "source": "The Bangkok Insight",
-     "source_url": "https://www.thebangkokinsight.com",
-     "published": "2026-11-20T11:56:45+00:00",
-     "lang": "th"
-    },
-    {
-     "title": "สาวกทองคำช้าก่อน! 'กูรู' เตือนยังไม่จบขาลง อย่าเพิ่งถัวเฉลี่ย เสี่ยงแตะ 3,400 ดอลลาร์ รอจังหวะค่อยช้อนซื้อ",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95RElXcXJTY0Jfa2JtQkZRTjdHZTV2ajRBa243OThRRVBlQ1RmTU5WZC10Q3kzekhkZDNXdURDZVhQb1hLb1FvRnpfX2Z5Q3p5NUhwSklEUmowcTIwQzZwNzJFcGZuRUVB?oc=5",
-     "source": "bangkokbiznews",
-     "source_url": "https://www.bangkokbiznews.com",
-     "published": "2026-11-20T10:29:00+00:00",
-     "lang": "th"
     }
    ]
   },
   "cb_gold": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "Frank Talk: Why Central Bank buying is keeping gold afloat as more Fed hikes are expected",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZVVub1dJREFPLUpUaHJOd0RVOV9tTlV6WXRRN1EweGltZE43TnE3UlRVaHBCZFNFY1FSUFc1UmF5bmhpblZFSl9RU0RvWUZLcHhMUk8xTG1uRzdaSWVhdmVMdlhPWmJYYk5SQTE5eTVPbVQwazVjSXUxSlNDTVVoalRhVk9rZzRIQUs3RFVZV3ktTGd5Z3JsUklZaTllLUJ4RThjV3J1ZG90di13OUVWc1RHaG1SeVFoMFNzaFJWY2lEbTZlbU13MlpXVTRRZzRMSlQxRVVvbFdrM2syRmxGLXYxNHZ2a0podWgxWmpuZWM?oc=5",
+     "source": "Proactive financial news",
+     "source_url": "https://www.proactiveinvestors.com",
+     "published": "2026-11-20T17:23:00+00:00",
+     "lang": "en"
+    },
     {
      "title": "Gold under a hiking Fed: central-bank demand versus real rates",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZ1FnbGMtajVDa2FNWUQ5eGVERmkxaUNRcjNIMUNDNUprbGlCajZ6dE8zSEdubFNjY0hwYlhxTTlQdmd6UzNIUnVGbGtnVzBXOTZPbTQ4NnRIS1ROaE1oN09HbXl6OXYwZnF2M1AzZVktbmZyTDRGRkV0emw3b1pBSDItQkk5dXJmODRIbi1wYTBsZFVuOXllTWJEWTVibXJkdlE?oc=5",
@@ -736,35 +744,43 @@
      "lang": "en"
     },
     {
-     "title": "Gold price prediction 2027: Gold crashes nearly 36% to $3,585 from January record but Goldman still sees $",
-     "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNc2ZqZXM2dWZXY3c4T3lKN0tTemNMd3ZSZW54SDVjZVdQYklLYVBqanlXdWZSZG5FUXZfSU51UktSSWJKZC1uTGx0elZRemdwN05SdmVnRHctZmJqeThXLXppVEI2SXBUaWtMX1ZQZGR4UUtyVmU0NDhzRlFqVC1JUU1DUUtJa2x0QkFoTTVHV2lUUEFTVjhWbDEzVmlfNklOUkZBUWZpeDBPY1NITTVHTWhrd211Y2JPNTVhYWJ4Wjc3LTlicTc5V25KaEVHZ0FCNEcteS1FYzZtSEtLeWVyV0lVV1VkUnRMRlJSekFOdHBQeF9RX2d0TmxBN0Y1YkJrdXRLLVREY1lXWTRfMjdOTXVQcXBYS0tUUHRlMktnRHVocXdGcGhiT0xIVEXSAbICQVVfeXFMUDQwb09FWlFGNEdiWS1aQjBKQzVXbjJwcjJIU1p0S1pkZjZtVU05ZWo5OWl6d0xWMUtQcl9sQnNWVGxYdVV0M0tPdTdyUXBtb3UxLXRfYWVlVXd6d2JvVGxqN1daZkdfMDRIbHBRSFpreXpsVF9nbVNNSmJBQ0VJVjVONDk2dF9rS3RoVy1PMEdrYkRmYU94MDZtZFFxUXNwZWJLOHdtd1ZFUm03Tjl5bUplVnhmUWZ5SENRZFE0aFBhU3JKR25PNy1jdlAtTndZX3gwVTEzNjc2M2VmT2pXTE1QUlFXQ2NZWjZNZnF6bXBBU1ZyUVlzNWFhR3lLUW1GZTFDbGNoX09PcG1XQW5GV3RrM2RkWnp4aHJzMTR6OER2QVhjRWEzUXZGMjgwMnViMFZ3?oc=5",
-     "source": "The Economic Times",
-     "source_url": "https://m.economictimes.com",
-     "published": "2026-11-20T14:21:50+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "ทำไมทองลงแรง ? เปิด 7 ตัวการฉุดราคาทองร่วง",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE96cXBPRkpUSWVyeVhJRElmam52d05YaDE2Qms5ZS1ISU0tOV84anNiRWV2TWNKV01nT1VSelRpRnliNmFBMUZRemttZ0g?oc=5",
-     "source": "kapook.com",
-     "source_url": "https://money.kapook.com",
-     "published": "2026-11-20T14:20:54+00:00",
-     "lang": "th"
-    },
-    {
      "title": "ทำไม ‘ทองคำ’ ร่วงกว่า 30%? เปิด ‘4 สาเหตุ’ ทุบราคาทอง จากสินทรัพย์หลบภัย สู่ของที่นักลงทุนแห่ขาย . เกิดอะไรขึ้นกับ “ทองคำ” ที่เคยเป็นสินทรัพย์หลบภัยอันดับต้น ๆ ของโลก หลังราคาทะยานทำสถิติสูงสุดเป็นประวัติการณ์ที่ 5,589 ดอลลาร์ต่อออนซ์ (81,950 บาทต่อบาททองคำ) ในวันที่",
      "url": "https://news.google.com/rss/articles/CBMisgdBVV95cUxPWEpsVXItSUlJaWZQWDRVbWNMRzNwdzlDanA2NXVnNUZSaWtMTzBSdFFWZGRPcHJqZzk3cEh4Y1ROenV5QTZjQVRJY0JaUkwwYnhqVUtOQkZNdW9kX2lpZXNaSzkwOVQ4ZWdDNlpoUzJmTC1qYWhOUk9xYUo3OUZjZHBtZTN0cWw0MlI5QkJRUGFvM3ppVERfMHMtVUltTW84UkZHWG9NRU5qajdSVlRWdi00cV9NdGhKRmFUd18xSmt2Ukxpcy1YUmxSMElXZWhXTXUzNXJZVnVxOG45eU9XdFRNZmNRRDdLU0lSUzFaVlZLRWxPeEhBdUFGaFlXOEtTcnlUX0pCOHJzWXJ0V2labjBDLVJEbTM4N1RJcFc4bVlCd3AxeGNYYlI1WHBuVWQteEs5NDJPOHNZVDBzOVRIVDVWOHUyNFRUQkZLemkybU8zUmVWZkVPZGZJQWY0a1JnY2Qtc19yX0RJbkFBS2hnUE9pbEJvV3BBa0o5Wkt0ZklVRnZGTFAxbzl1RFJRTHN1aGcxemh3eTFGbWlLVDF0cURvMnZCLUZwRUVhTUlqM2pKckVqd3o4LURyTkZpdjIxQlFUY3FLZUh1cnJGLWZHZDF6VW42UUV6OW9sWFlxQm8ydkt1X1FYMXhxdHQ2elNpQjg0bVdlSVp0SXdLanFRVGQzeFZrVm5xbG90MmJQaENnMXBnQlQ5ZGpTbllLVElHNlJIc2pZb0FEeHdEVWJLWWtQVlF5dzhQZUdSWEQ0dUh4SnF1UzFuLXJHN3VaSFlWRjBUd1JQdzhPaTV1V1RiSm5UOExSZFdRMmgyRURvU3hpblBmVmhzTHpwTmRGdzVUdjNnMGlmQk1IRE9RU0kxNWVZWnVYSDZTUWZnOXc4OTR2NGNMT3dRaXNLbFhYSVp6WDJFNFdTYzRRZER6ZVFYQWE4a0czRjZaZ0J5My0zSWRlWWNkUUdPVmpvdDFweGlPWjc1QnZLa0YxMGJMb1h4MkJnV3pKcnpGTzR0X2M1UjNnZGtnUEx1c1I4Z3gwbGVCTy1NN3ZVRnFpNVRzTkxhaXZRc25ERk10NmZxNXBJeWtxT0lYdjBJVkQ5c3dNY0Q1blBEMnlCVDA1cTl3dzFwZXdJcGVfbkYwSzlIWGNwUDdLb1Z6MW9hUzZfWGhkaVpwMTNkdmU5RkpmYk9VOUs0MDRZM0RGRVFhNHMxcXFLaXRRM0xmMjBtUGtNQ3B1bjV4ZHpUR01wdmxuQldWTDNoQ0V3?oc=5",
      "source": "Facebook",
      "source_url": "https://www.facebook.com",
      "published": "2026-11-20T07:39:35+00:00",
      "lang": "th"
+    },
+    {
+     "title": "ทองคำหลุด 3,600 ดอลลาร์: ขายมากเกินไป (Oversold) หรือยังลงไม่สุด?",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMkFBZkNlMlptUUh3SWtnM2xNLXFjVHp2VUhhUG5zaWhNWnVMNWh6d0ZzNmFLOEs5UGhjWWFkQU14dWNZYTAzbkZ5dHo3NmZJV0NTTENmVWZaY0t0Y2R2YUJIeXBha1Exa2tqQ0MzLV9Zb092MGZFZTF0OGhpenpIZkV0eXhDdEcyeTBjSEFXY2NIV1AyUk5mVzBJcklHdDRLY2dvYw?oc=5",
+     "source": "Moomoo",
+     "source_url": "https://www.moomoo.com",
+     "published": "2026-11-20T07:01:06+00:00",
+     "lang": "th"
     }
    ]
   },
   "geopolitics": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "Geopolitical Shifts Are Reshaping Global Energy Markets",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR1ZJaUk1QkdfdzNYX0lWMkdBWTAyUTdDTUJoMjhYdmxvMWxhYWJUVXRRbE1hZ1VFX1FKdENibjlzQVZFeTZyY20wRWM0YjU5VFZ6akpWZG44RVN1c0ZhRVRHOGRsdVcxeVpDdUZ1WFVsZlJKUmxncl8ySU5jR3lza0VlVG9Wb1M4ZWFJSUdsSFhIQ2gzSUlwRXdRVU82eTZKZ3pxWUtSbUFJbldYaUE?oc=5",
+     "source": "Apollo Global Management",
+     "source_url": "https://www.apollo.com",
+     "published": "2026-11-20T18:09:59+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "WIG 20 Drops 4.48% as Geopolitical Risk Hits Warsaw Stocks",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzdOZTdZT2ZUQ2FDSWNxcWtaN3lQR2V1VG5NUXNnd1BwMXRMdXZCN3RBbzFlVndhNkR0dmRWcjhzSVVXT2V0LWtBdmFSU0FZSjlvUWlxSjRrcURveGhYT1BfRGJoMVR2TjJFMTlwelMzV0V1YzNVbTI4VXhZcHZHM1lORUF4R1d1QWI2UmgwRFJxb0c1MldOOVZpMmlWRGxmaTBQUXRSZWk5MXhQNVpKZDE4SWxuZzh6OF9n?oc=5",
+     "source": "ad-hoc-news.de",
+     "source_url": "https://www.ad-hoc-news.de",
+     "published": "2026-11-20T17:41:45+00:00",
+     "lang": "en"
+    },
     {
      "title": "‘สายลับจีน-แพ้เลือกตั้งกลางเทอม’ เพิ่มเดิมพันทรัมป์เยือนเอเชีย",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4TWVLOC1oX0JPQXR5eWRCaHJITk92Y1hnLWR5YUh1SzkyeEtoQTM2aUxILXJGYjVVQzN1aExPdmNUWVFtNC1wU1pSb0xVb3NKbEJmM0x3dmttaGhkaXdSUHV4a0VKR0E?oc=5",
@@ -772,22 +788,6 @@
      "source_url": "https://www.bangkokbiznews.com",
      "published": "2026-11-20T16:37:02+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Hormuz crisis set to reshape global energy markets, IEA warns",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYm9KOWg1MVd2MG1mcmszbWZyUHRIQTJRUS11a0E5eG9SS2lHVTk5bzFhenJKNmJrdmlYakhqVVJ2RmwzeEJfUnNrQlNXTnkzOHVyZTc0cy1ydUhZWU1EeGJCTy14VGxGYUViSWl4by1SY3JWdzlzMkxjRnM5Q0lVRkxUSmpwUl91TGVZa0lSYlRsalEwNWc?oc=5",
-     "source": "The Independent Uganda",
-     "source_url": "https://www.independent.co.ug",
-     "published": "2026-11-20T13:00:10+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "U.S. and Israel Weigh Renewed Strikes on Iran in Near Term",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tOVBoa0VBdThkektvQWFXV0RtalRudlZycWRWWmNWSWZ0MTAyT1VZZGFIY0l6N1Nqc1RBM052b09HdXNxWl8weG1uSmJaaFotWGtLdWo2TVJyUQ?oc=5",
-     "source": "TOKENPOST",
-     "source_url": "https://www.tokenpost.com",
-     "published": "2026-11-20T12:19:27+00:00",
-     "lang": "en"
     },
     {
      "title": "สาวกทองคำช้าก่อน! 'กูรู' เตือนยังไม่จบขาลง อย่าเพิ่งถัวเฉลี่ย เสี่ยงแตะ 3,400 ดอลลาร์ รอจังหวะค่อยช้อนซื้อ",
@@ -801,8 +801,16 @@
   },
   "inflation": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "‘ดาวโจนส์’ ลดเล็กน้อยไม่ถึง 100 จุด เจอแรงขายหุ้นเทคโนฯ-AI ฉุดตลาด",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wQTlGUGZ0R01ITHkxMGxXSmN4dnNzT3dfd2JlTnRtbHpTUUNJV0ZVNVBXVEZYNV9LRENycXdPQkJKR1oxR3BtTkhpcXRUbHY3SVJpR1BNMmN3dlJOdUs2Um1wWU1nNkJIUUY4eUlEdGRRbGR5S0E?oc=5",
+     "source": "The Bangkok Insight",
+     "source_url": "https://www.thebangkokinsight.com",
+     "published": "2026-11-20T16:43:15+00:00",
+     "lang": "th"
+    },
     {
      "title": "Nasdaq 100 Forecast: NDX falls after hotter inflation, Anthropic IPO details announced",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON1Q2X2paSDVqZVU3OS0tRFRkZF9JZTZ2d0ZkOHJROHkyYnoyUldxbkpMLUgwRm5CeVlnUWZtMi1OUlF5ZTNVSklUelo0U0Qtb3JCcGMwbkNHSzdIZUo4dWMyWXpHdXdJaWZOZzQ2c3dabFJjUEdOYXJBZ2VpTHV1ODZ4V1l3WW0xNnBwcEdhX3pPZlJuLS1fdFhyT25VLTEzZUszeEZadWdsVHd5eGVvS2N4STlxWFdHdEFkbVN6V0F1ZGhtSDIza2xBRE4?oc=5",
@@ -820,14 +828,6 @@
      "lang": "en"
     },
     {
-     "title": "เงินเยนญี่ปุ่นแข็งค่าขึ้นเล็กน้อย หลังข้อมูล CPI หนุนคาดการณ์ธนาคารกลางญี่ปุ่นขึ้นดอกเบี้ยในเดือนธันวาคม",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQjRiN0d3Z0RITkxhMHY3aTk3dDdmeTQtSzJ6LUZFZDBPclloNnhSV1RPbXdVamdQcTdpMUVqeDFFeEJQc21jeklNb2x4SnNrcndUZlR5bGhKV0ZzUTk5SkItbFpIWktyY1lHXzhCUzJ3NEVQaGxlV2p0aENsX05ZRTdNZ0pqdmVoUEVoQUd6aTBxTWNSVzd3ZnV0cWtsMGVBOGgyaTZkWU5QRUg0cjAwd3NnZmxjVVVmN1F6S0s5SjdqWVg4UXBrZVNYZ2kwVGpqS2YwQ2hNNTAxRGpxb3V6QkV2d3Q?oc=5",
-     "source": "www.tmgm.com",
-     "source_url": "https://www.tmgm.com",
-     "published": "2026-11-20T09:12:04+00:00",
-     "lang": "th"
-    },
-    {
      "title": "‘ดาวโจนส์’ ปิดตลาดดิ่งแรง 1,101.11 จุด ผวาเฟดขึ้นดอกเบี้ย-กังวลอนาคต AI",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUQ0dPVUhxbkV1ckpGNjBrakxXTGtZYkp5QjBlYXMwbnZBREhZZkVzZ2xCSjYxTXE2OXotR1dHMk1qeFpyRXZJd2pKNWJsbk9CNzdyVTJfTy1qdEszSHhLQkx1OTdvRWdKX0Q5WDd4VnlhWHpiekE?oc=5",
      "source": "The Bangkok Insight",
@@ -839,8 +839,16 @@
   },
   "gold_etf": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
+    {
+     "title": "Gold Price Forecast — XAU/USD ($3,568) $3,755 Upside Target on 97% Fed Hike Odds",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHZaRWNIay1sTDdCX0JTSHJ1eWtJVzJjWTFydGVKeC1xQW5EUENxXzRqNVhvQUdYVlZrLVViTGpCUVJoMzl6WUp1VVMtSWh0Wm5GRHd2ckg3X0Rmc19TNENheHFMWnh4TzRpTEtZZ040NU8zR3RoLWhhWUk1NnVHYm1McnlWdlV5eHBVWmZlaVdPOERjaEx4QVNVa0FIMVJDM3NaZzBPSms2dWFUekZwYWt5SjJnRkhQbzRadng4N1k5MkE3Wmc?oc=5",
+     "source": "TradingNEWS",
+     "source_url": "https://www.tradingnews.com",
+     "published": "2026-11-20T17:24:33+00:00",
+     "lang": "en"
+    },
     {
      "title": "Gold is crashing but Canada's Warren Buffett is betting big on it",
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLVlXUFYtVVhYSzQ2YVZVR2NIZEdwN0x2TXpBTnNCU0RGWFB1Q2lOYmNaTXFiYzNlV2liNjZwUlhHYmFLT1REdDdNXzF3dXhRVk1vRW9takRMTGhMTFFzei1iSDdpQ0kyWjJUblNMa2JZMVZ5SkFBdm5tVFJGN3BCWlRlSGQ4RGVCUm44NENMTjN2dnB5NVdXQXFNOE1YN1FMTWVjenA0WVZmMXVFM0Y1alkzemZjbTNzZlBlRUhfV3R6SWd6dENwa3VKYkRud1FnZGZreVd6d2xqNGlpbkZR0gHkAUFVX3lxTFAtVWJPUVFDUGFoWDVKMnk5R3AybDRvYTE5dUp6YUJfaDVvc1llMGp6Zlcxb05JX2VVbmVPT3VTaWl0YW9CaVJMYkJxQWYweUFnenhSZ3hsWGtaUUhPNXhqYmpwUXkyNTR0X1dJWVlMcVEwbDdPbzFKZ2E1bTRPRjFRSjY0akV4UUNUYWJSdmxNZVc0b2hvY3V2dXhzYlAyZzQ4NnZFU2ZCZS1EN2R6d0REQi1Jd2F6WUhmS0F5eGpoOFdPVFFMenV0OHozSFcyWS0zU04tX2RxSzNXeEpUVXNWUndwdA?oc=5",
@@ -858,14 +866,6 @@
      "lang": "en"
     },
     {
-     "title": "Gold price prediction 2027: Gold crashes nearly 36% to $3,585 from January record but Goldman still sees $",
-     "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNc2ZqZXM2dWZXY3c4T3lKN0tTemNMd3ZSZW54SDVjZVdQYklLYVBqanlXdWZSZG5FUXZfSU51UktSSWJKZC1uTGx0elZRemdwN05SdmVnRHctZmJqeThXLXppVEI2SXBUaWtMX1ZQZGR4UUtyVmU0NDhzRlFqVC1JUU1DUUtJa2x0QkFoTTVHV2lUUEFTVjhWbDEzVmlfNklOUkZBUWZpeDBPY1NITTVHTWhrd211Y2JPNTVhYWJ4Wjc3LTlicTc5V25KaEVHZ0FCNEcteS1FYzZtSEtLeWVyV0lVV1VkUnRMRlJSekFOdHBQeF9RX2d0TmxBN0Y1YkJrdXRLLVREY1lXWTRfMjdOTXVQcXBYS0tUUHRlMktnRHVocXdGcGhiT0xIVEXSAbICQVVfeXFMUDQwb09FWlFGNEdiWS1aQjBKQzVXbjJwcjJIU1p0S1pkZjZtVU05ZWo5OWl6d0xWMUtQcl9sQnNWVGxYdVV0M0tPdTdyUXBtb3UxLXRfYWVlVXd6d2JvVGxqN1daZkdfMDRIbHBRSFpreXpsVF9nbVNNSmJBQ0VJVjVONDk2dF9rS3RoVy1PMEdrYkRmYU94MDZtZFFxUXNwZWJLOHdtd1ZFUm03Tjl5bUplVnhmUWZ5SENRZFE0aFBhU3JKR25PNy1jdlAtTndZX3gwVTEzNjc2M2VmT2pXTE1QUlFXQ2NZWjZNZnF6bXBBU1ZyUVlzNWFhR3lLUW1GZTFDbGNoX09PcG1XQW5GV3RrM2RkWnp4aHJzMTR6OER2QVhjRWEzUXZGMjgwMnViMFZ3?oc=5",
-     "source": "The Economic Times",
-     "source_url": "https://m.economictimes.com",
-     "published": "2026-11-20T14:21:50+00:00",
-     "lang": "en"
-    },
-    {
      "title": "ทำไม ‘ทองคำ’ ร่วงกว่า 30%? เปิด ‘4 สาเหตุ’ ทุบราคาทอง จากสินทรัพย์หลบภัย สู่ของที่นักลงทุนแห่ขาย . เกิดอะไรขึ้นกับ “ทองคำ” ที่เคยเป็นสินทรัพย์หลบภัยอันดับต้น ๆ ของโลก หลังราคาทะยานทำสถิติสูงสุดเป็นประวัติการณ์ที่ 5,589 ดอลลาร์ต่อออนซ์ (81,950 บาทต่อบาททองคำ) ในวันที่",
      "url": "https://news.google.com/rss/articles/CBMisgdBVV95cUxPWEpsVXItSUlJaWZQWDRVbWNMRzNwdzlDanA2NXVnNUZSaWtMTzBSdFFWZGRPcHJqZzk3cEh4Y1ROenV5QTZjQVRJY0JaUkwwYnhqVUtOQkZNdW9kX2lpZXNaSzkwOVQ4ZWdDNlpoUzJmTC1qYWhOUk9xYUo3OUZjZHBtZTN0cWw0MlI5QkJRUGFvM3ppVERfMHMtVUltTW84UkZHWG9NRU5qajdSVlRWdi00cV9NdGhKRmFUd18xSmt2Ukxpcy1YUmxSMElXZWhXTXUzNXJZVnVxOG45eU9XdFRNZmNRRDdLU0lSUzFaVlZLRWxPeEhBdUFGaFlXOEtTcnlUX0pCOHJzWXJ0V2labjBDLVJEbTM4N1RJcFc4bVlCd3AxeGNYYlI1WHBuVWQteEs5NDJPOHNZVDBzOVRIVDVWOHUyNFRUQkZLemkybU8zUmVWZkVPZGZJQWY0a1JnY2Qtc19yX0RJbkFBS2hnUE9pbEJvV3BBa0o5Wkt0ZklVRnZGTFAxbzl1RFJRTHN1aGcxemh3eTFGbWlLVDF0cURvMnZCLUZwRUVhTUlqM2pKckVqd3o4LURyTkZpdjIxQlFUY3FLZUh1cnJGLWZHZDF6VW42UUV6OW9sWFlxQm8ydkt1X1FYMXhxdHQ2elNpQjg0bVdlSVp0SXdLanFRVGQzeFZrVm5xbG90MmJQaENnMXBnQlQ5ZGpTbllLVElHNlJIc2pZb0FEeHdEVWJLWWtQVlF5dzhQZUdSWEQ0dUh4SnF1UzFuLXJHN3VaSFlWRjBUd1JQdzhPaTV1V1RiSm5UOExSZFdRMmgyRURvU3hpblBmVmhzTHpwTmRGdzVUdjNnMGlmQk1IRE9RU0kxNWVZWnVYSDZTUWZnOXc4OTR2NGNMT3dRaXNLbFhYSVp6WDJFNFdTYzRRZER6ZVFYQWE4a0czRjZaZ0J5My0zSWRlWWNkUUdPVmpvdDFweGlPWjc1QnZLa0YxMGJMb1h4MkJnV3pKcnpGTzR0X2M1UjNnZGtnUEx1c1I4Z3gwbGVCTy1NN3ZVRnFpNVRzTkxhaXZRc25ERk10NmZxNXBJeWtxT0lYdjBJVkQ5c3dNY0Q1blBEMnlCVDA1cTl3dzFwZXdJcGVfbkYwSzlIWGNwUDdLb1Z6MW9hUzZfWGhkaVpwMTNkdmU5RkpmYk9VOUs0MDRZM0RGRVFhNHMxcXFLaXRRM0xmMjBtUGtNQ3B1bjV4ZHpUR01wdmxuQldWTDNoQ0V3?oc=5",
      "source": "Facebook",
@@ -877,7 +877,7 @@
   },
   "treasury_supply": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "The $320 Billion Divide: Who Funds America's Debt?",
@@ -915,7 +915,7 @@
   },
   "qt": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "Crack-Up Boom Explained: Is the US Dollar Approaching Its Endgame?",
@@ -940,29 +940,13 @@
      "source_url": "https://www.federalreserve.gov",
      "published": "2026-11-18T08:00:00+00:00",
      "lang": "en"
-    },
-    {
-     "title": "Fed Should Set Principles for Treasury Market Intervention, Cleveland Fed President Says, Urging Peacetime Preparation",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mWVczQjJGUVhnbHc4SzdsVU84WC1RNVRBd3duUGYtbDNhRTZGNThWNGZtSDZOMmZEaWdjdWRTZWZXbDFCVVVBeXJ5S0l2TUxZRU9XWlF4aWk3aHh2UDRONVBudWREOTI3aDBWMWpOUk5oZjFudUE?oc=5",
-     "source": "BigGo Finance",
-     "source_url": "https://finance.biggo.com",
-     "published": "2026-11-17T17:25:00+00:00",
-     "lang": "en"
     }
    ]
   },
   "other_cb": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
-    {
-     "title": "เงินเยนญี่ปุ่นแข็งค่าขึ้นเล็กน้อย หลังข้อมูล CPI หนุนคาดการณ์ธนาคารกลางญี่ปุ่นขึ้นดอกเบี้ยในเดือนธันวาคม",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQjRiN0d3Z0RITkxhMHY3aTk3dDdmeTQtSzJ6LUZFZDBPclloNnhSV1RPbXdVamdQcTdpMUVqeDFFeEJQc21jeklNb2x4SnNrcndUZlR5bGhKV0ZzUTk5SkItbFpIWktyY1lHXzhCUzJ3NEVQaGxlV2p0aENsX05ZRTdNZ0pqdmVoUEVoQUd6aTBxTWNSVzd3ZnV0cWtsMGVBOGgyaTZkWU5QRUg0cjAwd3NnZmxjVVVmN1F6S0s5SjdqWVg4UXBrZVNYZ2kwVGpqS2YwQ2hNNTAxRGpxb3V6QkV2d3Q?oc=5",
-     "source": "www.tmgm.com",
-     "source_url": "https://www.tmgm.com",
-     "published": "2026-11-20T09:12:04+00:00",
-     "lang": "th"
-    },
     {
      "title": "Japan Inflation Rises to 2.3% Ahead of BOJ December Meeting",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWx0NXIzR1RoWDJxZzU4b2o1cjRoRGF3RzBwSnBGRFp6QWRWZm1qSlB3eVNMUmplMHFiemMtdHBsaVgxVWNFTWJ2cmJyd0J1ZnlBZG0zZXBVcnFRdWU1Vmd2TWVkamR6eDFrZTJNeldkeDRNdEJJdnBFaV9FOWZ0X19BN0J5X0wyWFNyOGdn?oc=5",
@@ -986,19 +970,27 @@
      "source_url": "https://www.infoquest.co.th",
      "published": "2026-11-20T05:48:49+00:00",
      "lang": "th"
+    },
+    {
+     "title": "“เงินเฟ้อญี่ปุ่น” พุ่งสูงสุดในปี 2569 แตะ 2.2% ตลาดคาด BOJ ขึ้นดอกเบี้ย ธ.ค.",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tNUpMRDhCQ3pjZE83bHY4QUVfM3o0NGRDMXdJNGVzR2pHRFEyUkdKUHZmTVM2VUsybDZ1bEVNbDdGRkgwQ2laeGJ5TThGdENmNm1NZQ?oc=5",
+     "source": "วารสารการเงินธนาคาร",
+     "source_url": "https://moneyandbanking.co.th",
+     "published": "2026-11-20T03:25:34+00:00",
+     "lang": "th"
     }
    ]
   },
   "us_debt": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "อภิสิทธิ์เดือดกลางสภา! หนี้สาธารณะจ่อเพดาน ซุกหนี้อีกล้านล้าน รัฐบาลยังคิดขึ้น VAT 8.5%! นายอภิสิทธิ์ เวชชาชีวะ สมาชิกสภาผู้แทนราษฎร พรรคประชาธิปัตย์ อภิปรายในที่ประชุมสภาผู้แทนราษฎร วันนี้ (20 พฤศจิกายน 2569) ระหว่างการพิจารณาญัตติปรึกษาหารือก่อนจัดทำงบประมาณราย",
      "url": "https://news.google.com/rss/articles/CBMi6gdBVV95cUxPMVB2QjZJQlRLb1V5TTVWMjZhMm1nX3FVSTdQT0RwUmY0YVUzbEhyeVNVTnlqbmUtNEpLVThxSUs0NURvNTU3SHdmTEJiYXFmcU1yTkJZdFpvYUU1XzgxSG4xV0dUVjFMb01xazlTRjBtNHJSNnpWbV9XeUlBMEU2bGNzTTdadi02bHZhYkRNX0FDbzBfSms5SFlZV1RTM05GNnR1aEhaVVh4RVBtVFkzTTIzZnFpUkxvSDRYbE1wTEI3OTNuc1o3aFBjUGpHbVJKUGt4MmJMYjlXN2dLVUlDMnZzQVBUNW1LUU91SGZLVnBVS1BkcWhCcmw4Rm9IRC01MU8yRV8zbUVJdUJVQmJxUUo0Qi13bzdwT2VuNDljSE1zbURSOTZkMkdWS3BXSEE3YTV0SzVfR1pRNW1HMV9vdUZGRGk3OTlTTURvbk5acmtBM0lzbk4yZ1BkOGNsYXJFeWZRMlhDVldzb3N2cVRaSi1neUZYaXZyT0VKVEtadzN2OE1lVmFldklwaklXRmZfT3pwQ3JUUHBxYnZqSHJUdXcyU19kdlJiLWtKVmVWMkx6UXplUXFZSzVId3o0RzU5UmxEVmJKSTQxeW5sM1pEWTU3SE91NmYtREpHa1hvYUoxX0JBeG1CSHFCX3JWWkg0WHRBbzhrVHFGS1pLMDJNUU0tbktoT2p1a3pzYmZMTVV2Z2lOWUdXcWlUNW52N1FxOWFvY05uMmdaWE5FalBWb2lGRUlPSGZycU5lWnRCaDlTWEpYWlpRUC1SMUtFVnJOUExEcHZWUWlTMmF3bVhDNUIxdHFrSmtqcnljZWdHWnVITVVrMks0NzVOZnlnaDFIYjZPNWJ6OWFSMUJTQVNCcmlpNzVfUm5OZV9kdVdwQTd1a1pjSFktN290NEhHTHRUZTZiWl9uZFFBSGZLU2JkcDRmdUlabjMyVENPTm5fMW9tVTBGYlhzMHRicFZhYWw5QVNfTXJDbHRLbkg4ZGFqQjJNeG9XMFJYMjFkTEd2OG9BX0toM3A0Y0h0N0FtQVJEWXlpVElkdFg4eEFXNWtZN0RrbDhsQUJfLU1KeC1fV3JYQW9mbjY4TkxONTVWVkJoaWkzTEJoWTNHTEZMdWZWTlhEM0Q0bjllZTNGa1E1VXMxbUhOVTV4TnRnQWJWd1lkcDZ0eVRHeVNuOVdaNnZMcUVRZzNkbzQtbXRFY1pCd1M3Mm82TXJ6aHpJVnRndk9FLWdqTmVuN1RIcUNid2pHcTMxMUlMeThHMXlpdGx4bGRQVDFWSUE1RllCQk1aUXBwOFp6NVdHaVJKUDRfOEtRVm1IWHZZSTQ1WXc?oc=5",
      "source": "Facebook",
      "source_url": "https://www.facebook.com",
-     "published": "2026-11-20T13:18:38+00:00",
+     "published": "2026-11-20T17:06:51+00:00",
      "lang": "th"
     },
     {
@@ -1029,7 +1021,7 @@
   },
   "opec": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "OPEC October Output Rises 1.97mbpd As Nigeria Produces At 1.51mbpd",
@@ -1067,7 +1059,7 @@
   },
   "oil_war": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "Oil Set for Third Weekly Drop as Ample Supply Outweighs War Risk",
@@ -1105,7 +1097,7 @@
   },
   "oil_stocks": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
      "title": "US Commercial Crude Stocks Fall to Lowest Since 2018 on Higher Exports, Refinery Processing, EIA Says",
@@ -1143,15 +1135,15 @@
   },
   "china_oil": {
    "status": "ok",
-   "fetched_at": "2026-11-20T17:15:11.656603+00:00",
+   "fetched_at": "2026-11-20T18:13:09.513182+00:00",
    "items": [
     {
-     "title": "China's Oil Imports from Persian Gulf Jump to Wartime High",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekZVR0lrbzJkMzdkaW56UkE4elBRS1FQNVhxOUp1TnVYRkQxVTJ3RGw0YUdTSHhZQU45ZFM0cTZkUUh2SU9rUFRPU0h2cS1aNTRnTXlyRkdabF83UlNUOGdCOEdqa01ZUFdpREF6aDUzYk5JQk1kbFJuOEgzaXdZS0FYZmgzT1JvQ1NhTUdyRTlXNXl0WGl6aWV0M2ZjYXpWZGY2d1lTX2VPajR2a2Z4cGJkMNIBuAFBVV95cUxQLVNsQkZOdUt0Z2JEU1FNUWtEZnhEN1hYMElmMDNYWU45X3o1ck5wLUdFeHVkNWFrMEwzb3dDc3NRQ2pEZmVqSkJqVzhaRGYwbEJ0aWhkYVVVRFM5ZG9rT25hQ1NiS1doYmN3MEZacktpZWx3ZHBxM0M5UlY4YmhYM1hMUEpud1MtbGFnM0YwbC1hUTJ6aFhlaUdHaHc1QU80QmZjdFlzUWc2NE1vOEdNWEQ1YmRiVjh1?oc=5",
-     "source": "Crude Oil Prices Today | OilPrice.com",
-     "source_url": "https://oilprice.com",
-     "published": "2026-11-20T15:36:00+00:00",
-     "lang": "en"
+     "title": "ตัวเลขการค้าไทยก.ย. ปีนี้ ร้อนแรงเกินคาด ส่งออกพุ่ง 24.0% รับคลื่น AI",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yR3VEQXh3S19hNjkyRFNpbEV3dnpueWxiSjkyNFlXRkpTSlZzMjVKVzVYOW1EU3VSLUI1bF9ncTlwbGlNT25vR1FabnlGZFdpSlFYX0NqT0RPMHlkNzF3VUc2VnoyOUN3T1NHLVZwN3A?oc=5",
+     "source": "thestandard.co",
+     "source_url": "https://thestandard.co",
+     "published": "2026-11-20T16:36:19+00:00",
+     "lang": "th"
     },
     {
      "title": "China’s Middle East Crude Imports Rebound But at a Price",
@@ -1162,19 +1154,19 @@
      "lang": "en"
     },
     {
+     "title": "Chinese households fuel non-monetary gold imports in October",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ3hyTGpYVmpCZTR1ZkxfZGZLaGstbFhPdnRwUEFST2MyNm1USzU1cWFCU2h0SFVrZmF6MkFXYmZ2MFViR0VkLVRNRVVFSnJ0MFFrbllrVDU5LWlBRjNVWVdtNTRkbFhxOU40X1VxTFlfRUdTRjJPdngyVGVyR044aFRxSVBxTGg3UFllZVFodC1jU280YU40elVMM3g5eDZyT0tYWlphV3NzSVl4dURvMndjSkp5YThNYWc2ejhDUk9WZ1VZSE5wNHFqamXSAcwBQVVfeXFMT2tTZWtGMDNsb2c2Z1pnSmV6S0RSZXNPbGc2OEVGRTc2RllUWDg1RnlBZnE1M0tGcUNnaGlYWktIWTUxOS1EV3MtZ0tjcjhfSERHZFl4Sk8tejROX3lxZG5UNDAwSndRUHVOd0FqOGFwUnpOS2F1R205SmxJR1ZQdVhwTW1QbmVZMFpOV1JoT2ZpT0g0cDZGUWhsOG9QUERDTFNObjR1aVI2WE5udXRKelpzWkVKb0I3eGwwTUc1Vkk1OTAtMmQwOEtyZXRi?oc=5",
+     "source": "South China Morning Post",
+     "source_url": "https://www.scmp.com",
+     "published": "2026-11-20T13:30:05+00:00",
+     "lang": "en"
+    },
+    {
      "title": "กำนันมะโนถามเจ็บ! นักการเมืองมาเลย์ยืนข้างประชาชน แล้วนักการเมืองไทยยืนข้างใคร กำนันมะโน เครือแก้ว แกนนำผู้ชุมนุมเรียกร้องให้รัฐบาลแก้ไขปัญหาราคาน้ำมัน ขึ้นปราศรัยบริเวณหน้าทำเนียบรัฐบาล เปรียบเทียบนโยบายพลังงานระหว่างประเทศไทยกับมาเลเซีย พร้อมตั้งคำถามถึงบทบาท",
      "url": "https://news.google.com/rss/articles/CBMilAhBVV95cUxPWHpKRFotWmw5bnA0ZVBLclNhcEM4QUgtaEluTkotNVFJWWJZNF83SFV3UGJhQzV2OTg1M0R1clA5NDRvbnZJYUdPcEE2aUZDTTl2a0tVeGhqekJNaE4wYlpwWkRpSEIxSUtJMmVIWEd1bmVtMHpETktFMGlibF80Q3ZNLTFuV3BNQTJWQlh4bTJpTjNESl92em80cmUwVHNXMlVidll4LVBZRm1JUUFtY3d4MnozVHJwSlo2N0xWeDdNMU83T2pRbUZ2TXVUTlRZNjV1dElyTFl2emY0SzMtQzZEeGU4dlFJb2JoTV9HY0pfeU9fc1JYLXBhQ3JaVnppMGl5NDlyWElXVkJ5eTN0R29Jd3JHUkxBRTdneEd4dUN0alFwdng0Y2VYaDhCVG8zbk1Xd1N3ZWNRZjNfSUdEY3ZZQkh3em9CYk1VOUEtYmVVRmY0dTR2bVRnM19POFJSdjhaUkhOcmhZTVAxS1A4U2ZQMmhPbTRKaWZBZ3RROGNTX3V1WFp2Mkg4ck42UTVrN1FrVUotcjJqSlRRZkVLbGtMNUxqQ0JyU3E5M1pfWmF5bUxGQ1l3YU5nYi1rOUpBYV9lY1poVlREYVY1Y3ZHSEo4X2VmLVVCR0w0TG1kSHBOWnlCM1luendaTDB1cXIyVkhyeVpJZE5XNFBncWMybWc3ang2bE1iLTM0TGRueFUtYU5DZmhuVklJTDR5dFNVMWFNQ3piUm5YX3NrNXp3OVJTVWhlUHhpSzdyMXZ4YUhYMUFpMjJsZ0ZqQVl2TDdWcDM2VzF3U0I1OF9JVnQwRGg0MWliVGJ5R3FuemlNLURiZjRxb0plSzI5WGdsaklSUmx3dW9xcjI0X0RkVFN3ejhVNlk0OUU0cTVVLVVNamc0dlhwdTJ4U2Z1TmgzTHJaa0d4ZlBTV3NpcXVwZ05aZHJtTDRlcTFSOUlKTERZMU5ieXVoVFR2UVY5Vi14UktyOVYtMGRDLU1oS0M0Q0VVb0lkZ0ZGVTBRMHA0eTFfMUk1OGQydFRJYlVucTNLZDBZeEpycTFBUEdsTVpDQWM2VmlTeE1NTUVSRk9SdElqVGNIbDMxYTRCWU53TUN5ZFhhM1F0VXoyLUtCSjVXb25yTkx3SlVyZXVDWEw3a2RWOGhNWl9NeTBQc1RBVnc5R09pNGxJaXVscWZTM1ZGcmw2VzNMSHl2Skk1SmVSdmJaUUkteXhvXzYtaGZjcjFhM19mT25CS1Y0WmYtRFduVl96ZldlTmxmVUppdUxvTXNlU0FyU19xcU9iQm1DbExEMU1nRHRjY21qeWxUY1R1UURLcXI4OGxOcEpVaGlrZm9SY2dyQVVXUFNENnRmdGFoaXlSSUNBcFpDOTd0RUVSY2ZZZC1UUG4?oc=5",
      "source": "Facebook",
      "source_url": "https://www.facebook.com",
      "published": "2026-11-20T13:09:26+00:00",
-     "lang": "th"
-    },
-    {
-     "title": "ตัวเลขการค้าไทยก.ย. ปีนี้ ร้อนแรงเกินคาด ส่งออกพุ่ง 24.0% รับคลื่น AI",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yR3VEQXh3S19hNjkyRFNpbEV3dnpueWxiSjkyNFlXRkpTSlZzMjVKVzVYOW1EU3VSLUI1bF9ncTlwbGlNT25vR1FabnlGZFdpSlFYX0NqT0RPMHlkNzF3VUc2VnoyOUN3T1NHLVZwN3A?oc=5",
-     "source": "thestandard.co",
-     "source_url": "https://thestandard.co",
-     "published": "2026-11-20T10:57:23+00:00",
      "lang": "th"
     }
    ]

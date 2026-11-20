@@ -1,76 +1,76 @@
 {
- "generated_at": "2026-11-21T00:15:08+07:00",
+ "generated_at": "2026-11-21T01:13:05+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
-   "last": 7037.7402,
+   "last": 7013.4902,
    "asof": "2026-11-20",
-   "chg1d": -1.92,
-   "chg5d": -6.93,
-   "chg30d": -9.27,
+   "chg1d": -2.26,
+   "chg5d": -7.25,
+   "chg30d": -9.59,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "IXIC": {
-   "last": 23072.9219,
+   "last": 22993.1387,
    "asof": "2026-11-20",
-   "chg1d": -3.38,
-   "chg5d": -8.21,
-   "chg30d": -13.59,
+   "chg1d": -3.71,
+   "chg5d": -8.53,
+   "chg30d": -13.89,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "VIX": {
-   "last": 30.73,
+   "last": 32.1,
    "asof": "2026-11-20",
-   "chg1d": 8.05,
-   "chg5d": 59.22,
-   "chg30d": 84.23,
+   "chg1d": 12.87,
+   "chg5d": 66.32,
+   "chg30d": 92.45,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "GOLD": {
-   "last": 3537.6001,
+   "last": 3527.6001,
    "asof": "2026-11-20",
-   "chg1d": -4.01,
-   "chg5d": -8.97,
-   "chg30d": -14.76,
+   "chg1d": -4.28,
+   "chg5d": -9.23,
+   "chg30d": -15.0,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "DXY": {
-   "last": 103.763,
+   "last": 103.809,
    "asof": "2026-11-20",
-   "chg1d": -0.13,
-   "chg5d": 0.34,
-   "chg30d": 1.95,
+   "chg1d": -0.09,
+   "chg5d": 0.39,
+   "chg30d": 1.99,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "WTI": {
-   "last": 82.48,
+   "last": 82.42,
    "asof": "2026-11-20",
-   "chg1d": -0.88,
-   "chg5d": -6.87,
-   "chg30d": -15.1,
+   "chg1d": -0.95,
+   "chg5d": -6.93,
+   "chg30d": -15.16,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "BTC": {
-   "last": 59276.6719,
+   "last": 58802.0,
    "asof": "2026-11-20",
-   "chg1d": -4.24,
-   "chg5d": -9.23,
-   "chg30d": -29.44,
+   "chg1d": -5.01,
+   "chg5d": -9.96,
+   "chg30d": -30.01,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "SET": {
    "last": 1453.28,
@@ -80,7 +80,7 @@
    "chg30d": null,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00",
+   "fetched_at": "2026-11-21T01:13:05+07:00",
    "note": "แหล่งข้อมูลให้มาแค่ 1 วัน ระบบกำลังเก็บประวัติสะสมเอง (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)"
   },
   "USDTHB": {
@@ -91,7 +91,7 @@
    "chg30d": 0.98,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "US2Y": {
    "last": 4.8,
@@ -101,17 +101,17 @@
    "chg30d": 0.03,
    "status": "ok",
    "source": "FRED DGS2",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "US10Y": {
-   "last": 4.956,
+   "last": 4.934,
    "asof": "2026-11-20",
-   "chg1d": -0.096,
-   "chg5d": -0.198,
-   "chg30d": -0.19,
+   "chg1d": -0.118,
+   "chg5d": -0.22,
+   "chg30d": -0.212,
    "status": "ok",
    "source": "Yahoo Finance ^TNX",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "US30Y": {
    "last": 5.41,
@@ -121,7 +121,7 @@
    "chg30d": -0.07,
    "status": "ok",
    "source": "FRED DGS30",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   },
   "REAL10Y": {
    "last": 2.88,
@@ -131,7 +131,7 @@
    "chg30d": 0.08,
    "status": "ok",
    "source": "FRED DFII10",
-   "fetched_at": "2026-11-21T00:15:08+07:00"
+   "fetched_at": "2026-11-21T01:13:05+07:00"
   }
  }
 }
