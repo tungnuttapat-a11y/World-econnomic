@@ -1,76 +1,76 @@
 {
- "generated_at": "2026-11-20T23:13:18+07:00",
+ "generated_at": "2026-11-20T23:14:38+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
-   "last": 7099.9199,
+   "last": 7099.9702,
    "asof": "2026-11-20",
    "chg1d": -1.06,
    "chg5d": -6.11,
    "chg30d": -8.47,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "IXIC": {
-   "last": 23373.0039,
+   "last": 23375.4609,
    "asof": "2026-11-20",
-   "chg1d": -2.12,
+   "chg1d": -2.11,
    "chg5d": -7.01,
-   "chg30d": -12.47,
+   "chg30d": -12.46,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "VIX": {
-   "last": 30.42,
+   "last": 30.32,
    "asof": "2026-11-20",
-   "chg1d": 6.96,
-   "chg5d": 57.62,
-   "chg30d": 82.37,
+   "chg1d": 6.61,
+   "chg5d": 57.1,
+   "chg30d": 81.77,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "GOLD": {
-   "last": 3539.3999,
+   "last": 3537.8,
    "asof": "2026-11-20",
-   "chg1d": -3.96,
-   "chg5d": -8.93,
-   "chg30d": -14.71,
+   "chg1d": -4.01,
+   "chg5d": -8.97,
+   "chg30d": -14.75,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "DXY": {
-   "last": 103.76,
+   "last": 103.749,
    "asof": "2026-11-20",
-   "chg1d": -0.13,
-   "chg5d": 0.34,
-   "chg30d": 1.95,
+   "chg1d": -0.15,
+   "chg5d": 0.33,
+   "chg30d": 1.93,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "WTI": {
-   "last": 81.78,
+   "last": 81.71,
    "asof": "2026-11-20",
-   "chg1d": -1.72,
-   "chg5d": -7.66,
-   "chg30d": -15.82,
+   "chg1d": -1.8,
+   "chg5d": -7.73,
+   "chg30d": -15.89,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "BTC": {
-   "last": 59641.0,
+   "last": 59586.25,
    "asof": "2026-11-20",
-   "chg1d": -3.65,
-   "chg5d": -8.67,
-   "chg30d": -29.01,
+   "chg1d": -3.74,
+   "chg5d": -8.76,
+   "chg30d": -29.07,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "SET": {
    "last": 1453.28,
@@ -80,7 +80,7 @@
    "chg30d": null,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00",
+   "fetched_at": "2026-11-20T23:14:38+07:00",
    "note": "แหล่งข้อมูลให้มาแค่ 1 วัน ระบบกำลังเก็บประวัติสะสมเอง (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)"
   },
   "USDTHB": {
@@ -91,7 +91,7 @@
    "chg30d": 0.86,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "US2Y": {
    "last": 4.8,
@@ -101,7 +101,7 @@
    "chg30d": 0.03,
    "status": "ok",
    "source": "FRED DGS2",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "US10Y": {
    "last": 4.944,
@@ -111,7 +111,7 @@
    "chg30d": -0.202,
    "status": "ok",
    "source": "Yahoo Finance ^TNX",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "US30Y": {
    "last": 5.41,
@@ -121,7 +121,7 @@
    "chg30d": -0.07,
    "status": "ok",
    "source": "FRED DGS30",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   },
   "REAL10Y": {
    "last": 2.88,
@@ -131,7 +131,7 @@
    "chg30d": 0.08,
    "status": "ok",
    "source": "FRED DFII10",
-   "fetched_at": "2026-11-20T23:13:18+07:00"
+   "fetched_at": "2026-11-20T23:14:38+07:00"
   }
  }
 }
