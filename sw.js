@@ -1,7 +1,7 @@
 /* Service worker: ทำให้ติดตั้งเป็นแอปได้ และเปิดดูข้อมูลล่าสุดที่โหลดไว้ได้ตอนออฟไลน์
    - ไฟล์หน้าเว็บ: ใช้ของในเครื่องก่อน แล้วอัปเดตเบื้องหลัง
    - ไฟล์ข้อมูล (data/, config/): ดึงใหม่จากเน็ตก่อนเสมอ ถ้าไม่ได้ค่อยใช้ของเก่า */
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL = ["./", "index.html", "assets/app.css", "assets/app.js", "assets/rules.js", "assets/indicators.js", "assets/export.js",
   "manifest.webmanifest", "icons/icon-192.png"];
 

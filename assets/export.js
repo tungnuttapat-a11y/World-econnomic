@@ -93,6 +93,9 @@
     const out = [`# เข็มทิศตลาด — สรุป${pl === "วันนี้" ? "วันนี้" : " " + pl}`, "",
       `อัปเดตข้อมูล: ${MC.fmtDT(S.latest.generated_at)} · สร้างไฟล์: ${MC.fmtDT(new Date().toISOString())}`, "",
       `## ตลาดตอนนี้: ${M.primary.name} (ความมั่นใจ ${M.confidence})`, "", M.primary.sentence, "", `- ${M.confWhy}`,
+      ...(M.cause ? [`- ${M.cause}`] : []),
+      `- มาตรวัดความกลัว: ${M.fear == null ? "—" : Math.round(M.fear) + "/100 (" + MC.fearBand(M.fear) + ")"}`,
+      `- เข้ากับแต่ละโหมด: ${M.results.map(r => `${r.name} ${Math.round(r.score * 100)}%`).join(" · ")}`,
       `- สัญญาณที่เข้า: ${M.primary.checks.filter(c => c.result === true).map(c => c.label).join(", ") || "—"}`,
       `- เงินออกจาก: ${fl.out.map(x => `${x[0]} ${x[1]}`).join(", ") || "—"}`,
       `- เงินเข้า: ${fl.inn.map(x => `${x[0]} ${x[1]}`).join(", ") || "—"}`, "",
@@ -125,6 +128,8 @@
       <div class="rp-head"><div><b>เข็มทิศตลาด</b> · สรุป${pl === "วันนี้" ? "วันนี้" : " " + pl}</div><div>ข้อมูล ${e(MC.fmtDT(S.latest.generated_at))}</div></div>
       <div class="rp-mode ${M.primary.color}"><div class="rp-k">ตลาดตอนนี้ · ความมั่นใจ ${e(M.confidence)}</div>
         <div class="rp-mname">${e(M.primary.name)}</div><div>${e(M.primary.sentence)}</div>
+        ${M.cause ? `<div>${e(M.cause)}</div>` : ""}
+        <div class="rp-k">มาตรวัดความกลัว ${M.fear == null ? "—" : Math.round(M.fear) + "/100 (" + e(MC.fearBand(M.fear)) + ")"} · เข้ากับแต่ละโหมด: ${e(M.results.map(r => `${r.name} ${Math.round(r.score * 100)}%`).join(" · "))}</div>
         <div class="rp-k">${e(M.confWhy)} · สัญญาณที่เข้า: ${e(M.primary.checks.filter(c => c.result === true).map(c => c.label).join(", ") || "—")}</div>
         <div class="rp-k">เงินออกจาก: ${e(fl.out.map(x => x[0] + " " + x[1]).join(", ") || "—")} · เงินเข้า: ${e(fl.inn.map(x => x[0] + " " + x[1]).join(", ") || "—")}</div></div>
       <table class="rp-t"><thead><tr><th>ตัวชี้วัด</th><th>ล่าสุด</th><th>${e(pl)}</th><th>5 วัน</th><th>30 วัน</th><th>แนวโน้ม</th></tr></thead><tbody>

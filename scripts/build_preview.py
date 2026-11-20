@@ -5,7 +5,7 @@ R = Path(__file__).resolve().parent.parent
 html = (R / "index.html").read_text()
 body = re.search(r"<body>(.*)</body>", html, re.S).group(1)
 body = re.sub(r'<script src="[^"]+"></script>\s*', "", body)
-embed = {p: json.loads((R / p).read_text()) for p in ["data/latest.json", "data/history.json", "config/manual.json", "data/news.json", "config/news.json", "data/set_flow.json"]}
+embed = {p: json.loads((R / p).read_text()) for p in ["data/latest.json", "data/history.json", "config/manual.json", "data/news.json", "config/news.json", "data/set_flow.json", "data/regime.json"]}
 if "--example-flow" in sys.argv:
     embed["config/manual.json"]["set_investor_flow"].update(
         {"_example": True, "trade_date": "2026-11-18", "foreign": -2850.4, "institution": 1120.6,

@@ -4,7 +4,7 @@
   const IND = window.INDICATORS, TABS = window.TABS;
   const $ = (s, el = document) => el.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const state = { latest: null, history: {}, manual: null, news: null, newsCfg: null, tab: "overview", offline: false };
+  const state = { latest: null, history: {}, manual: null, news: null, newsCfg: null, regime: null, tab: "overview", offline: false };
 
   /* ---------- โหลดข้อมูล ---------- */
   async function loadJSON(path) {
@@ -48,48 +48,7 @@
 
   /* ---------- ตัดสินโหมด (ใช้กฎจาก rules.js) ---------- */
   function computeMode(series) {
-    const S = window.MODE_SETTINGS;
-    const results = window.MODE_RULES.map(m => {
-      const checks = m.conditions.map(c => {
-        let r = null;
-        try { r = c.check(series); } catch (e) { r = null; }
-        return { label: c.label, result: r };
-      });
-      const met = checks.filter(c => c.result === true).length;
-      const unknown = checks.filter(c => c.result == null).length;
-      return { ...m, checks, met, unknown, total: checks.length, score: met / checks.length };
-    });
-    const fear = results.filter(r => r.id !== "normal").sort((a, b) => b.score - a.score || a.priority - b.priority);
-    const normal = results.find(r => r.id === "normal");
-    let primary = fear[0] && fear[0].score >= S.minScore ? fear[0] : normal;
-    if (primary === normal && normal.score < S.minScore && window.MODE_MIXED) {
-      const best = fear[0];
-      return { primary: { ...window.MODE_MIXED, checks: best.checks, met: best.met, total: best.total, unknown: best.unknown, score: best.score },
-        results, confidence: "ต่ำ", alsoStrong: [],
-        confWhy: `โหมดที่ใกล้สุดคือ "${best.name}" เข้า ${best.met}/${best.total} ข้อ และ "ปกติ" เข้า ${normal.met}/${normal.total} ข้อ` };
-    }
-    const others = results.filter(r => r !== primary);
-    // สัญญาณขัดกัน: ดูเฉพาะเงื่อนไขของโหมดคู่ขัดที่ "ไม่ซ้ำ" กับโหมดหลัก (เช่น หุ้นลง ซ้ำกันได้ ไม่นับว่าขัด)
-    const own = new Set(primary.checks.map(c => c.label));
-    const conflict = others.map(o => {
-      const uniq = o.checks.filter(c => !own.has(c.label));
-      const met = uniq.filter(c => c.result === true).length;
-      return { ...o, met, total: uniq.length, cscore: uniq.length ? met / uniq.length : 0 };
-    }).find(o => (primary.conflictsWith || []).includes(o.id) && o.cscore >= S.conflictScore);
-    const alsoStrong = others.filter(o => o.id !== "normal" && o.score >= S.minScore);
-    const missing = primary.unknown > 0;
-    let confidence, confWhy;
-    if (conflict || missing || primary.score < S.minScore) {
-      confidence = "ต่ำ";
-      confWhy = conflict ? `สัญญาณขัดกัน: เงื่อนไขเฉพาะของ "${conflict.name}" ก็เข้า ${conflict.met}/${conflict.total} ข้อ`
-        : missing ? "ข้อมูลบางตัวขาด ตรวจได้ไม่ครบทุกข้อ" : "ไม่มีโหมดไหนเข้าชัด";
-    } else if (primary.score === 1 && alsoStrong.length === 0) {
-      confidence = "สูง"; confWhy = "เข้าครบทุกข้อ และไม่มีสัญญาณขัด";
-    } else {
-      confidence = "กลาง";
-      confWhy = alsoStrong.length ? `มีสัญญาณ "${alsoStrong.map(a => a.name).join(", ")}" เข้าร่วมด้วย` : "เข้าเกือบครบ";
-    }
-    return { primary, results, confidence, confWhy, alsoStrong };
+    return window.classifyMarket(series, state.regime, state.manual);
   }
 
   /* ---------- เงินไหลไปไหน (อนุมานจากราคา) ---------- */
@@ -184,7 +143,7 @@
       <span class="t-name">${esc(m.name)}</span>
       <span class="t-short">${esc(m.short)}</span>
       <span class="t-val">${missing ? "—" : esc(fmtVal(key, s.last))}</span>
-      ${missing ? "" : `<span class="t-chg ${d}">${arrow(d)} ${esc(fmtChg(key, s.chg1d))} <span class="t-short">วันนี้</span></span>`}
+      ${missing ? "" : `<span class="t-chg ${d}">${arrow(d)} ${esc(fmtChg(key, s.chg1d))} <span class="t-short">${m.freq === "weekly" ? "สัปดาห์ล่าสุด" : "วันนี้"}</span></span>`}
       ${missing ? "" : sparkSVG(h, dir(key, h.length > 1 ? h[h.length - 1][1] - h[0][1] : 0))}
       ${badge}
       ${missing ? "" : `<span class="t-sub"><span>5 วัน <span class="num ${dir(key, s.chg5d)}">${esc(fmtChg(key, s.chg5d, true))}</span></span><span>30 วัน <span class="num ${dir(key, s.chg30d)}">${esc(fmtChg(key, s.chg30d, true))}</span></span></span>`}
@@ -192,12 +151,25 @@
     </button>`;
   }
 
+  function fearBand(score) {
+    return (window.FEAR_BANDS.find(([lim]) => score < lim) || [0, "—"])[1];
+  }
+  function fearBar(score, big) {
+    if (score == null) return `<p class="note">มาตรวัดความกลัว: ยังไม่มีข้อมูลพอ</p>`;
+    return `<div class="fg ${big ? "fg-big" : ""}" role="img" aria-label="มาตรวัดความกลัว ${score} จาก 100 ระดับ ${fearBand(score)}">
+      <div class="fg-top"><span>มาตรวัดความกลัว</span><b class="num">${Math.round(score)}<small>/100</small> · ${esc(fearBand(score))}</b></div>
+      <div class="fg-track"><span class="fg-pin" style="left:${Math.max(1, Math.min(99, score))}%"></span></div>
+      <div class="fg-scale"><span>สงบ</span><span>ปกติ</span><span>กังวล</span><span>กลัว</span><span>กลัวมาก</span></div></div>`;
+  }
   function modeHTML() {
     const L = state.latest, M = computeMode(L.series), p = M.primary, f = flow(L.series);
     const chips = arr => arr.length ? arr.sort((a, b) => Math.abs(b[2]) - Math.abs(a[2])).map(([l, t]) => `<span class="chip">${esc(l)} <span class="num">${esc(t)}</span></span>`).join("") : `<span class="note">ไม่มีตัวไหนขยับชัด</span>`;
+    const bars = M.results.map(r => `<div class="pb ${r.color}"><span class="pb-name">${esc(r.name)}</span>
+      <span class="pb-track"><span class="pb-fill" style="width:${Math.round(r.score * 100)}%"></span></span>
+      <span class="pb-val num">${Math.round(r.score * 100)}%</span></div>`).join("");
     const why = M.results.map(r => `
-      <div class="why-mode"><b>${esc(r.name)}</b> <span class="note">เข้า ${r.met}/${r.total} ข้อ${r.unknown ? ` (ไม่ทราบ ${r.unknown})` : ""}</span>
-        <ul>${r.checks.map(c => `<li><span class="mark ${c.result === true ? "yes" : c.result === false ? "no" : "unk"}">${c.result === true ? "✓" : c.result === false ? "✗" : "?"}</span><span>${esc(c.label)}</span></li>`).join("")}</ul>
+      <div class="why-mode"><b>${esc(r.name)}</b> <span class="note">เข้ากัน ${Math.round(r.score * 100)}%${r.unknown ? ` · ไม่ทราบ ${r.unknown} ข้อ` : ""}</span>
+        <ul>${r.checks.map(c => `<li><span class="mark ${c.result === true ? "yes" : c.result === false ? "no" : "unk"}">${c.result === true ? "✓" : c.result === false ? "✗" : "?"}</span><span>${esc(c.label)}${c.must ? ' <span class="must">ต้องมี</span>' : ""} <span class="note">×${c.w}</span></span></li>`).join("")}</ul>
       </div>`).join("");
     return `<section class="mode ${p.color}" aria-live="polite">
       <div class="mode-head">
@@ -206,16 +178,71 @@
       </div>
       <h1>${esc(p.name)}</h1>
       <p class="sentence">${esc(p.sentence)}</p>
+      ${M.cause ? `<p class="sentence cause">${esc(M.cause)}</p>` : ""}
       <p class="note">${esc(M.confWhy)}</p>
+      ${fearBar(M.fear)}
+      <div class="pbs" aria-label="แต่ละโหมดเข้ากับตลาดวันนี้กี่ %">${bars}</div>
       <div class="flow">
         <div class="flow-row"><span class="flow-label">เงินออกจาก</span>${chips(f.out)}</div>
         <div class="flow-row"><span class="flow-label">เงินเข้า</span>${chips(f.inn)}</div>
       </div>
-      <details class="why"><summary>ทำไมถึงสรุปแบบนี้</summary>${why}
+      <details class="why"><summary>ทำไมถึงสรุปแบบนี้</summary>
+        <p class="note">แต่ละข้อดูว่าราคาขยับ "ผิดปกติแค่ไหน" เทียบกับการขยับปกติในรอบ 1 ปี ไม่ใช่ % ตายตัว · "ต้องมี" = ถ้าไม่เข้า โหมดนั้นแทบเป็นไปไม่ได้ · ×น้ำหนัก</p>${why}
         <p class="note">กฎและเกณฑ์ทั้งหมดอยู่ในไฟล์ <code>assets/rules.js</code> แก้ได้</p></details>
-      <p class="note">⚠︎ เป็นการอนุมานจากการขยับของราคาวันนี้ ไม่ใช่ข้อมูลเงินไหลเข้าออกจริง</p>
+      <p class="note">⚠︎ อนุมานจากการขยับของราคา ไม่ใช่ข้อมูลเงินไหลเข้าออกจริง</p>
       <div class="mode-foot"><span>อัปเดตล่าสุด ${esc(fmtDT(L.generated_at))}</span><span>ข้อมูลอาจช้า 15–20 นาที</span></div>
     </section>`;
+  }
+
+  /* ---------- แท็บภาพใหญ่ ---------- */
+  function fearCard() {
+    const F = (state.regime || {}).fear;
+    if (!F) return `<section class="card"><h2>มาตรวัดความกลัว</h2><p class="empty">ยังคำนวณไม่ได้ ต้องมีข้อมูลย้อนหลังอย่างน้อย 2 ตัว (${esc(((state.regime || {}).missing || []).join(", ") || "รอระบบดึงข้อมูลรอบถัดไป")})</p></section>`;
+    return `<section class="card"><h2>มาตรวัดความกลัว (แบบสถาบัน)</h2>
+      ${fearBar(F.score, true)}
+      <p class="note">เอาตัววัดความกลัวแต่ละตัวมาเทียบกับ "อดีต 2 ปีของตัวเอง" ว่าวันนี้สูงกว่ากี่ % ของวันในอดีต แล้วเฉลี่ยกัน</p>
+      <ul class="fx-list">${F.parts.map(x => `<li class="fx"><div class="fx-head"><b>${esc(x.name)}</b><span class="fx-chip ${x.pct >= 80 ? "hot" : x.pct >= 60 ? "warm" : "na"}">สูงกว่า ${x.pct}% ของ 2 ปี</span></div>
+        <div class="pctbar"><span style="width:${x.pct}%"></span></div><p class="note">${esc(x.desc)} · ค่าล่าสุด ${esc(String(x.value))} (${esc(fmtD(x.asof))})</p></li>`).join("")}</ul>
+      ${(state.regime.missing || []).length ? `<p class="note">ยังไม่มี: ${esc(state.regime.missing.join(", "))}</p>` : ""}
+    </section>`;
+  }
+  function sbCard() {
+    const sb = (state.regime || {}).stock_bond;
+    if (!sb || sb.c20 == null) return "";
+    const v = sb.c20, word = v >= 0.2 ? "เดินทางเดียวกัน (ลงพร้อมกัน/ขึ้นพร้อมกัน)" : v <= -0.2 ? "เดินสวนกัน" : "ไม่ค่อยสัมพันธ์กัน";
+    const mean = v >= 0.2 ? "ตลาดกำลังกังวลเรื่องเงินเฟ้อ/ดอกเบี้ย พันธบัตรจึงไม่ช่วยกันความเสี่ยงให้หุ้น" : v <= -0.2 ? "ตลาดกำลังกังวลเรื่องเศรษฐกิจ เวลาหุ้นลงคนหนีไปพันธบัตร (ปกติแบบนี้)" : "ยังไม่มีเรื่องไหนครอบงำตลาด";
+    const pos = ((v + 1) / 2) * 100;
+    return `<section class="card"><h2>หุ้นกับพันธบัตร เดินทางเดียวกันไหม</h2>
+      <p class="t-val num">${v > 0 ? "+" : ""}${v.toFixed(2)} <span class="t-short">(20 วัน)</span></p>
+      <div class="sbbar"><span class="fg-pin" style="left:${pos}%"></span></div>
+      <div class="fg-scale"><span>สวนกัน −1</span><span>0</span><span>ไปด้วยกัน +1</span></div>
+      <p><b>${esc(word)}</b>: ${esc(mean)}</p>
+      <p class="note">ช่วง 60 วัน: ${sb.c60 == null ? "—" : (sb.c60 > 0 ? "+" : "") + sb.c60.toFixed(2)} · วิธีที่สถาบันใช้แยก "กลัวดอกเบี้ย" ออกจาก "กลัวถดถอย"</p></section>`;
+  }
+  function macroCard() {
+    const m = (state.regime || {}).macro, Q = window.QUADRANTS;
+    if (!m) return `<section class="card"><h2>ภูมิอากาศเศรษฐกิจ</h2><p class="empty">ยังคำนวณไม่ได้ ต้องมีข้อมูลย้อนหลังอย่างน้อย 1 ปี (รอระบบดึงข้อมูลรอบถัดไป)</p></section>`;
+    const cell = (id, cls) => `<div class="qd ${cls} ${m.quadrant === id ? "on" : ""}"><b>${esc(Q[id].name)}</b><span>เด่น: ${esc(Q[id].good)}</span></div>`;
+    const x = ((m.inflation + 1) / 2) * 100, y = (1 - (m.growth + 1) / 2) * 100;
+    const parts = arr => arr.map(p => `${esc(p.name)} <span class="num ${p.v > 0 ? "up" : p.v < 0 ? "down" : "flat"}">${p.v > 0 ? "+" : ""}${p.v.toFixed(2)}</span>`).join(" · ");
+    return `<section class="card"><h2>ภูมิอากาศเศรษฐกิจ (มอง 3 เดือน)</h2>
+      <div class="qgrid-wrap"><div class="qaxis-y">เศรษฐกิจ<br>โต ↑<br><br>ชะลอ ↓</div>
+        <div class="qgrid">${cell("goldilocks", "q1")}${cell("reflation", "q2")}${cell("deflation", "q3")}${cell("stagflation", "q4")}
+          <span class="qdot" style="left:${x}%;top:${y}%"></span></div></div>
+      <div class="qaxis-x">เงินเฟ้อ: ← ลง · ขึ้น →</div>
+      <p><b>ตอนนี้: ${esc(Q[m.quadrant].name)}</b> — ${esc(Q[m.quadrant].tip)}</p>
+      <p class="note">เศรษฐกิจ ${m.growth > 0 ? "+" : ""}${m.growth.toFixed(2)} จาก: ${parts(m.growth_parts)}</p>
+      <p class="note">เงินเฟ้อ ${m.inflation > 0 ? "+" : ""}${m.inflation.toFixed(2)} จาก: ${parts(m.inflation_parts)}</p>
+      <p class="note">ตัวเลข −1 ถึง +1 = การเปลี่ยนแปลง 3 เดือนล่าสุด เทียบกับอดีต 2 ปี · เป็นภาพหยาบจากราคาตลาด ไม่ใช่ตัวเลขเศรษฐกิจทางการ</p></section>`;
+  }
+  function cashCard() {
+    const c = (state.regime || {}).cash;
+    if (!c) return `<section class="card"><h2>เงินพักในกองทุนตลาดเงิน</h2><p class="empty">ยังไม่มีข้อมูล (FRED อัปเดตรายสัปดาห์)</p></section>`;
+    return `<section class="card"><h2>เงินพักในกองทุนตลาดเงิน (สหรัฐ)</h2>
+      <p class="t-val num ${c.chg4w > 0 ? "up" : "down"}">${c.chg4w > 0 ? "+" : ""}${c.chg4w.toFixed(2)}% <span class="t-short">ใน 4 สัปดาห์</span></p>
+      ${c.pct == null ? "" : `<div class="pctbar"><span style="width:${c.pct}%"></span></div><p class="note">เงินไหลเข้ามากกว่า ${c.pct}% ของช่วงเดียวกันในอดีต 2 ปี</p>`}
+      <p>เงินไหลเข้ากองทุนตลาดเงินเยอะ = คนย้ายเงินมาพักเป็น "เงินสดที่ได้ดอกเบี้ย" (รอดู กลัว หรือมองว่าของแพง)</p>
+      <p class="note">ข้อมูล ณ ${esc(fmtD(c.asof, true))} · รายสัปดาห์ ช้ากว่าราคา</p></section>`;
   }
 
   function manualFed() {
@@ -333,7 +360,8 @@
       <li>SET ปิดเร็วกว่าสหรัฐ ราคาปิด SET จึงมักเป็นของ "วันก่อนหน้า" เมื่อเทียบกับหุ้นสหรัฐ</li></ul></section>`,
     gold: () => tabFactors("gold") + `<section class="card">
       <p class="note">ราคาทองในไทย (บาทละ) อิงราคาโลก × ค่าเงินบาท แต่สมาคมค้าทองคำกำหนดเอง จึงไม่คำนวณให้ที่นี่เพื่อไม่ให้เข้าใจผิด</p></section>`,
-    rates: () => spreadCard() + manualFed() + tabFactors("rates"),
+    rates: () => manualFed() + tabFactors("rates"),
+    big: () => fearCard() + sbCard() + macroCard() + cashCard(),
   };
 
   function render() {
@@ -347,7 +375,9 @@
     $("#banners").innerHTML = banners.map(b => `<div class="banner">${esc(b)}</div>`).join("");
     $("#mode").innerHTML = modeHTML();
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" id="tab-${t.id}" aria-selected="${t.id === tab.id}" data-tab="${t.id}">${esc(t.name)}</button>`).join("");
-    $("#panel").innerHTML = `${tab.id === "thai" ? manualFlow() : ""}<div class="grid">${tab.keys.map(tileHTML).join("")}</div>${EXTRA[tab.id]()}`;
+    $("#panel").innerHTML = tab.id === "big"
+      ? `${EXTRA.big()}<div class="grid">${tab.keys.map(tileHTML).join("")}</div>`
+      : `${tab.id === "thai" ? manualFlow() : ""}<div class="grid">${tab.keys.map(tileHTML).join("")}</div>${EXTRA[tab.id]()}`;
     $("#panel").setAttribute("aria-labelledby", "tab-" + tab.id);
   }
 
@@ -358,7 +388,7 @@
     const M = computeMode(state.latest.series);
     const related = M.primary.checks.filter(c => c.result === true).map(c => c.label);
     let t = `วันนี้${d === "up" ? "ขึ้น" : "ลง"} ${fmtChg(key, s.chg1d)} โดยทั่วไปแปลว่า${d === "up" ? m.up : m.down}`;
-    if (M.primary.id !== "normal") t += ` ซึ่งเข้ากับภาพรวมวันนี้ที่ตลาด "${M.primary.name}" (สัญญาณที่เข้า: ${related.join(", ")})`;
+    if (!["normal", "mixed"].includes(M.primary.id) && related.length) t += ` ซึ่งเข้ากับภาพรวมวันนี้ที่ตลาด "${M.primary.name}" (สัญญาณที่เข้า: ${related.join(", ")})`;
     return t;
   }
 
@@ -428,12 +458,12 @@
   async function start() {
     try { state.tab = localStorage.getItem("tab") || "overview"; } catch (e) {}
     try {
-      const [latest, history, manual, news, newsCfg, setFlow] = await Promise.all([
+      const [latest, history, manual, news, newsCfg, setFlow, regime] = await Promise.all([
         loadJSON("data/latest.json"), loadJSON("data/history.json").catch(() => ({})), loadJSON("config/manual.json").catch(() => null),
         loadJSON("data/news.json").catch(() => null), loadJSON("config/news.json").catch(() => null),
-        loadJSON("data/set_flow.json").catch(() => null),
+        loadJSON("data/set_flow.json").catch(() => null), loadJSON("data/regime.json").catch(() => null),
       ]);
-      Object.assign(state, { latest, history, news, newsCfg, manual: withFlow(manual, setFlow) });
+      Object.assign(state, { latest, history, news, newsCfg, regime, manual: withFlow(manual, setFlow) });
     } catch (e) {
       $("#mode").innerHTML = `<div class="banner">โหลดข้อมูลไม่ได้ ลองเปิดใหม่อีกครั้ง หรือเช็กอินเทอร์เน็ต</div>`;
       return;
@@ -451,7 +481,7 @@
   }
 
   /* ให้ไฟล์ส่งออก (export.js) ใช้ข้อมูลและตัวช่วยชุดเดียวกัน */
-  window.MC = { state, computeMode, flow, fmtVal, fmtChg, fmtDT, fmtD, dir, esc, sparkSVG, factorsToday: id => {
+  window.MC = { state, computeMode, fearBand, flow, fmtVal, fmtChg, fmtDT, fmtD, dir, esc, sparkSVG, factorsToday: id => {
     const F = window.FACTORS[id]; let up = 0, down = 0;
     for (const f of F.items) { let t = null; try { t = f.today(state.latest.series, state.manual); } catch (e) {} if (t === "up") up++; if (t === "down") down++; }
     return { title: F.title, upWord: F.upWord, downWord: F.downWord, up, down };

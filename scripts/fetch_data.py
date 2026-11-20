@@ -16,9 +16,12 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 LATEST, HISTORY = ROOT / "data/latest.json", ROOT / "data/history.json"
+HISTORY_LONG = ROOT / "data/history_long.json"   # ย้อนหลัง ~2 ปี ใช้คำนวณภาพใหญ่ (ไม่ได้โหลดในหน้าเว็บ)
+REGIME = ROOT / "data/regime.json"
 UA = {"User-Agent": "Mozilla/5.0 (market-compass)"}
 HIST_DAYS = 90          # เก็บกราฟย้อนหลัง 90 วัน
-LOOKBACK_DAYS = 130     # ดึงเผื่อไว้ให้คำนวณ % 30 วันได้
+LOOKBACK_DAYS = 800     # ~2 ปี ใช้เทียบ "สูง/ต่ำผิดปกติแค่ไหนเมื่อเทียบอดีต"
+LONG_DAYS = 800
 
 # แหล่งสำรองจาก Stooq (เฉพาะตัวที่ Yahoo มักมีปัญหา)
 STOOQ = {"SET": "^set"}
@@ -34,8 +37,20 @@ YAHOO = {
     "BTC":    ("BTC-USD",  "CBBTCUSD",   "pct", 40),
     "SET":    ("^SET.BK",  None,         "pct", 15),
     "USDTHB": ("THB=X",    "DEXTHUS",    "pct", 8),
+    "MOVE":   ("^MOVE",    None,         "pct", 60),    # ความผันผวนของพันธบัตร
+    "VIX3M":  ("^VIX3M",   None,         "pct", 100),   # VIX ระยะ 3 เดือน
+    "COPPER": ("HG=F",     None,         "pct", 15),    # ทองแดง (สะท้อนเศรษฐกิจโลก)
 }
-FRED = {"US2Y": "DGS2", "US10Y": "DGS10", "US30Y": "DGS30", "REAL10Y": "DFII10"}
+FRED = {"US2Y": "DGS2", "US10Y": "DGS10", "US30Y": "DGS30", "REAL10Y": "DFII10",
+        "HY": "BAMLH0A0HYM2",     # ส่วนต่างดอกเบี้ยหุ้นกู้ขยะ (credit spread)
+        "BEI10": "T10YIE",        # เงินเฟ้อที่ตลาดคาด 10 ปี
+        "CURVE": "T10Y2Y",        # ดอกเบี้ย 10 ปี − 2 ปี
+        "STRESS": "STLFSI4",      # ดัชนีความเครียดการเงิน Fed เซนต์หลุยส์ (รายสัปดาห์)
+        "NFCI": "NFCI",           # ดัชนีภาวะการเงิน Fed ชิคาโก (รายสัปดาห์)
+        "MMF": "WRMFNS"}          # เงินในกองทุนตลาดเงินรายย่อย (รายสัปดาห์, พันล้านดอลลาร์)
+# ค่าเฉพาะตัว: (ชนิด, ขยับได้มากสุดต่อรอบ, ข้อมูลเก่าได้ไม่เกินกี่วัน)
+FRED_META = {"STRESS": ("abs", 3.0, 21), "NFCI": ("abs", 1.0, 21), "MMF": ("pct", 10, 45),
+             "HY": ("abs", 1.5, 10), "CURVE": ("abs", 0.6, 10), "BEI10": ("abs", 0.6, 10)}
 # ดอกเบี้ยที่มีตัวเลขระหว่างวันใน Yahoo -> ใช้ Yahoo ก่อน (FRED ช้า 1-2 วัน) แล้วค่อยสำรองด้วย FRED
 YAHOO_YIELD = {"US10Y": "^TNX"}
 
@@ -68,7 +83,7 @@ def retry(fn, tries=3, wait=2.0):
 # ---------------- แหล่งข้อมูล (คืน [(YYYY-MM-DD, float), ...] เรียงจากเก่าไปใหม่) ----------------
 def src_yfinance(symbol):
     import yfinance as yf
-    df = yf.Ticker(symbol).history(period="6mo", interval="1d", auto_adjust=False)
+    df = yf.Ticker(symbol).history(period="2y", interval="1d", auto_adjust=False)
     if df is None or df.empty:
         raise SourceError("yfinance: ว่าง")
     return [(idx.strftime("%Y-%m-%d"), float(v)) for idx, v in df["Close"].items() if v == v]
@@ -79,7 +94,7 @@ def src_yahoo_chart(symbol):
     for host in ("query1", "query2"):
         try:
             r = requests.get(f"https://{host}.finance.yahoo.com/v8/finance/chart/{requests.utils.quote(symbol)}",
-                             params={"range": "6mo", "interval": "1d"}, headers=UA, timeout=20)
+                             params={"range": "2y", "interval": "1d"}, headers=UA, timeout=20)
             r.raise_for_status()
             res = r.json()["chart"]["result"][0]
             tz = res["meta"].get("gmtoffset", 0)
@@ -144,7 +159,7 @@ def merge_old(rows, old_hist):
     return sorted(merged.items())
 
 
-def validate(rows, kind, max_jump):
+def validate(rows, kind, max_jump, max_age=10):
     rows = [(d, v) for d, v in rows if v is not None and math.isfinite(v)]
     if not rows:
         raise SourceError("ไม่มีข้อมูล")
@@ -157,7 +172,7 @@ def validate(rows, kind, max_jump):
         jump = abs(b - a) if kind == "abs" else abs(b / a - 1) * 100
         if jump > max_jump:
             raise SourceError(f"ขยับผิดปกติ ({jump:.2f}) สงสัยข้อมูลเพี้ยน")
-    if (date.today() - date.fromisoformat(rows[-1][0])).days > 10:
+    if (date.today() - date.fromisoformat(rows[-1][0])).days > max_age:
         raise SourceError(f"ข้อมูลล่าสุดเก่าเกินไป ({rows[-1][0]})")
     return rows
 
@@ -200,18 +215,19 @@ def trim_history(rows, kind):
 
 
 # ---------------- ตัวหลัก ----------------
-def fetch_one(key, attempts, kind, max_jump, now, old_hist=None):
-    """attempts = [(ชื่อแหล่ง, ฟังก์ชัน), ...] คืน (summary, history, errors)"""
+def fetch_one(key, attempts, kind, max_jump, now, old_hist=None, max_age=10):
+    """attempts = [(ชื่อแหล่ง, ฟังก์ชัน), ...] คืน (summary, ประวัติยาว, errors)"""
     errors = []
     for name, fn in attempts:
         try:
             raw = retry(fn)
-            rows = validate(merge_old(raw, old_hist), kind, max_jump)
+            rows = validate(merge_old(raw, old_hist), kind, max_jump, max_age)
             summ = summarize(rows, kind, name, now)
             if len(raw) < 20:
                 summ["note"] = (f"แหล่งข้อมูลให้มาแค่ {len(raw)} วัน ระบบกำลังเก็บประวัติสะสมเอง"
                                 " (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)")
-            return summ, trim_history(rows, kind), errors
+            cut = (date.fromisoformat(rows[-1][0]) - timedelta(days=LONG_DAYS)).isoformat()
+            return summ, [[d, round(v, 4)] for d, v in rows if d >= cut], errors
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
     return None, None, errors
@@ -220,10 +236,11 @@ def fetch_one(key, attempts, kind, max_jump, now, old_hist=None):
 def run(now=None):
     now = now or datetime.now(timezone(timedelta(hours=7))).isoformat(timespec="seconds")
     old_latest = json.loads(LATEST.read_text()) if LATEST.exists() else {"series": {}}
-    old_hist = json.loads(HISTORY.read_text()) if HISTORY.exists() else {}
+    old_hist = json.loads(HISTORY_LONG.read_text()) if HISTORY_LONG.exists() else \
+        (json.loads(HISTORY.read_text()) if HISTORY.exists() else {})
     if old_latest.get("is_sample"):            # อย่าเอาข้อมูลตัวอย่างมาเป็นข้อมูลสำรอง
         old_latest, old_hist = {"series": {}}, {}
-    series, history, log = {}, {}, {}
+    series, long, log = {}, {}, {}
 
     jobs = []
     for key, (sym, fred, kind, mj) in YAHOO.items():
@@ -234,7 +251,7 @@ def run(now=None):
         if fred:
             att += [(f"FRED {fred} (สำรอง ช้ากว่า 1 วัน)", lambda f=fred: src_fred_api(f)),
                     (f"FRED {fred} (สำรอง CSV)", lambda f=fred: src_fred_csv(f))]
-        jobs.append((key, att, kind, mj))
+        jobs.append((key, att, kind, mj, 10))
     for key, sid in FRED.items():
         att = []
         if key in YAHOO_YIELD:
@@ -243,28 +260,36 @@ def run(now=None):
                     (f"Yahoo Finance {y} (สำรอง)", lambda y=y: yahoo_yield(src_yahoo_chart, y))]
         att += [(f"FRED {sid}", lambda f=sid: src_fred_api(f)),
                 (f"FRED {sid} (CSV)", lambda f=sid: src_fred_csv(f))]
-        jobs.append((key, att, "abs", FRED_MAX_JUMP))
+        kind, mj, age = FRED_META.get(key, ("abs", FRED_MAX_JUMP, 10))
+        jobs.append((key, att, kind, mj, age))
 
-    for key, att, kind, mj in jobs:
-        summ, hist, errs = fetch_one(key, att, kind, mj, now, old_hist.get(key))
+    for key, att, kind, mj, age in jobs:
+        summ, hist, errs = fetch_one(key, att, kind, mj, now, old_hist.get(key), age)
         if summ:
-            series[key], history[key] = summ, hist
+            series[key], long[key] = summ, hist
             if errs and "note" not in summ:
                 summ["note"] = "แหล่งหลักใช้ไม่ได้ ใช้แหล่งสำรอง"
         else:
             prev = old_latest.get("series", {}).get(key)
             if prev and prev.get("last") is not None:
                 series[key] = {**prev, "status": "stale", "error": " | ".join(errs)[:400]}
-                history[key] = old_hist.get(key, [])
+                long[key] = old_hist.get(key, [])
             else:
                 series[key] = {"last": None, "status": "missing", "note": "ดึงข้อมูลไม่ได้ และไม่มีข้อมูลรอบก่อน",
                                "error": " | ".join(errs)[:400]}
-                history[key] = []
+                long[key] = []
         log[key] = series[key]["status"] + ("" if not errs else f" ({len(errs)} แหล่งล้มเหลว)")
 
     LATEST.write_text(json.dumps({"generated_at": now, "is_sample": False, "series": series},
                                  ensure_ascii=False, indent=1))
+    history = {k: trim_history(v, "abs") if v else [] for k, v in long.items()}
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, separators=(",", ":")))
+    HISTORY_LONG.write_text(json.dumps(long, ensure_ascii=False, separators=(",", ":")))
+    try:
+        import regime
+        REGIME.write_text(json.dumps(regime.compute(long, series, now), ensure_ascii=False, indent=1))
+    except Exception as e:  # noqa: BLE001  ภาพใหญ่คำนวณไม่ได้ ไม่ให้กระทบข้อมูลหลัก
+        print("regime: คำนวณไม่สำเร็จ", e)
     for k, v in log.items():
         print(f"{k:8s} {v}")
     bad = [k for k, v in series.items() if v["status"] != "ok"]

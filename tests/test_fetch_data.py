@@ -26,7 +26,8 @@ class Base(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         d = Path(self.tmp.name)
-        self.p = [mock.patch.object(F, "LATEST", d / "latest.json"), mock.patch.object(F, "HISTORY", d / "history.json")]
+        self.p = [mock.patch.object(F, "LATEST", d / "latest.json"), mock.patch.object(F, "HISTORY", d / "history.json"),
+                  mock.patch.object(F, "HISTORY_LONG", d / "history_long.json"), mock.patch.object(F, "REGIME", d / "regime.json")]
         for p in self.p:
             p.start()
 
@@ -148,6 +149,23 @@ class TestFetch(Base):
                 raise RuntimeError("timeout")
             return series()
         self.assertEqual(len(F.retry(lambda: flaky("x"))), 80)
+
+
+class TestLong(Base):
+    def test_long_history_and_regime_written(self):
+        self.run_with(yf=lambda s: series(n=600), api=lambda s: series(n=600, start=4.0, step=0.001))
+        long = json.loads(F.HISTORY_LONG.read_text())
+        self.assertGreater(len(long["SPX"]), 500)                     # เก็บยาว ~2 ปี
+        self.assertLess(len(json.loads(F.HISTORY.read_text())["SPX"]), 100)  # หน้าเว็บใช้ 90 วัน
+        reg = json.loads(F.REGIME.read_text())
+        self.assertIn("fear", reg)
+
+    def test_weekly_series_allowed_older(self):
+        wk = series(n=120, end=date.today() - timedelta(days=12), start=1.0, step=0.0)
+        self.run_with(yf=lambda s: series(), api=lambda s: wk)
+        s = self.latest()["series"]
+        self.assertEqual(s["STRESS"]["status"], "ok")     # รายสัปดาห์ เก่า 12 วันยังรับได้
+        self.assertEqual(s["US2Y"]["status"], "missing")  # รายวัน เก่า 12 วัน = เก่าเกินไป
 
 
 class TestChange(unittest.TestCase):
