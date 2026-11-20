@@ -25,6 +25,10 @@ class TestParse(unittest.TestCase):
         self.assertTrue(r["confirmed"])
         self.assertEqual(r["foreign"], -2850)
 
+    def test_prefers_set_only_over_set_mai(self):
+        r = S.combine([art("ต่างชาติขายสุทธิ 2,499.55 ลบ.(SET+MAI)", "A"), art("ต่างชาติขายสุทธิ 2,495.23 ลบ.(SET)", "B")])
+        self.assertEqual(r["foreign"], -2495.23)
+
     def test_single_source_unconfirmed(self):
         r = S.combine([art("ต่างชาติซื้อสุทธิ 500 ล้านบาท", "A")])
         self.assertFalse(r["confirmed"])

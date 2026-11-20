@@ -61,6 +61,8 @@ def combine(articles):
             seen = [(v[g], a) for a, v in rows if g in v]
             if not seen:
                 continue
+            # ถ้ามีหลายข่าว ให้ใช้ตัวเลข "SET อย่างเดียว" ก่อน (บางข่าวรวม MAI มาด้วย)
+            seen.sort(key=lambda x: "MAI" in x[1]["title"].upper())
             ref = seen[0][0]
             agree = [x for x in seen if abs(x[0] - ref) <= abs(ref) * 0.01 + 0.5]
             if len(agree) < len(seen):                # ข่าวขัดกัน ข้ามกลุ่มนี้
