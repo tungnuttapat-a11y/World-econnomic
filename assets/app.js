@@ -364,7 +364,7 @@
         <span class="t-chg ${dir(key, s.chg1d)}" id="ro-chg">${missing ? "" : arrow(dir(key, s.chg1d)) + " " + esc(fmtChg(key, s.chg1d))}</span>
         <span class="when" id="ro-when">${missing ? "ไม่มีข้อมูล" : "ราคาปิด " + esc(fmtD(s.asof, true))}</span></div>
       ${s.status === "stale" ? `<div class="banner">ดึงข้อมูลรอบล่าสุดไม่สำเร็จ แสดงข้อมูลเก่า ณ ${esc(fmtDT(s.fetched_at))}</div>` : ""}
-      ${missing && s.note ? `<div class="banner">${esc(s.note)}</div>` : ""}
+      ${s.note ? `<div class="banner">${esc(s.note)}</div>` : ""}
       <div class="range" role="group" aria-label="ช่วงกราฟ"><button data-r="30" aria-pressed="false">30 วัน</button><button data-r="90" aria-pressed="true">90 วัน</button></div>
       <svg class="chart" id="big" role="img" aria-label="กราฟ ${esc(m.name)}"></svg>
       <div class="stats"><div><span>วันนี้</span><strong class="${dir(key, s.chg1d)}">${esc(fmtChg(key, s.chg1d))}</strong></div>

@@ -4,7 +4,7 @@
 
 ## สถานะ
 - [x] ขั้นที่ 1: หน้าตัวอย่างใช้ข้อมูลตัวอย่าง 19 พ.ย. 2026 (`data/` ตอนนี้เป็นข้อมูลตัวอย่าง)
-- [ ] ขั้นที่ 2: ดึงข้อมูลจริง (Yahoo/yfinance + FRED) + ทดสอบกรณีดึงไม่ได้
+- [x] ขั้นที่ 2: สคริปต์ดึงข้อมูลจริง (Yahoo/yfinance + FRED) + ทดสอบกรณีดึงไม่ได้ (`tests/`)
 - [ ] ขั้นที่ 3: GitHub Actions + GitHub Pages
 - [ ] ขั้นที่ 4: ส่งออก PDF / CSV / Markdown
 
@@ -20,8 +20,18 @@
 - `index.html`, `assets/` หน้าเว็บ (HTML/CSS/JS ล้วน)
 - `data/latest.json`, `data/history.json` ข้อมูลที่หน้าเว็บอ่าน
 - `manifest.webmanifest`, `sw.js`, `icons/` ทำให้ติดตั้งเป็นแอปและเปิดตอนออฟไลน์ได้
+- `scripts/fetch_data.py` ดึงราคา/ดอกเบี้ย → `data/latest.json`, `data/history.json`
+  - ราคา: yfinance → Yahoo chart API → FRED (เฉพาะ S&P, Nasdaq, VIX, WTI, BTC, USD/THB)
+  - ดอกเบี้ย: FRED API (ต้องมี `FRED_API_KEY`) → ไฟล์ CSV สาธารณะของ FRED
+  - ทุกแหล่งลอง 3 ครั้ง ตรวจตัวเลขผิดปกติ ถ้าล้มทุกทางใช้ข้อมูลรอบก่อนพร้อมป้าย "ข้อมูลเก่า ณ ..."
 - `scripts/fetch_news.py` ดึงพาดหัวข่าวจาก Google News → `data/news.json` (ลิงก์ไปเว็บต้นฉบับ)
 - `scripts/make_sample_data.py` สร้างข้อมูลตัวอย่าง (ขั้นที่ 1 เท่านั้น)
+
+## ทดสอบ
+```
+pip install -r requirements.txt
+python3 -m unittest discover -s tests -v
+```
 
 ## ข้อจำกัด
 - yfinance ไม่ใช่ช่องทางทางการของ Yahoo อาจช้า 15–20 นาที หรือใช้งานไม่ได้ชั่วคราว
