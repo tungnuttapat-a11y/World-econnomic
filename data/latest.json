@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:24:55+07:00",
+ "generated_at": "2026-11-23T10:21:06+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
@@ -10,7 +10,7 @@
    "chg30d": -10.92,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "IXIC": {
    "last": 22617.7305,
@@ -20,7 +20,7 @@
    "chg30d": -15.3,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "VIX": {
    "last": 35.89,
@@ -30,68 +30,68 @@
    "chg30d": 115.17,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "GOLD": {
-   "last": 3515.3999,
-   "asof": "2026-11-20",
-   "chg1d": -4.62,
-   "chg5d": -9.54,
-   "chg30d": -15.29,
+   "last": 3600.8999,
+   "asof": "2026-11-22",
+   "chg1d": 2.43,
+   "chg5d": -6.54,
+   "chg30d": -10.15,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "DXY": {
-   "last": 103.81,
-   "asof": "2026-11-20",
-   "chg1d": -0.09,
-   "chg5d": 0.39,
-   "chg30d": 1.99,
+   "last": 103.751,
+   "asof": "2026-11-22",
+   "chg1d": -0.06,
+   "chg5d": 0.19,
+   "chg30d": 1.91,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "WTI": {
-   "last": 83.41,
-   "asof": "2026-11-20",
-   "chg1d": 0.24,
-   "chg5d": -5.82,
-   "chg30d": -14.14,
+   "last": 83.04,
+   "asof": "2026-11-22",
+   "chg1d": -1.12,
+   "chg5d": -3.13,
+   "chg30d": -19.59,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "BTC": {
-   "last": 59041.8984,
-   "asof": "2026-11-22",
-   "chg1d": -1.75,
-   "chg5d": -9.02,
-   "chg30d": -27.18,
+   "last": 61404.0312,
+   "asof": "2026-11-23",
+   "chg1d": 2.18,
+   "chg5d": -5.38,
+   "chg30d": -24.0,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "SET": {
-   "last": 1453.28,
-   "asof": "2026-11-20",
-   "chg1d": null,
+   "last": 1447.65,
+   "asof": "2026-11-23",
+   "chg1d": -0.39,
    "chg5d": null,
    "chg30d": null,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00",
+   "fetched_at": "2026-11-23T10:21:06+07:00",
    "note": "แหล่งข้อมูลให้มาแค่ 1 วัน ระบบกำลังเก็บประวัติสะสมเอง (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)"
   },
   "USDTHB": {
-   "last": 33.942,
-   "asof": "2026-11-20",
-   "chg1d": -0.0,
-   "chg5d": 0.27,
-   "chg30d": 1.02,
+   "last": 33.93,
+   "asof": "2026-11-23",
+   "chg1d": -0.04,
+   "chg5d": 0.24,
+   "chg30d": 0.63,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "MOVE": {
    "last": 106.31,
@@ -101,7 +101,7 @@
    "chg30d": 10.81,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "VIX3M": {
    "last": 30.94,
@@ -111,17 +111,17 @@
    "chg30d": 65.28,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "COPPER": {
-   "last": 5.485,
-   "asof": "2026-11-20",
-   "chg1d": -2.49,
-   "chg5d": -9.78,
-   "chg30d": -16.17,
+   "last": 5.4985,
+   "asof": "2026-11-22",
+   "chg1d": 0.39,
+   "chg5d": -8.32,
+   "chg30d": -15.09,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "US2Y": {
    "last": 4.76,
@@ -131,7 +131,7 @@
    "chg30d": -0.03,
    "status": "ok",
    "source": "FRED DGS2",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "US10Y": {
    "last": 4.912,
@@ -141,7 +141,7 @@
    "chg30d": -0.234,
    "status": "ok",
    "source": "Yahoo Finance ^TNX",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "US30Y": {
    "last": 5.4,
@@ -151,7 +151,7 @@
    "chg30d": -0.02,
    "status": "ok",
    "source": "FRED DGS30",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "REAL10Y": {
    "last": 2.88,
@@ -161,7 +161,7 @@
    "chg30d": 0.11,
    "status": "ok",
    "source": "FRED DFII10",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "HY": {
    "last": 3.52,
@@ -171,7 +171,7 @@
    "chg30d": 0.19,
    "status": "ok",
    "source": "FRED BAMLH0A0HYM2",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "BEI10": {
    "last": 2.15,
@@ -181,7 +181,7 @@
    "chg30d": -0.22,
    "status": "ok",
    "source": "FRED T10YIE",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "CURVE": {
    "last": 0.29,
@@ -191,7 +191,7 @@
    "chg30d": -0.03,
    "status": "ok",
    "source": "FRED T10Y2Y",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "STRESS": {
    "last": -0.8655,
@@ -201,7 +201,7 @@
    "chg30d": -0.146,
    "status": "ok",
    "source": "FRED STLFSI4",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "NFCI": {
    "last": -0.478,
@@ -211,7 +211,7 @@
    "chg30d": 0.006,
    "status": "ok",
    "source": "FRED NFCI",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   },
   "MMF": {
    "last": 3037.0,
@@ -221,7 +221,7 @@
    "chg30d": 0.1,
    "status": "ok",
    "source": "FRED WRMFNS",
-   "fetched_at": "2026-11-22T14:24:55+07:00"
+   "fetched_at": "2026-11-23T10:21:06+07:00"
   }
  }
 }
