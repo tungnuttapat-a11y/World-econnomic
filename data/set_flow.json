@@ -1,19 +1,23 @@
 {
- "trade_date": "2026-11-20",
- "foreign": -2403.57,
+ "trade_date": "2026-11-24",
+ "foreign": -5269.67,
  "institution": null,
  "proprietary": null,
  "retail": null,
  "confirmed": false,
  "sources": [
   {
-   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,403.57 ลบ.(SET+MAI) : อินโฟเควสท์",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KZ0ExalEzTzdfRlNHSklNRFFmN0xSenN2TVVJUGJhTUlpNjBaLU1OU3Z4S0FPX3AwbkxaaGswZ2tzOF9Md2NPRTdQb3JWYzh3?oc=5",
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 5,269.67 ลบ.(SET) : อินโฟเควสท์",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvR2xrRjh2RURHQ0VOY2o5NmtFN1gxV0QtSGkwbzRDaGlDenBJcTM2UVV5T25PRTFIdlFiNUtCLVUtQzNTem9iYWVhZGRPbkd6?oc=5",
+   "source": "สำนักข่าวอินโฟเควสท์"
+  },
+  {
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 5,253.50 ลบ.(SET+MAI) : อินโฟเควสท์",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50VEM5ZDFUV0FGZFBHNUtTN0hpblhzS25FOEhkUFRHMllkS2E1a05UZWgwWER6UGxLNnhVbWtSMXJsU0p6NG5HaDFwdVJmRkVm?oc=5",
    "source": "สำนักข่าวอินโฟเควสท์"
   }
  ],
- "status": "stale",
- "fetched_at": "2026-11-22T14:25:32+07:00",
- "method": "พาดหัวข่าว",
- "error": "ไม่พบตัวเลขในข่าวรอบนี้"
+ "status": "ok",
+ "fetched_at": "2026-11-24T18:39:16+07:00",
+ "method": "พาดหัวข่าว"
 }
