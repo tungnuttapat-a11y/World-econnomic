@@ -1,76 +1,76 @@
 {
- "generated_at": "2026-11-25T03:17:50+07:00",
+ "generated_at": "2026-11-25T04:12:10+07:00",
  "is_sample": false,
  "series": {
   "SPX": {
-   "last": 7184.6699,
+   "last": 7201.0898,
    "asof": "2026-11-24",
-   "chg1d": -0.73,
-   "chg5d": -2.12,
-   "chg30d": -5.76,
+   "chg1d": -0.5,
+   "chg5d": -1.9,
+   "chg30d": -5.54,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "IXIC": {
-   "last": 23653.2949,
+   "last": 23733.5352,
    "asof": "2026-11-24",
-   "chg1d": -1.81,
-   "chg5d": -2.77,
-   "chg30d": -8.87,
+   "chg1d": -1.48,
+   "chg5d": -2.45,
+   "chg30d": -8.56,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "VIX": {
-   "last": 27.53,
+   "last": 26.23,
    "asof": "2026-11-24",
-   "chg1d": 3.42,
-   "chg5d": 8.13,
-   "chg30d": 41.54,
+   "chg1d": -1.47,
+   "chg5d": 3.02,
+   "chg30d": 34.86,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "GOLD": {
-   "last": 3554.7,
+   "last": 3550.6001,
    "asof": "2026-11-24",
-   "chg1d": -2.65,
-   "chg5d": -8.01,
-   "chg30d": -11.31,
+   "chg1d": -2.76,
+   "chg5d": -8.12,
+   "chg30d": -11.41,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "DXY": {
-   "last": 103.818,
+   "last": 103.824,
    "asof": "2026-11-24",
    "chg1d": -0.48,
    "chg5d": 0.32,
-   "chg30d": 1.97,
+   "chg30d": 1.98,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "WTI": {
-   "last": 81.54,
+   "last": 81.44,
    "asof": "2026-11-24",
-   "chg1d": 1.71,
-   "chg5d": -5.2,
-   "chg30d": -21.04,
+   "chg1d": 1.58,
+   "chg5d": -5.31,
+   "chg30d": -21.14,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "BTC": {
-   "last": 59617.8789,
+   "last": 59695.3789,
    "asof": "2026-11-24",
-   "chg1d": -2.6,
-   "chg5d": -3.69,
-   "chg30d": -25.5,
+   "chg1d": -2.48,
+   "chg5d": -3.56,
+   "chg30d": -25.4,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "SET": {
    "last": 1451.65,
@@ -80,48 +80,48 @@
    "chg30d": null,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00",
+   "fetched_at": "2026-11-25T04:12:10+07:00",
    "note": "แหล่งข้อมูลให้มาแค่ 1 วัน ระบบกำลังเก็บประวัติสะสมเอง (% 5 วัน/30 วัน และกราฟจะครบเมื่อเก็บได้พอ)"
   },
   "USDTHB": {
-   "last": 33.92,
+   "last": 33.93,
    "asof": "2026-11-24",
-   "chg1d": -0.29,
-   "chg5d": 0.12,
-   "chg30d": 0.61,
+   "chg1d": -0.26,
+   "chg5d": 0.15,
+   "chg30d": 0.63,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "MOVE": {
-   "last": 98.7891,
+   "last": 98.9107,
    "asof": "2026-11-24",
-   "chg1d": -2.1,
-   "chg5d": -3.03,
-   "chg30d": -4.38,
+   "chg1d": -1.98,
+   "chg5d": -2.91,
+   "chg30d": -4.26,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "VIX3M": {
-   "last": 26.23,
+   "last": 25.35,
    "asof": "2026-11-24",
-   "chg1d": 2.86,
-   "chg5d": 5.0,
-   "chg30d": 28.08,
+   "chg1d": -0.59,
+   "chg5d": 1.48,
+   "chg30d": 23.78,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "COPPER": {
-   "last": 5.474,
+   "last": 5.4865,
    "asof": "2026-11-24",
-   "chg1d": -2.72,
-   "chg5d": -8.4,
-   "chg30d": -15.47,
+   "chg1d": -2.5,
+   "chg5d": -8.19,
+   "chg30d": -15.28,
    "status": "ok",
    "source": "Yahoo Finance",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "US2Y": {
    "last": 4.63,
@@ -131,7 +131,7 @@
    "chg30d": -0.18,
    "status": "ok",
    "source": "FRED DGS2",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "US10Y": {
    "last": 4.904,
@@ -141,7 +141,7 @@
    "chg30d": -0.084,
    "status": "ok",
    "source": "Yahoo Finance ^TNX",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "US30Y": {
    "last": 5.31,
@@ -151,7 +151,7 @@
    "chg30d": -0.11,
    "status": "ok",
    "source": "FRED DGS30",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "REAL10Y": {
    "last": 2.77,
@@ -161,7 +161,7 @@
    "chg30d": 0.01,
    "status": "ok",
    "source": "FRED DFII10",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "HY": {
    "last": 3.63,
@@ -171,7 +171,7 @@
    "chg30d": 0.25,
    "status": "ok",
    "source": "FRED BAMLH0A0HYM2",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "BEI10": {
    "last": 2.13,
@@ -181,7 +181,7 @@
    "chg30d": -0.21,
    "status": "ok",
    "source": "FRED T10YIE",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "CURVE": {
    "last": 0.29,
@@ -191,7 +191,7 @@
    "chg30d": -0.02,
    "status": "ok",
    "source": "FRED T10Y2Y",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "STRESS": {
    "last": -0.8655,
@@ -201,7 +201,7 @@
    "chg30d": -0.146,
    "status": "ok",
    "source": "FRED STLFSI4",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "NFCI": {
    "last": -0.478,
@@ -211,7 +211,7 @@
    "chg30d": 0.006,
    "status": "ok",
    "source": "FRED NFCI",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   },
   "MMF": {
    "last": 3037.6,
@@ -221,7 +221,7 @@
    "chg30d": -0.19,
    "status": "ok",
    "source": "FRED WRMFNS",
-   "fetched_at": "2026-11-25T03:17:50+07:00"
+   "fetched_at": "2026-11-25T04:12:10+07:00"
   }
  }
 }
