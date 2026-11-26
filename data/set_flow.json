@@ -1,18 +1,23 @@
 {
- "trade_date": "2026-11-25",
- "foreign": -1160.18,
+ "trade_date": "2026-11-26",
+ "foreign": -2582.73,
  "institution": null,
  "proprietary": null,
  "retail": null,
- "confirmed": false,
+ "confirmed": true,
  "sources": [
   {
-   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 1,160.18 ลบ.(SET+MAI) : อินโฟเควสท์",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80VWpYdDI1enVfdGk0VXRVS0tFUGZvYVRhWndNQWVnSXV0SV9mdmJYWVhLeUNjZXVoa3dYTHFvbDBSaDBRU2ZZWXZxa0kxVWlh?oc=5",
+   "title": "ต่างชาติขายสุทธิ 2,582.73 ลบ. สถาบันร่วมเท สวนทางรายย่อย-พอร์ตโบรกเข้าช้อน",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vNmx2R1d4NTBZMTVsd2dFRk9rTEpoam5aOVlvNWxzNUEwZ1JlU3kyQVEwM25oRmJtMllLZGNTQTFldHN5U2stOG9ic01jUUxwR2hn?oc=5",
+   "source": "Thunhoon"
+  },
+  {
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,570.31 ลบ.(SET+MAI) : อินโฟเควสท์",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UejU0T3d2XzZjXzFjOW1rTjl2UFlBQ3FMaEVaYlZnazZxNFZ2R1hrS25JZjljdFdoSFJWQWFDcjZiWnpheDlLQV9aelBaT29x?oc=5",
    "source": "สำนักข่าวอินโฟเควสท์"
   }
  ],
  "status": "ok",
- "fetched_at": "2026-11-26T10:21:44+07:00",
+ "fetched_at": "2026-11-26T18:39:26+07:00",
  "method": "พาดหัวข่าว"
 }
