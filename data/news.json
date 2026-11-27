@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-27T19:40:05.785782+00:00",
+ "generated_at": "2026-11-27T22:45:28.741435+00:00",
  "topics": {
   "us_yields": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "Treasuries Retreat as Gains in Equities Sap Demand for Havens",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ0taN3E4cG1RcDA0QnJMVnZWY3k0cExiNHlSRDJ5YVRZNlN1UlpLczR1Y0xtaFpyZnZwT2NLQlFqQjV0WGNVZ2V2a2ZBWnB1XzRoZm1oQmJ0cEFsRFIwdzdRd1dUdjdRVDlYb1pIaXZ1RmlVNF9DRHJ6OXd5VjNWLS1tRHZ1V19rQWVZWGZ0SDhHQnU3VnhkSDZMcm5mUE5teXktQUU4cHhWX0pTQ2gzdzF3?oc=5",
-     "source": "Bloomberg",
-     "source_url": "https://www.bloomberg.com",
-     "published": "2026-11-27T19:05:49+00:00",
+     "title": "Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOG00dUVjZFhJM0F4aHEyYVhzRW93V29aWVJnR3BQLXdzRFBDRmdocmg4V2JxeF9TeG9KY012eWo5QlRTUzFlSE9kaDFvbmVEWC1jQWxsb3NnNkZ4VWdtZmJHSnJOZEE1YTNEcmxWMGNGcEt3UmZvV0ZQZl83a1R6dVdMX2w0NHYyZjIwcGtlbFN2Zm5mVkZSX0VEemFTNnc2NkR3dXpBVXkwUkhxWGNIUHJ4WDZERTc1YmhaZ3dvZ0VXeEwtZjR4R3RDTQ?oc=5",
+     "source": "TradingView",
+     "source_url": "https://www.tradingview.com",
+     "published": "2026-11-27T19:52:42+00:00",
      "lang": "en"
     },
     {
-     "title": "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNkFkUGhqUTRReFFqcE1hd1dsdTd1cVltSlJhd2tmT29VSzRxTGR0cGs2YXFRRDZudUtnSGFFamQzSjE4bmZ1R2ktbXJIQl93aEtpTzVQd1NfRzRyUS16UFBZSFdCNDFENnNORFdwR3ljS2o5SGl3NTEyemdMbDNOU09UdkdTd3hCUnQ2Wl9rNmIzNTFRbnVPRFNxTFlIdC1JeFJ3czF1NlFhMmJnV1VNakVfX0lDQWVzNmVNcm9pMFNKUTF5aXVVckJ4TnJLU0FHSjgxZjk4bjlVekpiSmxPOQ?oc=5",
-     "source": "FXEmpire",
-     "source_url": "https://www.fxempire.com",
-     "published": "2026-11-27T18:53:47+00:00",
+     "title": "Treasuries Retreat as Gains in Equities Sap Demand for Havens",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ0taN3E4cG1RcDA0QnJMVnZWY3k0cExiNHlSRDJ5YVRZNlN1UlpLczR1Y0xtaFpyZnZwT2NLQlFqQjV0WGNVZ2V2a2ZBWnB1XzRoZm1oQmJ0cEFsRFIwdzdRd1dUdjdRVDlYb1pIaXZ1RmlVNF9DRHJ6OXd5VjNWLS1tRHZ1V19rQWVZWGZ0SDhHQnU3VnhkSDZMcm5mUE5teXktQUU4cHhWX0pTQ2gzdzF3?oc=5",
+     "source": "Bloomberg.com",
+     "source_url": "https://www.bloomberg.com",
+     "published": "2026-11-27T19:05:49+00:00",
      "lang": "en"
     },
     {
@@ -41,31 +41,23 @@
   },
   "fed": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "USD to EUR Forecast: Can the US Dollar Reach Parity With the Euro in 2027?",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmxrcXBDcFVrVHRobjB6SjNJUm8tem1pX3JHSFFkdEtWTFVaaW5ILW5NZjF4SlFZdENmYmhxY3IzSlcxZjJGTmt4bGxlYjV3VkU1eGkwbGktdk1EMU5FTFQta3FsYl9jUnp2dWFSd014RzNwVjVfd1ZUeUhIbVdNa3otckFmYjZfTnliTnpDVFRXcU9aX1pJQ1FDSVFiS2RfQkE?oc=5",
-     "source": "Coinpaper",
-     "source_url": "https://coinpaper.com",
-     "published": "2026-11-27T19:30:48+00:00",
+     "title": "President Trump floats 10 percent credit card interest rate cap",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWGM3WS1Ja3NLRldzcGMyUFM5RkM3SDMyMXNuZkNLdXRjOUxBNmR6SjNlcFN0dnBMMG5lU19PeGE0RGtDd2JONzAwRUdnMWpUbnVld1JpU3JiaHhWY0pvY0Rwa1RBN1JDRWZSbmttSTJNRGVTYTRCZ0kweV94X25yYkJLeVVvVklIRDFjVlBqdm5UdFFqVDhTX2JGS1k?oc=5",
+     "source": "WSFA",
+     "source_url": "https://www.wsfa.com",
+     "published": "2026-11-27T22:32:00+00:00",
      "lang": "en"
     },
     {
-     "title": "Canadian Dollar draws support from BoC rate hike bets, jobs data in focus",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdkVoTVoxZG9KRWFUUGF1eGw4VDUtYUMyeWUzYURnYlZUVDRMd25oNW81R3dqUm9uNDNjWTlUM3Z1X3NjMkJlaXZtVVJCWkFYRm5zZzBCdWxwMVFISTNJOEJPRDNNZUVvZGpsanIzUVpqN09BaERVOWdsdDBYZ0RnM1dzZnMwYzU0X1NubDlsV3FHeEJMTjVFUkRPVk40c0NENTNMc01pRFotVjI1ZllnSWxObi1FUFlJRWlWekpCNDgwS1NZaEROVmhtWDB6THk2eTRGUg?oc=5",
-     "source": "www.tmgm.com",
-     "source_url": "https://www.tmgm.com",
-     "published": "2026-11-27T18:50:28+00:00",
+     "title": "Slow and Steady Could Win the Fed’s Next Hiking Cycle",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR0t1Vl9qTmp4cW5NQUVLUDhpd1hjd0JKNGk1SzFNR09oQm83V1VaVlBuRmNKMTFHbGl4YURlT2p0YjZDam91Ui1qc2pOOUpSSE9jU3VfVXFtM2xFUXJ2bmFLZ2ZFZ214cVMtUnp0SXVBX0J0WkVxbE9LQVdqWktYaGJMYXE0WE8wSXhGaGVUY2RJbXViUUV0bA?oc=5",
+     "source": "Dividend.com",
+     "source_url": "https://www.dividend.com",
+     "published": "2026-11-27T22:02:38+00:00",
      "lang": "en"
-    },
-    {
-     "title": "‘ดาวโจนส์’ พุ่งกว่า 500 จุด รับแรงซื้อหุ้นเทคโนโลยี ตลาดเปิดครึ่งวัน",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40cUJnUDZoWmh6Rm9JTV8wUzJmR0tZc21MZU9hYlBZWkVPNUpzUVNVWG9mX1JDUXRQXzNMdi1nenhGNkg3ZjFRc1FTY1NEY2JMNDVRYTZMMkJ1WkMta1lTT2pBTzFsUjA0NUg2VkhEeWNGa2ctLVE?oc=5",
-     "source": "The Bangkok Insight",
-     "source_url": "https://www.thebangkokinsight.com",
-     "published": "2026-11-27T16:37:22+00:00",
-     "lang": "th"
     },
     {
      "title": "ดอลลาร์สหรัฐ: คาดเฟดขึ้นดอกเบี้ยสองครั้ง ขณะตลาดแรงงานยังแข็งแกร่ง – Commerzbank",
@@ -74,19 +66,35 @@
      "source_url": "https://www.tmgm.com",
      "published": "2026-11-27T13:03:22+00:00",
      "lang": "th"
+    },
+    {
+     "title": "ดอลลาร์สหรัฐ: คาดเฟดปรับขึ้นอัตราดอกเบี้ยสองครั้ง หลังตลาดแรงงานยังคงแข็งแกร่ง – Commerzbank",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzRnZMek4xU3lfeDlldlVjWXk0a3BVclIxdFNzaS1ObnAxa1ZYSG9SZ1JydjcyTFhHVGFsbk5ENDFjOVM2N2RLSFhsNWpVNHJSRlV3MTNHSFlCX2tzTWVtNW03MlN0c3R4?oc=5",
+     "source": "TradingView",
+     "source_url": "https://es.tradingview.com",
+     "published": "2026-11-27T12:35:56+00:00",
+     "lang": "th"
     }
    ]
   },
   "vix": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "US stocks end volatile week higher as tech shares rebound",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDJEN1MtbnV4N1lXaEJVOEpVaWMtNzV0c3dNZVd1Z0Rvb3k3dkFvWXpmSVpsVjVtUGljdU9ZQ2dibm5KOWhobGh6M3dzSi1wU0ROT3Bqb29NZ1owVDFnbWVlMzR4bG52b1NjRjNROG9DOXJ4ZHlfdzEwM2t2NVVJUXF0ZkVlelNyVFYycXNGLWwtNmhNQ0Z0NW5uckxvWk1r?oc=5",
-     "source": "Anadolu Ajansı",
-     "source_url": "https://www.aa.com.tr",
-     "published": "2026-11-27T19:26:36+00:00",
+     "title": "VIX Closes Friday at 23.81, Down 15.84%",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVmEtemNYQ3pjYi1Ba3FQajNrZUdiNDA5Ykh5djdSUHhTM2J0WU5NdERZb0p0dDZVamszUWpucU5MU25raUprTUoyZHVxNVU5c0szWTd0YmhoZy1KLWI5anJmb1lSRFlVQm5KWUxONlU4WUtnQkptWkZmNFdQRGVfSmRQTUZnVm9JRHJVWk0tMTJRU2hud1YtZ0xqWVh4bFV4?oc=5",
+     "source": "ad-hoc-news.de",
+     "source_url": "https://www.ad-hoc-news.de",
+     "published": "2026-11-27T21:45:36+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "Dow futures climb 1.18% to 50,821 as winning streak hits four",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQzZoNE5qMWtaZnhOS1VoTVlFbHRNTTgzQlZ1STVxNDlmbTVKcEVoUGg4N0pEY0dpS3pBQTBnZUdSMzR6cmR6X3J3OWZVbU1PSENKMXNLRHl0Rjh1MW5ZVDM2aHY3WG5CZlpjS0dzcWFwdnpUblZhcVpFTExUR0J0NFRoMlctTWpfMkdWWG5nbzlUUHVURGZSeC1wZ3ktTEU?oc=5",
+     "source": "JournalArta",
+     "source_url": "https://journalarta.com",
+     "published": "2026-11-27T21:12:20+00:00",
      "lang": "en"
     },
     {
@@ -96,14 +104,6 @@
      "source_url": "https://www.thebangkokinsight.com",
      "published": "2026-11-27T16:37:22+00:00",
      "lang": "th"
-    },
-    {
-     "title": "CBOE Volatility Index falls to 26.47 as five-day slide deepens",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmx3SWxGVjBGUjhNQ0FQUWlGczdEWjF5VVBEYVd6NVUyT21lUF95TS1WazgzTmNBZUFoUHdVRG03MU1USXcxVXowdHN1V3djOENrVEk1Y0J1OXFWbGYwTjI1WnR4dUJxTVFkal90U3BueXYtc2czRkRpV1M0cXVPbTBIbVdlQkwwMmh5ck9yWU1KYUFhdGpz?oc=5",
-     "source": "JournalArta",
-     "source_url": "https://journalarta.com",
-     "published": "2026-11-27T15:40:02+00:00",
-     "lang": "en"
     },
     {
      "title": "‘เคน ฟิชเชอร์’ พอร์ตแสนล้านดอลลาร์ ถอดรหัส ‘หุ้นโลก’ เข้าสู่ปลายวัฏจักรขาขึ้น",
@@ -117,23 +117,31 @@
   },
   "dollar": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNkFkUGhqUTRReFFqcE1hd1dsdTd1cVltSlJhd2tmT29VSzRxTGR0cGs2YXFRRDZudUtnSGFFamQzSjE4bmZ1R2ktbXJIQl93aEtpTzVQd1NfRzRyUS16UFBZSFdCNDFENnNORFdwR3ljS2o5SGl3NTEyemdMbDNOU09UdkdTd3hCUnQ2Wl9rNmIzNTFRbnVPRFNxTFlIdC1JeFJ3czF1NlFhMmJnV1VNakVfX0lDQWVzNmVNcm9pMFNKUTF5aXVVckJ4TnJLU0FHSjgxZjk4bjlVekpiSmxPOQ?oc=5",
-     "source": "FXEmpire",
-     "source_url": "https://www.fxempire.com",
-     "published": "2026-11-27T18:53:47+00:00",
+     "title": "US Dollar Index Bounces Off Session Lows to Trade at 104.03",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQemV1Z1ducHlFeW9tOWdzaXpnbFlORWp4RWJaVDRqakJ4ZllWWVFXQm5yMkk2MmtkVXVjNVl0OVBxTExyY2hnVGlBX1BaOXlyUUNMVkpKT1FIN2xSZkJMcnNmd0ZSVC1Jbks4N05xRUtHcWc2OFI2T1FnSUY5a3RoU0JoaWx5N0hqbm8wY3RVUQ?oc=5",
+     "source": "FXDailyReport.Com",
+     "source_url": "https://fxdailyreport.com",
+     "published": "2026-11-27T20:54:52+00:00",
      "lang": "en"
     },
     {
-     "title": "Gold defies surging US Dollar and Treasury yields as bulls target $3,700",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTTA5LTNDRTlvTmJpZHZHb3FIMjlGUlpyM0xoWjlZNWREb3lCZ2ZpOVRHUjRVeThzcFRYRVpHalFIV3NUTG91ekFweXVkblA2MUJKUThadVgxSkczRWo2OW5tSWd0Mld1YVFOdHBZUTZ2Z3k3Y0V1d1B2Z3Y3VFduQnhmN0p3OGdhQUotWUFtdjFjeXNDMEtxc3AzZVYxeTMweHM0SUdiT1B4cDE5cG5YYVBLUVk?oc=5",
-     "source": "FXStreet",
-     "source_url": "https://www.fxstreet.com",
-     "published": "2026-11-27T18:19:27+00:00",
+     "title": "US Dollar Technical Outlook: DXY Hits 2026 High—Major Trend Resistance Puts Rally to the Test",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRGVYWmExNnltN2M5bW9OVXM0cXl4RFAxVWlkYVFfZGFsQTZ4ckx1MEd3SDFvUnFTVERxMjU5MlluVlREQ0xSaFd3eGp2b24tQ1BSVGtzNkQyYkl0cTMzcHZFaWF3MGFKY05mdjgtYVp5cV9VZWVGS3F6ZjRqd1BEUTdXNlFEamZRQmozeXdQdWEta19FQWRneGo4S182XzNrN0taSTlDcEk1YzZqRExNY3RJUzJkTXY0QW9KQ1JXUWE1d3R5UGlKaHJ3ZFZEbWYxR1lFcEVGSQ?oc=5",
+     "source": "StoneX",
+     "source_url": "https://www.stonex.com",
+     "published": "2026-11-27T19:34:51+00:00",
      "lang": "en"
+    },
+    {
+     "title": "Otavio (Tavi) Costa ชี้ว่าเงินดอลลาร์สหรัฐที่แข็งค่าเพิ่มแรงกดดันต่อเศรษฐกิจและการค้า",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMDJyMk9wUGJGMElEUHBadDk3VXNNMk92aXRPSGdVYXZzRTlXYjIyVFZ3NUwyNmhxME9TX29UNWhKNzRDYW5rVXkxS1ZvNUNwRkN3eXVGc0hTMVoyLU9seWhPZ29oZUhGaW9CNFIzcHVrbXZXdkZFRDVaTHlLdDhRNFBOdUptdzR3cVNKVnZ1TQ?oc=5",
+     "source": "Traders Union",
+     "source_url": "https://tradersunion.com",
+     "published": "2026-11-27T19:25:20+00:00",
+     "lang": "th"
     },
     {
      "title": "เงินบาทเช้านี้ “แข็งค่า” เปิดตลาด 34.06 บ./ดอลลาร์",
@@ -142,35 +150,27 @@
      "source_url": "https://today.line.me",
      "published": "2026-11-27T17:15:39+00:00",
      "lang": "th"
-    },
-    {
-     "title": "ดอลลาร์ออสเตรเลีย: มีแนวโน้มอ่อนค่าต่อเมื่อเทียบกับดอลลาร์สหรัฐ – Rabobank",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONDNHb214WXYxakdqX2VwMGFvUHlackVhWHJPTmFvOVl5ZlNBU0ZRT0RVbHFWdHFVQ3BoUUo0a0FUY0FDb2s1T0prRnhXWGlDRTB5cm9Pel8wWG4tRlZJczdXLWxRR1B5aXlVSlc0YXM2bkJObWlyTVBScTZ2bEswV0NmdEM2UWtDVlB0Qkp4cjhyd2FtX0Z2S2hPdThxOXlaSFg0a2trOUozR0hKOXl1T01NN2sydFFlZGFSMnQzUTBvVnBMTzktSU1ST1Y?oc=5",
-     "source": "www.tmgm.com",
-     "source_url": "https://www.tmgm.com",
-     "published": "2026-11-27T16:34:01+00:00",
-     "lang": "th"
     }
    ]
   },
   "oil": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "Stocks jump to end an erratic week that was Wall Street's best in over a year",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclZQMGh2VzJMNFZPYjVrR0FHd2pCeDFNR3RyUEpucmRSb25WUGh0VUZnWE5sTW1QQmw3cTZmUmpUVEJOU1cxOXlKdU9MN1ZrZjBfUHVHVXlTdGhRZ2RqRVFUYnQyOHJMb2xqbzVNbFpEWEFCNElnLXI1RmFXY3d1ZlZBQ1NuYnFHWGJ2RXROUWYwc3o5cERwMlFZTktZbm1hcEd5azBMLUdEWlRQcF9QaQ?oc=5",
-     "source": "Spectrum News",
-     "source_url": "https://spectrumlocalnews.com",
-     "published": "2026-11-27T18:59:00+00:00",
+     "title": "European gas prices stay high as storage sinks to a record low for the date",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQjRhclRwMTh4UWtkbEtpcjNwcjdYUV96M0ltUllXZkk3WHN4M1FHbVFmaEVsWE1QeGh3MW1UUkdaX3hXRkdsR0NPY1BuTnV6VmtpY05XNlBGb29IQzlEYUJrY3FwUjZPY1pvUTM0TU9rNlhfdHlWYzZYeUdkdXR2N1NaRWVBWjNRYTRyUGtnMTFIbDMzQUdrb0VrTHY5TWM0VVdRNXdR?oc=5",
+     "source": "Startup Fortune",
+     "source_url": "https://startupfortune.com",
+     "published": "2026-11-27T21:32:52+00:00",
      "lang": "en"
     },
     {
-     "title": "They are rising, but have not yet crossed the $100 mark — what is happening to oil prices",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDlJMlRmRXpzS0pRLU93aHAzVlhKajBGQUpnUkhjZ2QzX3p1ZVNvSTl3U2xmbzQ5NDlnME1lNnBpTVBVekNsNnNMMlF1Nkc1bldEMHhHLVYyTklRN29vckFxRVlsOTJ6bkdXLXRKdlFzb2hNdDNDSEJQczJyb0NudkU2MkdRaUF2TUhOenFTd2R3MGVyU2YxbEJOYnRUUlVFaGVoYXBNQXdiaDNPYURVR3RlY09GUWvSAbYBQVVfeXFMTXVpUlA5cnpEdGFXNFJObmwyMjRDUVdBOWIxWTdQRnZyNVZXNmROc0hiakNzWTZYVWRta3lMRWFTSjJZTTdRRmdoaGZnZFpLUUpLTW4yQmJqc2QtQ1Btc2JxTU9XUXFRM1BwYkxORXpjUGJZblhGRFhIZWtDcks0Z09XNGlWQVNwSDhIWFRsU0h5Z0U0YW94S3BWRUlJMFYzOGZrVExtTlVDSTlfMGZXRTJudHBuMnc?oc=5",
-     "source": "Українські Національні Новини (УНН)",
-     "source_url": "https://unn.ua",
-     "published": "2026-11-27T18:54:00+00:00",
+     "title": "Despite continuing to drop, Thanksgiving Day gas prices still set record high for San Diego County",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS1g4UEUyeFplMEJPTGkzYk5HcTd5SXhyVmhCTjBibGJrZDYtRE1xNjRuWE1JS3NRRTh4bnVxVXlKV3oyaW1XUDhRNUVFV1ZyNnFMdTNLMGppQWlkQ0o0MHkxdl9tcUg1VGc0eEhBdW45Tms1ZlhubWhMcHd4bDYtZkV4X0hMWC1sSzdiUFY3WFFmcGptWW12Sm9GQUEyUVV5czRhVFN3U21Obkpfa0RXVVdGdUZaZHJmWGk2QUh3bGZEdHBPa3ZqNUpVRUpOdUhxVWlrcjNrV09pVVl3cnR4QVo3bldJb1k?oc=5",
+     "source": "Times of San Diego",
+     "source_url": "https://timesofsandiego.com",
+     "published": "2026-11-27T21:30:00+00:00",
      "lang": "en"
     },
     {
@@ -182,25 +182,33 @@
      "lang": "th"
     },
     {
-     "title": "ราคาน้ำมันโลกดีดตัว รับข่าวโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBsdHhrOGpJc2p0T1R5RWxUS2toNk45YjU0cEpERFJJZ0NhaXl2UHBfTVVYdUVDWUtMejhJSTQ4T0kzTnp0QTE4T0dn?oc=5",
-     "source": "RYT9",
-     "source_url": "https://www.ryt9.com",
-     "published": "2026-11-27T14:13:28+00:00",
+     "title": "ราคาน้ำมันผันผวน ก่อน OPEC+ ตัดสินใจเรื่องกำลังการผลิต",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcWVGdWxwMmZUTEdrd0VmTkp0d3pqdkoyV3dSdGsxS3NEWFQwd1JpSjJtX1QwNmxGWWdERGhpTWtOZDZLd0pfYW5TVnYwYXlGb3AzVFVEbVdralo5Rko5MzNOMXlvblpZdjE5Qk5tQ1R5bVFib1AzSFBEcWh1V0tjWQ?oc=5",
+     "source": "Traders Union",
+     "source_url": "https://tradersunion.com",
+     "published": "2026-11-27T15:32:10+00:00",
      "lang": "th"
     }
    ]
   },
   "earnings": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "GE Vernova’s Backlog Reached $197 Billion. Can It Turn Orders Into Earnings?",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV2YwQXZXQ0M4RVgyeVNiTHR0OUpvVkJmRmZwNFhVQ3c0d3VCbVRneHFJdXJKSFV5cGFrTkZaak9YVDVPeGdnSUxsQWRLM0FyeHdya2xpWVlpQ3hVOC1jai13TlpydktVYUJieGN3ZkFFMmdyQUM4OFRYNjdvYlEtLVZWVS1nb1lpQlJzSl9Qb3FMNUcwamQ4RllYVQ?oc=5",
-     "source": "Yahoo Finance",
-     "source_url": "https://finance.yahoo.com",
-     "published": "2026-11-27T19:18:37+00:00",
+     "title": "APCO ทยอยออเดอร์แรก UAE รุกตลาดสัตว์เลี้ยง - Brain Health หนุนการเติบโต",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rRGV4UzZSV1JQQXhkR3pXU1l2OWxkUkIzUXFETzVNVG9najBaWk5mcHM0cXVoOUlQWjZpVjROTGZzd0kwQmU4U0h3TnNQSkNZMUJWcU5mMDN6amNwVU5EWTVn?oc=5",
+     "source": "efin.finance",
+     "source_url": "https://www.efin.finance",
+     "published": "2026-11-27T22:29:52+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "\"Everything Has Been Positive\": Analyst Sees a Strong S&P 500 Rally Ahead",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSjhMVGJrcG5reWpsWl81bHhYaEFvbVMtbDVOSFlvaWtBU2kxMUEtTTV4Zzl1dUNZRUdQOGdFbV9FQ1hmZEpLLVF3S01WVmVwQ0VpOC1PajhfbER3b0UwQlZMaHRDUHJrN1BhSTg3M05UMk52TGhEWEYwckhfaHh3U3J4dFltekJhVjRPWnRhYlZ0eUFmdEtBZFBvdFlHemJId1U2Tm1jNzk4SGs4WnFpV3ZqTWhKRWVxQzVVRW1RMFdEall2?oc=5",
+     "source": "Benzinga",
+     "source_url": "https://www.benzinga.com",
+     "published": "2026-11-27T20:15:07+00:00",
      "lang": "en"
     },
     {
@@ -210,14 +218,6 @@
      "source_url": "https://www.investors.com",
      "published": "2026-11-27T17:38:00+00:00",
      "lang": "en"
-    },
-    {
-     "title": "บล.บัวหลวง คัด 8 กองทุน RMF-Thai ESG รับจังหวะตลาดผันผวน วางแผนภาษีส่งท้ายปี | The Better",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9oUGQtS0F6Y083T3FHM3FvdXdjM1JRTmdlX1NBMFEwQVBRVzV1WThHbUJ4bFRHRWxVcl9fNk9VWC00VlFydFEyT29rejB6eWNqMmhBUmJ5WW1kZXpVN2ZMa3JKaU1zTGk3MjAwUWotZktTUWdOd0hF?oc=5",
-     "source": "LINE TODAY",
-     "source_url": "https://today.line.me",
-     "published": "2026-11-27T11:39:22+00:00",
-     "lang": "th"
     },
     {
      "title": "WHA ชูเมกะโลจิสติกส์ 8 พันล้าน เล็งเช่าเต็มต้นปี 70 มองไทยได้เปรียบภาษีสหรัฐฯ 18% | ข่าวหุ้นธุรกิจ",
@@ -231,20 +231,20 @@
   },
   "us_economy": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "Nasdaq 100 forecast: Stocks rebound, but have markets found a floor?",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc2hwRGt4SGRvc0hwTFFvalR6eEQyaC1uWUJIZFFUZEVxRHoxOGFLSS1NTDZEc2FWZkc5R3RVMEwyb3BDaW05b1J5UldPZ0dHQXhOekJQd1NHVzlxN3B4bjhvdHVNVjAwZWgyYkQxYnByMl81UnpDTEx4ZktCdHNZYXVGSXctblRsQ3dVY1ZnaDNDc3FoektwajBtZVA2QXdlcDlKV1JhRm5reWhubXY5RFJ3?oc=5",
-     "source": "FOREX.com",
-     "source_url": "https://www.forex.com",
-     "published": "2026-11-27T18:30:23+00:00",
+     "title": "Black Friday test for retailers as tight budgets meet AI-sav...",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM0RRLVhmYjBud2w1MVlfclBMNnFBR3FGR0dlMDJsUmVsV09fRE1ONkhiX1k3OFZnSDJNaTdPang2WkJQdzNoeU5HaWFzYnliUTktVWdjQnZocTZTTjd0OXV1MGpiLTg2WDFudFpxV3JGQjA1QVlXdVhQaGtGZXlQYWlvOGdENEtLWUFqUzBMbmlfZnN0QWQ5THd0b2Z1OUNaOF9Xa1lDVng5V0RvNHVhcHNMd01CbDUtVEl2dDRVNmp1Q2oxTDJ5QnhpSm5JWkNRcENj?oc=5",
+     "source": "New Hampshire Union Leader",
+     "source_url": "https://www.unionleader.com",
+     "published": "2026-11-27T19:51:52+00:00",
      "lang": "en"
     },
     {
      "title": "US Stocks Set to Bounce as Risk Appetite Returns After Holiday",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWkJ0R2dQX1BpbGtNRlNncDF1aTdiMW9zNlJpQ2VXQXhvQV9aYkt5bE1HdXQ5cF9fYlNlNGFha1BDZkNOeDJrS2RkVk5UbmZaeW16N3RWZ19jUmhVYk5TLVY2ZUI3dkVVbUNhRkJMZXRMSVpuZks2SzAybFJPTGVhOXk0dFhWYTBadDlBamstd2FYaWlNUjd1VkpRRGpUdVEtaWJ2Z3d2SGNQTFpocjNLRTNoZw?oc=5",
-     "source": "Bloomberg",
+     "source": "Bloomberg.com",
      "source_url": "https://www.bloomberg.com",
      "published": "2026-11-27T18:29:09+00:00",
      "lang": "en"
@@ -269,22 +269,22 @@
   },
   "ai": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "Apple stock outperforms Nvidia by 30.2 percentage points in November as AI selloff puts iPhone maker on tr",
-     "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPM0Y3QzNFSVdneF8zU3BvTEJXUGxlaW9ydUptSlBXVzlFN1A3b09RSldDYnJBQmR3akJTZ2xscnRjYmdYbzBJcktZeGNnTk03bzU3dllvRDR6X29PR1FycjVYaFJXWGZkZEs4WUdhVFN5X1c1T2NaMHFoUUMwYnhDM3h1S0FXbkR6aW53Y3FObkpSU3ZiRS04MXpxZVhST0lUSGhCUjFIcTdDX2tydmxScUQ4bExTd3hEanY2MF9idVR2OXRGdzZvRUZxYVVza1FfVjlxdkxEbmV4aTdTanN5cUhaeXlrUERXWG5RczFsaUhlYW5IV0xNWGhabDRucGVsLXRNZTc0andBTTVXT0N5eExPekxHRVVfbGlzeTlrSlhCTkEzWDZ5U1pzWm5ybW5aSC1Pdzl3NTZyRko2QjgyR0xaMzNPVVp5T2lvUkcxQXRpcXfSAdgCQVVfeXFMTVBRa1BHUFR1YWNjbWI4UmV2VU5YTnJkMWFFcHhyVU4taEdSaEhZS1hGUDZhUHZTUjVEZUZqLXdwRFFPc2tTV0p6REJGNy1leVhDRjRwOGZqa1RCa0VOaHNDZXN0dzBWQmFQRllpVDFlQnVuSE4wWFAzLXROdkVYVjVhNjl2MFZMU1pXQm5Dc2NIRHljaEdlRG54SmVqNkFpbXEtNksyaWlYSXdCazFGZnk4SE1DOW5vM2FzTlFhdF9ObXY4ZXBicXFfSk5pUmFpZE93OHFzWndrLUZPVUo3bDdXaWpuQ2phbjViZEFqdy1vczNkVWZteS1wOWJJY25sbjM5ZE1JcTdnSzFPV3lJTjZpT2F3LUw5eS1WQllqcmxYSzBUNXExNWlDSlBVTW81RGpMQ2VNaWlxSEt2MkZwNzgtX3VjZ3VWNW5PRUVIdjBDdFNfZDhmbGE?oc=5",
-     "source": "The Economic Times",
-     "source_url": "https://m.economictimes.com",
-     "published": "2026-11-27T18:15:32+00:00",
+     "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVHZGOWJkcVlZcmE5ZDAxbXIybTJiNzAyNmVvWjNiaHloWHpHa3Z3VUotV0Ywc1pVa1pTR3RPaDd0UzB2UXdXeEQ4Z0MwRDFXcXBfQUxDdU10ZHpLcGx2clZyVElfT2p6Y2ZMa0FMby1MZWpsSi1WakpZVDZBTTVFcnIxMFczTlRXQjZDYkh1NVpsaFFmV3JHSHBwOGpER1NpSzBDTlpEOS1sd2xyUFZqVlFBUDdCWkxjWl9WQ1JiY1h3LW96aHRBRkhB?oc=5",
+     "source": "Free Malaysia Today",
+     "source_url": "https://www.freemalaysiatoday.com",
+     "published": "2026-11-27T22:07:00+00:00",
      "lang": "en"
     },
     {
-     "title": "Trump can’t rescue the stock market. Here’s what can",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdVBCMm5xT3k1SURjZEJqaEhudDdIVE5IZWpkUUxNU05HZlBQMDFPS2tzWFlsME1ucWJvLU9qMHpOemtVc0IzWndhRzctSUc1b1VKMHpzN2NwUzduM0ZIMzFjcXV0V1d5Z1FTZXVXU2pleVpNcjJwT0VWckRZQWNEYThZUjh5LXYzcTRXb3lFR1A4dWhNbEJpTlNENC1QeXgzeHFMamdhSkkzSnhid21pYnA5dGlicUtrQS1STVBOUmY2c3NnUExRekwyRlh0WDNCTzlRaVFhZ3NWYnBDSEVCRlZmSFFQY21XeTZheWxOOA?oc=5",
-     "source": "The Australian",
-     "source_url": "https://www.theaustralian.com.au",
-     "published": "2026-11-27T18:04:49+00:00",
+     "title": "Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3?",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pQVJEYzBqS0Z2OEtrWk51OW8zLW53TFZmOHhkYklBUFF5V0NlcFByZzM2M0l6RjN3anJwQkp0a3JHSXpwZ2p3c0otTkE4Q2FWSGtRQzIta0IwNy1MZVU5aVIyaFUtWWpzNjdfMkR2REJtUGVYYWVXWDlDRQ?oc=5",
+     "source": "AOL.com",
+     "source_url": "https://www.aol.com",
+     "published": "2026-11-27T19:48:09+00:00",
      "lang": "en"
     },
     {
@@ -307,7 +307,7 @@
   },
   "trade_policy": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Bracing for Trump’s trade gamble",
@@ -334,56 +334,56 @@
      "lang": "th"
     },
     {
-     "title": "สหรัฐงัดมาตรา 301 บีบไทยเร่งปิดดีล ART ลุ้นคงภาษี 18% ขู่ขยับแตะ 25%",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yMTltUnZfLXAyYzcyUW5aN1ZEMk50ellQZ21rLVFnSGxUczdSOEQxbEZKalBHaXo1RzJoS2YzQ0xkYk1wVVgyLXpzcEc1UFkwRUM4Tm54NUI?oc=5",
-     "source": "Thansettakij",
-     "source_url": "https://www.thansettakij.com",
-     "published": "2026-11-27T04:37:00+00:00",
+     "title": "ส่งออก ต.ค.69 โต 27.5% ‘นำเข้า’พุ่ง 53.2%-10 เดือน ‘ไทย’ขาดดุลฯ‘จีน’8.6 หมื่นล้านดอลล์",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUxNZVllVHF3MXdxaWxqQkxyX3IyRUMxV2p2R1A4ZWRvb0Z5QnF0MTYxajAyMlR5VjM1TkQxOUVYTno5eG5MbDdBbDdTYkV6NVBuVzl5dllmOWRSS3owX2o2MEVJVUppdUJ0eDYxdkpSaDJJV3psOEdFXzRIdm1VQmdYbVBJZw?oc=5",
+     "source": "สำนักข่าวอิศรา",
+     "source_url": "https://www.isranews.org",
+     "published": "2026-11-27T05:21:58+00:00",
      "lang": "th"
     }
    ]
   },
   "us_stocks": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "Stocks jump to close out an erratic week that was also Wall Street’s best in more than a year",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV3hvSHlmM1QwQVMyanhDWEpTak5ZZkVwd2RBck9ObnBheXJoYWQxcUxMYXJqb2VhdWRiUVM2ZlNrSmNTYlZVZ1JmYXlRZ0lvclBleFJzRGZjUktHREZkY1JjOS15OVdGdmN5SVRmZUN2T1RVNTR2bnJwWjhfQnR5S015XzZtNmpNd19xbHFUbExjQk1OUTdPRDFxcUotZEZn?oc=5",
-     "source": "AP News",
-     "source_url": "https://apnews.com",
-     "published": "2026-11-27T18:43:00+00:00",
+     "title": "Stocks jump to close out an erratic week that was also Wall Street's best in more than a year",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSHk1T01oRnl1eDM4Q2dLTnFfcURFdUs1NlZrUXphakQxbnd0WkpaWkladHZsV0t6aU5wMm1wTENOeE5sNUt6eU83eUN6V3NjTHZDVmhkRTFNU3Q0bkU5QW1pYXQzVVZQZ1ljbWphaEhzQ2tYRUg4T2JLcUNuaHl1Qk1GVVlJRUdZQkQ1QlI0LWpOV0pXRktSdDUxcDBLbnJaTllHUl9QWDJ0VGtULWlQWnlfUWdvbUhXT1cyZWQzSmo?oc=5",
+     "source": "Butler Eagle",
+     "source_url": "https://www.butlereagle.com",
+     "published": "2026-11-27T21:48:54+00:00",
      "lang": "en"
     },
     {
-     "title": "Wall Street surges Friday as U.S. markets close at 1pm",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONHU1NTJhZUJtN3lRVzJ6dGppYThSX1lmWmtpWjQzNXl2WlVmZWhUNmFLZzVpY2JfWjduVVNYQ0UwU2JBNEdzMmxOOGxLRkJUcm1uZ1VVZF82LU9RU3dZM2ZZNmhtNlpTbzJZcDNJc2xFblV0TDV2NDNxZGZDQWtvX0U3WHJvNWxpbmlSVms0dXRCVTJQZ1hKVDhzcw?oc=5",
-     "source": "India's News.Net",
-     "source_url": "https://www.indiasnews.net",
-     "published": "2026-11-27T18:20:33+00:00",
+     "title": "Stocks Rise and Keep Wall Street on Track to Close Out an Erratic Week With Big Gains",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0xqbkFrQkJpQWloNjlDckRURlh1S0pIMkREUXdiRkRpam5wdERiOTZfM00yaEw3eFRHTkpaYW8xZWtiMUxNY1BCM2ZvaGZYSTBHVU9EUFhXMWxXUTYwemstNGI2VnN4bFhPRndqc2RDbUJCcm1JSjV6SVU5emllYWVPUVpiZWQxT1RhWUtXYVdYa0tkQTE3Q0NQOXo3eVRWNUdwbjM3S283ZEJHakVMMlkxWjZCQ0EtTzF4T2VBYXp2XzlY?oc=5",
+     "source": "The Well News",
+     "source_url": "https://www.thewellnews.com",
+     "published": "2026-11-27T16:08:20+00:00",
      "lang": "en"
     },
     {
-     "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด : อินโฟเควสท์",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90Y1VkTG5IQk9xOE92cmg2aUMxNEQyX25kMU9TbUtkNEhaTWlFUVRtSnpOOVhQcnFxVkpBR3kybE8yd3Jja1BjakdvQTFURXFa?oc=5",
-     "source": "สำนักข่าวอินโฟเควสท์",
-     "source_url": "https://www.infoquest.co.th",
-     "published": "2026-11-27T15:31:49+00:00",
+     "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBaVDNqa1hUdWZueEpFYjQtRjRkUkRuMU9TLVVabm13WTBhOTRwbUtkN0VtNElnb1JmNDRLX3RrQzVURGQ0WG1TSFJR?oc=5",
+     "source": "RYT9",
+     "source_url": "https://www.ryt9.com",
+     "published": "2026-11-27T15:53:56+00:00",
      "lang": "th"
     },
     {
-     "title": "ดาวโจนส์ฟิวเจอร์/Nasdaq/S&P 500 พร้อมใจทะยาน ส่งสัญญาณวอลล์สตรีทพุ่งคืนนี้ : อินโฟเควสท์",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoX24wNXBLcmZYcFNnTzBkLTdwU1NhMlJTS0RLbUJBVTBfUW1OQ1Q5NHZBVTZheS00RXZFdUJDaUhSVVJ3T3NVSGtyeXVhd3g4?oc=5",
-     "source": "สำนักข่าวอินโฟเควสท์",
-     "source_url": "https://www.infoquest.co.th",
-     "published": "2026-11-27T12:01:00+00:00",
+     "title": "ดาวโจนส์ฟิวเจอร์/Nasdaq/S&P 500 พร้อมใจทะยาน ส่งสัญญาณวอลล์สตรีทพุ่งคืนนี้",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9zbWhJY1Y0UU9WVnpSelFGTFIzTjdkS2FDN1M3cmVLLUMtcWJOdDZpV3BST093R3NBeFpPMS1XSnZYdDV6VXEyUDhB?oc=5",
+     "source": "RYT9",
+     "source_url": "https://www.ryt9.com",
+     "published": "2026-11-27T12:17:00+00:00",
      "lang": "th"
     }
    ]
   },
   "set_foreign": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Brunei’s Stock Exchange: Creating a Market Beyond a Marketplace",
@@ -421,8 +421,32 @@
   },
   "baht": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "กลุ่มธนชาต-MBK และพันธมิตร ร่วมสร้างสังคมสุขภาพดีอย่างยั่งยืน มอบ 10 ล้านบาท สนับสนุนโครงการอาคารโรงพยาบาลรามาธิบดีฯ",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4ydlA4Q2Vwelo5UjhTcHM4cXQ0R3hRTERqRkxrQmhGcy1pRnBTc2ZiRUEyM05qNEpYbmw0eGFMLVNnMGRNVC1ROFU3SVJBZGRjaTd2clFJSmt5dm8tTFNRay1R?oc=5",
+     "source": "efin.finance",
+     "source_url": "https://www.efin.finance",
+     "published": "2026-11-27T22:29:50+00:00",
+     "lang": "th"
+    },
+    {
+     "title": "GBP/THB technical analysis: Consolidation expected below ฿44.57 resistance",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcldNUlI2N1pIUHNLaHZJUXhUQkRseUJUdDdYcHNYaXJwOWt6SnZPVmk1a0VWUEVlYnA2LUVOelZSaEJaX0h3a2g2aHhDS1dlbXBwY2M3ZzVqZTduLUlDOGNoV01SaEdNekkyWEk5bGEwS2pybTl4MDlLODNhamV4TUd5cmdqWDdjaGc?oc=5",
+     "source": "Traders Union",
+     "source_url": "https://tradersunion.com",
+     "published": "2026-11-27T21:34:11+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "“ปิดช่องเงินสด-ทองคำ” .. เมื่อการทำมาตรการสกัดทุนเทาเริ่มเห็นผล",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeTBNdEx5dkdxZmV5eTJIREVKTjBvbThEc2lBV25nc3pLa3pSeDdGODJGS1NXU1dOZWxYem5jdUVpRHlSMTFSOVA0NHZoSUxWZVRtQl94R24ySUJMWk1fZmVaRDB0S2lwdWViQlpDcHBKYThTWm1jTk5hU3pMNDNTRE1GMWJDS2xKcXdUYmNjTm9vZGZydlNmVGR4YnZYa0VTRV8zTlpBVWljYlU?oc=5",
+     "source": "ธนาคารแห่งประเทศไทย",
+     "source_url": "https://www.bot.or.th",
+     "published": "2026-11-27T20:35:35+00:00",
+     "lang": "th"
+    },
     {
      "title": "เงินบาทเช้านี้ “แข็งค่า” เปิดตลาด 34.06 บ./ดอลลาร์",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVy1RTXN6alBQS1ItV0hNNHI1VUU3YWhZUTNZUndFNzQ3UTdhUTYwdGFSRWlCOE9kRjRYUmE0Vm9vWXhZSDdUNkdyZmFzNWxiWkg0dUV1WEF4R1BzdUx4c2JFSmI2N0tMbmJxNXIxUXdBSEhxOExuUmtGWVFEVnNSbQ?oc=5",
@@ -430,36 +454,12 @@
      "source_url": "https://today.line.me",
      "published": "2026-11-27T17:15:39+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Why is DKK/THB down 0.6% today?",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWjJKOW5KWnFoWFZoWmw4UDBVbmpZb0pBX0hLUS1DQTd0bWxnRjA5NVMtaG1zUkVtbW91TXBkcDdfMWRQTjFxRFpwcTB0X2w0NkRibnNBZ1E1V3lyVXhTQ3lNV25WcUYtZjl5cmdDbXBtUW5GV2lXWU5iT2VxUGlMeVl2dzhRY0puM3pHQUJUQzFuMDBpYldz?oc=5",
-     "source": "Traders Union",
-     "source_url": "https://tradersunion.com",
-     "published": "2026-11-27T16:24:33+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Former PM Thaskin Shinawatra spotlights sky high local airfares including 30,000 baht to Chiang Mai",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSTRpVVJXWnFCU3FNQ2ZlcXNaU1V0ekJNWGg1TUVyRW9pYjhKZHg2Yi0xN3B2WjczN1V5aDAwWXpmcFpRRjYwOHdHa2wxLW4yeTF2c1lIWUphWU5OZWZSZE85bDNQQlo0U3hKMHRvVTd1MWROUkNoVXhPNDFQMnRvbXdjLVU0ZVZtU3ZvS1g3TGNvTmZSWExOTW11UDg0bFpvZFVWWUVwNS1kc1VIMjVCQ196a0FzTTgxT3ZlVVJpV1ZaR0ZZTERueUxiWTV1ci0ybFlBb2s0RG9HUU9ZMUlYUDFoMlNFLWhhWk9kVDF2U3gwUQ?oc=5",
-     "source": "Thai Examiner",
-     "source_url": "https://www.thaiexaminer.com",
-     "published": "2026-11-27T15:54:56+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "ค่าเงินบาทเช้านี้ประจำเดือนพฤศจิกายน 2569",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlaHJLNXZlcWVHYVJYa1NQNGVxSDd3YjRVc1JyME13VldpMTBZRGtsX1lTNWhLTXFZNUtsS1ZjSml5TWw3U0J2dk5qc2w3c2ROcE1Za1V0VVhmV0dGTXc?oc=5",
-     "source": "อมรินทร์ทีวี ช่อง 34",
-     "source_url": "https://www.amarintv.com",
-     "published": "2026-11-27T15:12:49+00:00",
-     "lang": "th"
     }
    ]
   },
   "bot_rate": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Mortgage Rates Today: 27 November 2026",
@@ -470,12 +470,20 @@
      "lang": "en"
     },
     {
-     "title": "VietinBank 11 consecutive years honored as \"Best Retail Bank in Vietnam",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaVZGZTV1cDluMDE5c3MyUlRhMDF1dm9Oa1Q2Qm4zUjZCZjRpaFp4d29VLWpDdWpSQWcybktPZE81NkJLaF9JYmh1ck8tSnlGci00RnFFNnNsMFlRZFl0ZEEwZXpaeFNXUXF2Ul9RWDEwZ3VFSFZLR0tQN3l6LUFEUDlJZzF2UDdiaTBzelBlUy1GdTNZQlhPdzlaRlU5cGVZYTZjZEdIWlZuc3ZRZF9KTTg1Q2xNRk1wSkdsTk1vaVU0UFZrLXpyaVZxWDlvZXRQMkE?oc=5",
-     "source": "Laodong.vn",
-     "source_url": "https://news.laodong.vn",
-     "published": "2026-11-27T12:43:54+00:00",
+     "title": "Best Student Savings Accounts 2026",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORDlreC1xM01WMlJUOU9SQWtINUtsdzZvNjhUNVRXZWJONXpWaGVhQ2ZZaFpfT1pCeUZRVy1wY0x6ZFN6R1h1V0Q3ZWpNWmdRQl9FMEZ2cEVVZTlzaVU5T2tvSG5sQ0szN0FaVjVLWTRGQ0dkeEJFU3M0NnNSXzJpUXh0Yw?oc=5",
+     "source": "Forbes",
+     "source_url": "https://www.forbes.com",
+     "published": "2026-11-27T11:09:00+00:00",
      "lang": "en"
+    },
+    {
+     "title": "โพสต์ทั้งหมด | 3 ศูนย์วิจัยแบงก์ ชี้ “กนง.” มติเสียงแตก คง-ลด อัตราดอกเบี้ย",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5VDFLVkNCVThDYVcyeU5kUk9zZzBWeC1YZEI4bUxPcHlQT0M5MkRvZEFJOXRudWxTYmY0TnJWSnI3enNsTWNxcWdkSXJBdjRsUlhxLXMwMFJUY1F1eHVHRUZvNGc?oc=5",
+     "source": "LINE TODAY",
+     "source_url": "https://today.line.me",
+     "published": "2026-11-27T10:23:01+00:00",
+     "lang": "th"
     },
     {
      "title": "7 ตัวชี้วัดเศรษฐกิจที่นักเทรดควรรู้ อ่านเงินเฟ้อ ดอกเบี้ย GDP ตลาดแรงงาน และ Bond Yield ร่วมกันอย่างไร",
@@ -484,20 +492,12 @@
      "source_url": "https://www.ebc.com",
      "published": "2026-11-27T07:00:00+00:00",
      "lang": "th"
-    },
-    {
-     "title": "เศรษฐกิจไทยปี 2570 โตแต่เหนื่อย.!?",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QbVlVSjRtVVFLVU16aGREQWZfTVRNMnBuQlRyREVlQmhiX0wtZ215eUFxY3NRTnBSZ0FCQy1DM1dUMjNCN0trY29GUDdGZw?oc=5",
-     "source": "ข่าวหุ้นธุรกิจออนไลน์",
-     "source_url": "https://www.kaohoon.com",
-     "published": "2026-11-26T23:40:04+00:00",
-     "lang": "th"
     }
    ]
   },
   "thai_politics": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "“เอกนิติ” เร่งเจรจาภาษีสหรัฐฯ ย้ำ 18% ยังไม่ใช่ข้อยุติ มั่นใจไทยแข่งขันได้ | ข่าวหุ้นธุรกิจ",
@@ -535,7 +535,7 @@
   },
   "thai_earnings": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Thai Beverage Public Company Limited Reports Earnings Results for the Full Year Ended September 30, 2026",
@@ -573,8 +573,16 @@
   },
   "china_tourism": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "TouristDigiPay ดึงกำลังซื้อเข้าไทย Bitazza นำร่องรายแรก ให้ต่างชาติแลกคริปโตฯ เป็นบาทใช้เที่ยว | Thairath Money",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BU2lodTVNMXQtbl9MWW4tb2pCVENISG53WHlJNVhJejUzTWVHbE92ZzhxbzZ4WFkxNmN0Szk5YXFhbTVManA3TzVybFJ3XzBRSjFmZFJn?oc=5",
+     "source": "LINE TODAY",
+     "source_url": "https://today.line.me",
+     "published": "2026-11-27T21:57:20+00:00",
+     "lang": "th"
+    },
     {
      "title": "ฟ่าน ปิงปิง สวมชุดไทยล้านนานั่งขบวนกระทงใหญ่ สร้างสีสันยี่เป็งเชียงใหม่ นักท่องเที่ยวแห่ชมแน่นถนนท่าแพ | มาดามเม้าท์",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sYVlIUHVINmhOWENvRW9yYmRlNllwT3F3SnV6cVU3NjVlcXlPVnZCQUl4SFIyNWJKY0tRNEdWVmU2SDQwRTByWW0zaFR3eW1VQks2S1Zn?oc=5",
@@ -598,20 +606,12 @@
      "source_url": "https://www.facebook.com",
      "published": "2026-11-27T17:42:05+00:00",
      "lang": "th"
-    },
-    {
-     "title": "Travel more, spend less: how mainland China’s weak consumer mood shapes outbound tourism",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcWc1aE9CWjh5aHZBZkhpNlAtbjJvYWR2VmFXLUZCMVVSamtzMjAxcE9uc3FEMHowYXBGTWEtbG9HLVpJYThKYWxKenc5dXVtYldHMUxVaU92UXhkcWlDbXJpX0ZHaWQ1ZUFveVk2aUVBTFFpMkNHLVU2R2FXcnA1NnZZSzk0RXlMODE3djdPbGIwcWFaTWtIT3pXNmJJczJsYnRURlp1cVAydk1oU3NPcXUxRzdqSmJfRVdhc2UtZmNaZw?oc=5",
-     "source": "China Trading Desk",
-     "source_url": "https://www.chinatradingdesk.com",
-     "published": "2026-11-27T16:25:53+00:00",
-     "lang": "en"
     }
    ]
   },
   "thai_exports": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Government defends 18% US tariff proposal",
@@ -622,11 +622,11 @@
      "lang": "en"
     },
     {
-     "title": "Proposed US tariffs could hit $7.3B of Singapore exports",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTzBGcTl1OG9PNTNZY1RVMFFyOFNHMFNRU1ExQ2JPTzYxenE0Vnc0SE1mOU02eWxMck1uaGNuY2FITDc2LTFqYVc3dkk4U2dQRW5BWFk0cDN0ZUF5eFFJM1VUbTM0eW5yVWZzRXhmdU42cDZ1TDZhN1JRRTU4Nms2ZWgya0dSdXZIaWtKamw1QmNJREJJT2kxbnktU1JtM1pTaF90bVhDVThkcmVPaDJienBpQVA?oc=5",
-     "source": "VnExpress International",
-     "source_url": "https://e.vnexpress.net",
-     "published": "2026-11-27T07:29:48+00:00",
+     "title": "Thailand's Strong AI-Driven Exports Boost Trade Outlook",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUUZFeUFrSmEwdTVSY2VkLUVydlpwVzJobmpVSmQ2UXFfWjJuWGtwazJJa09yWVVYMUt0R3VvVVNmQmJTXzR6NzFoTEZfRHdnY0paM0h2R0JVaXFyY25jaENiVU1WQlViUDNTZHhZX0oybVFPT3g1c3ZuM0tIWmpWNWVFQlNmTGxhd3d6R2NsWjdtNnBRYU9Z?oc=5",
+     "source": "GuruFocus",
+     "source_url": "https://www.gurufocus.com",
+     "published": "2026-11-27T06:50:08+00:00",
      "lang": "en"
     },
     {
@@ -649,45 +649,45 @@
   },
   "gold": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
-     "title": "SA Asks: What's the best gold play right now for investors? (GLD:NYSEARCA)",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMTRPN0lqNlNkSzg3UVJLTWxjOTNabmpvSExzR0JVLWRYZ01lNUplTWhYeFNUQ3BkTFJtWFFGMC1wSWt2ckJoYjRyRmh4M2ViSEFWMXJ4UElpcEJwb3dIMHdkejV1ZTdHYTRuT1dFZG4yd3FqbWFkVVVEQ0pUVGhlVG5fWUNQS1hoRm5tNFZlaGQ1dU5VSXBTQS1IQjc0RHJKbERrbFVoY0kzWHN0NWY4bHZ5ZmQxZmw1X2l5bDdadlBBUF9EMGJLX1lyZVd2dThoSE9ZcWtOZXM2NzdPSlZGb3ZWbUlVZVk4M0w0RWNKVXI?oc=5",
-     "source": "Seeking Alpha",
-     "source_url": "https://seekingalpha.com",
-     "published": "2026-11-27T19:22:07+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Gold Steadies as Fed Rate Path and AI Stocks Frame Volatile Week",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdjBId0RKMFpkWFQ3R3VMeVV3T0VOMEI5dzRuWWZaMGNLVFBtRXZoWjJlWHhsdXVqdGNYT2NNc3ctSU9zdXpCR3ZaSXFENDhwQ1BQa1RqV01palJ3LWcxOWFnRXZFRm40NGRTaU9XYU9yOGF2WXAtV0lxOEdDcWZmSUxfYlZfZENjV3JUX0k5YmstSkk3V1ZWVWpkR1VjdDNzdkF6ZGxSNXpOZ1AxZmlGNThJTE0zUQ?oc=5",
-     "source": "Bloomberg",
-     "source_url": "https://www.bloomberg.com",
-     "published": "2026-11-27T19:21:40+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "‘ราคาทองโลก’ ดีดตัวแรง ‘ทองฟิวเจอร์’ พุ่งกว่า 100 ดอลล์ รับแรงซื้อคืน หลังร่วงต่ำสุดรอบ 15 เดือน",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZSkxKT2VQdWFDeElhUE5MMjY3NWo2U1NnZ3JSNDNHZ1pxbm5lUy1vLXdRUEF0Mm96bEY4QTlvR2ktd1piWGVocmtMTm5RSDJrSXk1VHh5YXI0QUZFUjRRakhsaURIS0lsYjloQXdwamVsSTF6aEoybQ?oc=5",
-     "source": "The Bangkok Insight",
-     "source_url": "https://www.thebangkokinsight.com",
-     "published": "2026-11-27T16:53:37+00:00",
+     "title": "ราคาทองคำวันนี้ 28 พฤศจิกายน 2026: รายการราคาทองคำแท่ง SJC แหวนทองคำ 9999 และราคาทองคำในตลาดโลก",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTkVNVnl2aVprLWgtQkpaRFdCMXZTUFBTWFEyTnd2UWVzMHRLUWFrc0tlN1NncGlkWDNMMWhmSmY3dlVOQ0pLVG9jR1ktRlVGaHFYYXk0TlFOZFNudFlPd0xuM2drUFBSZDRNUWE4X3V4Y1VHZFdobWFpcGNiYVA0clFPUkN4ZWZOLTJWZDV1djhISEdCdkNRQWFHWWM3a1NGN2tCMUxtQ2dJclk?oc=5",
+     "source": "Vietnam.vn",
+     "source_url": "https://www.vietnam.vn",
+     "published": "2026-11-27T22:20:54+00:00",
      "lang": "th"
     },
     {
-     "title": "ทองคำเริ่มตั้งฐาน! บล.พายชี้ผ่านจุดต่ำสุด Société Générale คงน้ำหนักทอง 10% ลุ้นปี 70 แตะ $5,000 แต่ Natixis เตือนเสี่ยงหลุด $3,340!",
-     "url": "https://news.google.com/rss/articles/CBMixghBVV95cUxNUm1JVEticjhNT3V2TUFZWXpFV204eVp1WmdjNk5uaWViTHFNUThlTVdCalZyOGtNdlRVNmlNSXZvM1JuaUZueEMzVTRSRjN5c3FDNVBKemtTNFJRMjhWWFc4RDJUUHIzdm16SHl0azZnSC11YVFHc2kwbTlyeENjTlJUTXdKMlFwNDhvaVRhMjVjRlFETFZlcXRoTjJaRE5sbFhuRXRBM0xfUzZmc1VrR1VORTNuemQ0OFZINTM5SWNnRlZEWjlqR25TNkRnVmhCT21OUkd2SWt2S0Z5OVlVWmE1VFM5RVB2OE93LUFKakRkaXpRX1Z0S0t2REQ0TDV4dU4tSVFEZ292ZEhON0JYY1FfT2syb3ZzYkdEVlBMVFZOcGgzZWtXZm16M3RNMW00dE5OdE9JWURYdURqNFJpeVhNdkRmd2RsSks2a1JLNVhqU2tIM2x1LVRrYVlDa2hBT0VHQnhfdTJWTFdERTZ6eER4Rk1LLThOLUVwRFdLTDYzdnRhbHJoVFcxcWpXeHdTRjlyRElPYzFjX203TUdvVkdjMlU0dDhIWnpxODJXdnotRzlnTUxWSkZicWNhM2xXblo5OWFlemhkWnZHei1kWnFpLWowZDFSbXdjRmVaX29sSGF6Q0NiTVFJdDU0RlRQRVhOSF9xRmhROWY0aElnZjMzNDJ0MlVJZlliMXZndFUxRWg5Z01adF9HVjZtcEFRc29MSG1JaElLcjIzX0h4ZzhzY2lpVU1QMEZfc1YwUHNrVDFUYWg2aWItSkRRXzdra01fVVh4dkt0TDNCNV9NNS1sQm1JLUJHYVFBMzNUX2wzaHI1VGNMS3hiSTI5Z2kzTUtCRjRPdlpldzRYU2o2RVZ4VVhCTnQtVHRrWnF1dV92YlI5b0l4TEQxM3VoVU9NdDhwS3hrcF8wS210VHhrbmFJRXRZdGFkOUJVdW5vaGRRVG0wcTFzdDdwekhmSVpDdHFuN19CdzFCNXF5V1R2dzJnc2FGTVFIS05NV0pJSGFscTl1cjhHR0N1NWYxbE9Pc2hBYkxpSjh6T1NoZ0VVN1pBNjRfWk9fRDY0V3VqWUJJb2VVMDlpVGp6VUFweG5ORmh0Yzl6SFhGLTlSNms0di1JWS1BRGlLWEItVnRhck9EdVhtLTgtN0ZPTHRMUTNzX2U5R2Y0bzRBSGlNY3ZJTGpnR0ZVa05rc2dsREtTNllhWFBKUm9pckFLaHl5VHV0eVNla0pHZDliem1rNG9aU19QeENySHM1REFaTmwySlNxTk9RSEpINXVZZDZZN0VnSTgyb1FLcEdWdEtQeUVrUE11UnAtd0tLRUhicHFKT2h6cjNiWF9mMkdULWhXYjJUeTZyVEJMdThLaHFwQzNQcUJ4b0R4bGFJQ25JRVRGTTVhMlRXOXNZd3pRZTNZeWM4d3lTNzNWLWpuMzhQTjdZb2cyU1BtQQ?oc=5",
-     "source": "Share2Trade",
-     "source_url": "https://www.share2trade.com",
-     "published": "2026-11-27T15:02:33+00:00",
+     "title": "ราคาทองคำวันนี้ 28 พฤศจิกายน 2026: แท่งทองคำ SJC, แหวนทองคำเรียบ BTMC 9999 และราคาทองคำโลก",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVUoxckV6ektkUXJqaF9LSF91RFl6a1BvOElKQWQ5eFZZYW5KSWN5YUFIQ2tsMzB6X2VHMUVFQ0FGdDhuWUxuY0xvM0F1alQtMjBSMkhKN0NQMktjUkVWeDZsVmtVc0hCZXhWbXJLZlBMcWw0ZktmdVRMUzB1WnlzNUdLTmhNTExxeWpreTFBYU5RODM0bUk5ak14d0plejNpQ2lFcGhteWM?oc=5",
+     "source": "Vietnam.vn",
+     "source_url": "https://www.vietnam.vn",
+     "published": "2026-11-27T22:20:54+00:00",
      "lang": "th"
+    },
+    {
+     "title": "Gold Prices Align With Equities as Seasonal Demand and Fed Signals Shape Outlook - News and Statistics",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2dueXNDS2paalZncHZHb0JKN05La2Z3VWdfNnpTSVBvVTJnMWRYcFNFWUZoSHFaSTlVTThfQkxyck5ScWlicl9CcVd1anZZQUxlZzhOaGVIU1c1TFBuXzR2RWR3ZV82VWhNVHVFTnRmc21aeXFMUDVPT0RVaXhGX2FWTTVER3hseGk4UEVaRlppcDRac29Ca19Jb3dVSmVK?oc=5",
+     "source": "IndexBox",
+     "source_url": "https://www.indexbox.io",
+     "published": "2026-11-27T22:10:48+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "Gold may get a relief rally following the Fed, but Warsh’s tone could still hammer prices lower – BubbleBubble Report’s Colombo",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVJNeDA1dXJNNGlXVlNfbEg5aXBWZVlhNTRDVnFBSjllblA3c1NWY1JIMUxfY202RC1nMDhEdjRXa25xNGttVVVKWElVYXpKWXc1ZXVNaTVGYWFqZnBQZEpTR2V1T3VHRW1rN2NSTVZES3J3YndCbTFTYlY5N0g0MWc2MVZ2LURRbTM2Um5aOFpDak9taHVFWDJMNUJPb3g3TmJxWEJMalpwSjRpQ1hMUFJSNnBFMUE?oc=5",
+     "source": "Kitco",
+     "source_url": "https://www.kitco.com",
+     "published": "2026-11-27T22:03:48+00:00",
+     "lang": "en"
     }
    ]
   },
   "real_yield": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Gold pares gains as Fed-hike risks linger, eyes first weekly rise in three weeks",
@@ -699,10 +699,10 @@
     },
     {
      "title": "‘ราคาทองโลก’ ดีดตัวแรง ‘ทองฟิวเจอร์’ พุ่งกว่า 100 ดอลล์ รับแรงซื้อคืน หลังร่วงต่ำสุดรอบ 15 เดือน",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41UWtuTGUtZ2VkTEREdnBvdmNJQUdvOElxdGlxanVickpHaDdheHhKenRsSmhFUFlZQ2xhNmJCS0M2UnhOa3RDYUEzT2pKRkt6Q3NWekZ6cmZwbWRqUUo2V01Hbm1URXRaNWRORUpubEI?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmcWdBem5RXzZVX0JlYzhSUFZjVy1QaTRPNnFEQTJqOGI2LVI3OWtIVzFWUjVsSm5LUjhXX0taaURCX05LcUwzTWt1SEIzaEhjeDliUHdR?oc=5",
      "source": "LINE TODAY",
      "source_url": "https://today.line.me",
-     "published": "2026-11-27T17:34:53+00:00",
+     "published": "2026-11-27T17:35:30+00:00",
      "lang": "th"
     },
     {
@@ -714,18 +714,18 @@
      "lang": "en"
     },
     {
-     "title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี : อินโฟเควสท์",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwTV9HUmRyTXFXQzRjTDRvQU5uWlZOUnFjbXBaUlp3TlpuWVNlYnB0QTlMTXlQSzEyTHB3Q1N6dUJ1WkFnQV9hUURHUFNjTDIx?oc=5",
-     "source": "สำนักข่าวอินโฟเควสท์",
-     "source_url": "https://www.infoquest.co.th",
-     "published": "2026-11-27T12:28:00+00:00",
+     "title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE54LURBUEhnTldNY0twTXplUVN3c242YjdQSmF1Mmxzdl9zWDRQNG1CcnhuaWhIWExnaThOc19WUlNPZVVhcDB6cUJ3?oc=5",
+     "source": "RYT9",
+     "source_url": "https://www.ryt9.com",
+     "published": "2026-11-27T12:39:06+00:00",
      "lang": "th"
     }
    ]
   },
   "cb_gold": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "GLTR Is Not Glittering, Which Could Be A Golden Opportunity (Rating Downgrade) (GLTR)",
@@ -763,16 +763,8 @@
   },
   "geopolitics": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
-    {
-     "title": "Gold Prices in Pakistan Jump Rs11,500 per Tola",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mQzdFVkljeHhjbVVMeTZrOGpXV2JENFFQQzRQRlMteUxqTFIxRGlJbDl3TVJyVmk2ejVHeF9qYy1hRE5sQVBHUWxOME1sNXJkd3pOdkQzRjQ0c2tQTEtLRDZmdVRRMjRNSVFGSVhETzFic2c?oc=5",
-     "source": "Pkrevenue.com",
-     "source_url": "https://pkrevenue.com",
-     "published": "2026-11-27T16:56:42+00:00",
-     "lang": "en"
-    },
     {
      "title": "‘เคน ฟิชเชอร์’ พอร์ตแสนล้านดอลลาร์ ถอดรหัส ‘หุ้นโลก’ เข้าสู่ปลายวัฏจักรขาขึ้น",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaTVHeWpNQldWMjZfYWZudWJBZDNkNlBwMzg5elIzeTZLV01vOV9HMW9MMmdqUHhSN2lOM3BMU0ItVExwSWdwV0pNZjI2WGp6a1Q3NGQwcDhqQUZRT0tiRl9n?oc=5",
@@ -796,12 +788,20 @@
      "source_url": "https://thestandard.co",
      "published": "2026-11-27T10:52:32+00:00",
      "lang": "th"
+    },
+    {
+     "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY1NMQXdCelBuRTJfU2xFQmFsN0hLeXRORUJZSnRxclFDQjlUV2FkdjVIVEpiWUZJNGRYR205Y1JtUHFSRWtJTUhFRi1wV041eHk4U1BkMjJmUnA4ZHhXTUVwT0pBaFFnT2E1RUdSb0hGTGZRaTN1WHVNZ1dIMV9JdEVrdjcydjItT2NHTFljY2lDTHBkVl9WZFhNNWkwVE11Vy1Bbmo3NHFLWWFhQm9Xbl9WMjN0LWhDZ0ZLeGt4ZE5NcklITU56THBWbHpFM01feG5TSHU2YmpaaU5RSXNEYkZxTHhZdUtJalpZ?oc=5",
+     "source": "ANI News",
+     "source_url": "https://www.aninews.in",
+     "published": "2026-11-27T10:17:00+00:00",
+     "lang": "en"
     }
    ]
   },
   "inflation": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "‘ดาวโจนส์’ พุ่งกว่า 500 จุด รับแรงซื้อหุ้นเทคโนโลยี ตลาดเปิดครึ่งวัน",
@@ -810,14 +810,6 @@
      "source_url": "https://www.thebangkokinsight.com",
      "published": "2026-11-27T16:37:22+00:00",
      "lang": "th"
-    },
-    {
-     "title": "The Week Ahead: Eurozone CPI, US jobs report, Salesforce earnings",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU3QxeUZsQnMtbjFiMklncVNxbC1iRXU1MVlVcTZOOVUzTVJRU3FXcTBfYnc5a1lRMHNROGlvV1doM1BNX2RIUTlBcm5zSXFTbDlTVXhYUnV3WE5OZTZ2bHNWRUw1RnNkRHBBYnR4Um9SZGNmWmJRY3FnSnBjWWl2OFFDM3BJR0VDUDF2aFhoWm0wWi1lTFZSZ19rN18yT2o5ZGVpWC1xSUhoc1dGNldnQlplWQ?oc=5",
-     "source": "CMC Markets",
-     "source_url": "https://www.cmcmarkets.com",
-     "published": "2026-11-27T12:31:58+00:00",
-     "lang": "en"
     },
     {
      "title": "Japanese Yen weakens following subdued Tokyo core CPI inflation reading",
@@ -834,13 +826,29 @@
      "source_url": "https://www.infoquest.co.th",
      "published": "2026-11-27T03:58:42+00:00",
      "lang": "th"
+    },
+    {
+     "title": "Breaking: November sees Japan’s Tokyo CPI inflation rise 2.8%",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNUJkQjhTUlpteFlPYlhaWEdCenV5UFgzbkl0VG92bVNNdUpqMGFiUlFWZ093SGVoS0JCUUpxdG12eVN3ZVg4NjFxVmliM08yQ2diYXdoN2FVWjZ0cW1OaG91cS1GSmhxOTYySHJKdkhTVnVDX1o2eHkwSEI0NXZCT2dKWUM5d05IWWFoRklSZlE1TEM3VENTLVJCeG9CUWtQSEg3Y1RNUW1selhSNFZxS3oxQ01Vd1BnYTJJekN6UFBJSVQ5?oc=5",
+     "source": "www.tmgm.com",
+     "source_url": "https://www.tmgm.com",
+     "published": "2026-11-27T01:11:52+00:00",
+     "lang": "en"
     }
    ]
   },
   "gold_etf": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "Gold's Physical Buyers Step Up in Asia, but the Fed Still Sets the Price",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDdDekRNVl8zUFZVWkMxX1EwSW1pV29LejRfX2VkbklPYUJZNlQzWDBnaGRaZldCcDNFTktZVGpNTDRNVHFGWmtJMENmY0pLX1dReEN3dFlwcldHMkRENW14RkJOT0VLMUhfeTZxcnptbEVJaDVmdEFiUUJnUDNkbWFRb0lXVFJvbU9icThwLVdJVjQ1cUwxM0JnMU9ZY2VZa1RlZG9rNEMzYjI0NGszckFtMWUyWUpEeTI0OE03SUxzLUVuZ3BMMlZWRzJZRXJxQnVSQ21XYXJpRm8?oc=5",
+     "source": "ad-hoc-news.de",
+     "source_url": "https://www.ad-hoc-news.de",
+     "published": "2026-11-27T21:23:07+00:00",
+     "lang": "en"
+    },
     {
      "title": "Gold Price Forecast — XAU/USD ($3,670) $3,880 Upside Target on Rebound From $3,427 Low",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZFc1cGNBYWhNRG1pRG9DQUlCUkE0WXJZTnUyTHV2cVJzZ1ZBSmRGWUhrcnVqV3lCVUNGZXVSVTNiVkdURjRxLWZMZURHY0o0WlZRVmpNLVhiZVNFVWZwZ3NlMnROSU1KV2JNV1hFRmxEbS1xSHpPcnFibEMxYTdzZHk1Wnoxd24xWktMMjlGYnNOM0ViMDdvd2FLWVk1U3VKdmNiUU5TNW85aGFPc3c2U2YySGRpQ0pB?oc=5",
@@ -864,20 +872,12 @@
      "source_url": "https://blog.liquide.life",
      "published": "2026-11-27T11:17:39+00:00",
      "lang": "en"
-    },
-    {
-     "title": "Gold prices hover around ₹1.25 lakh: 2027 outlook, key drivers and what investors should do; experts weigh in",
-     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZUxmc1RrX3E0UmdFTERRVzlKLXpwLUgwVm5RTjl2eWdZY3dPNzJ2MW1KYjNpTmFJUk1IV2dRQ2I1SnQ1SkRnV0hvSmphdy1zMlRnZmlqMTZaNmptd20zRk12WllabzRnQ0p2Z3MyMkFtWi1ock1ka2pvWk1Sa0w3WTMxQ19ZaE52dEwyZTAwZ1JKaUFnTTBkN1o3WGRpLXFnNk5raDdJRjNCV3pZMXJxZ2Q3ZW0yd29MNmRNMmNuN3JlVVhrbEFPazRsMHVxaFNNVG1DTVI5ckRKaTdKNlc0TEgwb0xwangxcGNtdjFLN3NxZnFvYVk4X3JfU3N1eURfaUlR0gGIAkFVX3lxTE04czI4SFR6eDZJd0REN0RwbTloM21OdmdEUkd5UldnVzQxMEMycXhKUWZVS1hMTlFuaUoxRUJqdlJVY3BudEdBUlFQT0tWZlhxajhfbXlMQnY4TFBxaVpBZllmcFdQc1dIUi1IT0k2R201TVpRSEFsVVlkdk9peGdSLTJVenFlTlZ4TjZTTVVJT3BCNjkya0xRb3phMFI4Nm80elNKa1BuNE4yYzhtbXNRdkNkbjZJaUg5TXkwYkNSTEVod1NXcW9BelM2c3JOelh4T1lwaGpZS1FCTXdlWkNPYmRLWFlTbjNNLXJqTlFJU0J0THlZR2pJY2hxU0dmWkRmWFhTZGZZYg?oc=5",
-     "source": "Livemint",
-     "source_url": "https://www.livemint.com",
-     "published": "2026-11-27T07:09:12+00:00",
-     "lang": "en"
     }
    ]
   },
   "treasury_supply": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "CBK Opens KSh30 Billion Bond Offer With 12.756% Coupon",
@@ -915,8 +915,16 @@
   },
   "qt": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "Raghuram Rajan, who predicted the 2008 crisis: \"Don't watch AI—watch the debt piling into it\"",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVVqQU8yTHVhM0ZBOURYMF9qeExpTWt6ZzY3YzNHWURJSjBmWFg4UnhtRi1uZnZrOTcxMlYyUzlrSDM5WUptVE8wY3BIWnlFc1BTeTFndjdPOXZHWUpHTUp3Tld6SnBLRlMtOU1GdVo5N0RUY1lteXhWajdPM18wQTctUVhieF9BUS1F?oc=5",
+     "source": "조선일보",
+     "source_url": "https://www.chosun.com",
+     "published": "2026-11-27T14:46:35+00:00",
+     "lang": "en"
+    },
     {
      "title": "From Dot-Com Bubble to AI Boom: Reviewing Ten Major Drawdowns in QQQ's History",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IWEFRaUM1Q3ZYRkdwaW5iblE4NnJacjhvbVk3ZlpnbExpRHEwVlVhUlF0aUh1NE5KLTlrY0tBMHVMdktYT0RPVGZxZXJMREx6QjI2YnhTZDY0cndDcHdSY1lqT1hnT3RMN3c5aGxydUNXRXNjX0tUZ0daVXJvVVU?oc=5",
@@ -934,14 +942,6 @@
      "lang": "en"
     },
     {
-     "title": "Raghuram Rajan, who predicted the 2008 crisis: \"Don't watch AI—watch the debt piling into it\"",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVVqQU8yTHVhM0ZBOURYMF9qeExpTWt6ZzY3YzNHWURJSjBmWFg4UnhtRi1uZnZrOTcxMlYyUzlrSDM5WUptVE8wY3BIWnlFc1BTeTFndjdPOXZHWUpHTUp3Tld6SnBLRlMtOU1GdVo5N0RUY1lteXhWajdPM18wQTctUVhieF9BUS1F?oc=5",
-     "source": "조선일보",
-     "source_url": "https://www.chosun.com",
-     "published": "2026-11-27T02:06:42+00:00",
-     "lang": "en"
-    },
-    {
      "title": "Thanksgiving Inflation, the Fed’s Debt Trap, and Gold’s Eastward Shift",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEJlUExIaTg2R2Npb2ViUnNERFAwTEF2V0pRVWVMMFlSTmhzMHktWkllR1dGWG1keDRHSmh2VWpXcnF1NksyWG5UVGdvOUJrY1Q1bkRLcV9WR19ETElqX0FpbWM0SUtJVjhISDdjZ0lYd0hQNUplRV9oa00ydGJJQU5vWXVnR2hMRy01R2VHa1pfQlpnUnlLbUdsSnVjaG1TTURtT29OQzY1cTVKTTNYcE5aNDljam5oUmJv?oc=5",
      "source": "Medium",
@@ -953,7 +953,7 @@
   },
   "other_cb": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
@@ -961,6 +961,14 @@
      "source": "Bloomberg",
      "source_url": "https://www.bloomberg.com",
      "published": "2026-11-27T16:18:45+00:00",
+     "lang": "en"
+    },
+    {
+     "title": "ECB Rate Shift Focus Might Change The Case For Investing In Allianz (XTRA:ALV)",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOanZjUnczaDI0NW5YcWE2eEctem42cDh0Z3cyQi1rSGtqblBiWVlUNE5tMm5JRUtVV1pnaWFHYldYMm5HMnZTN1JzdFNmeWY0eUFLZmlpRHQ5bnJkbWxibWYyaTNvd2h4LXlNRDdkaTd4c0ZYZUVMYmo2dUJBeFlSeGlWcXFnSmFqRnM0MmgtWTcwNHU3MlBYbWl5N3hlNVpaRENaSmgwaUJncnVhX1Etb1BLczI1MXNFREd4YzVZUXZUOHpPOEJPRA?oc=5",
+     "source": "Simply Wall St",
+     "source_url": "https://simplywall.st",
+     "published": "2026-11-27T15:15:38+00:00",
      "lang": "en"
     },
     {
@@ -972,41 +980,33 @@
      "lang": "th"
     },
     {
-     "title": "ECB May Raise Rates Further as Euro Zone Inflation Stays Above 3%",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rSUV6QWJWY09xV2dYdU9vN0pFaFhYU05SWTR6cHppNHd1M0hDMG05aEFQQ0JTN2RBVFZMeW1xcXdVVWVWak5pSjB3NUdsVUs3UjhQb1FjbW1rOWlPbHQxQWxfb3BIMWJlZ0Jhc2tDczQzYlZUaEk0aG5zWWlxcm8?oc=5",
-     "source": "Global Banking & Finance Review",
-     "source_url": "https://www.globalbankingandfinance.com",
-     "published": "2026-11-27T13:17:44+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "เงินเยนญี่ปุ่น: ความเสี่ยงเจอแทรกแซงค่าเงิน และแนวโน้มการปรับขึ้นดอกเบี้ยของ BoJ – OCBC",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RdlZYMEJGVGJZN0gzc25jbC1QeHhXOXJlUEhsT0oxQ242ZzlFV2FSTzhJSV9aUmRvak9LVktuZThLbVNlUnVWN3dnZlROUlRsNlRsYWY1cWNuUHZGTWs2Q1RwMjRQLWpCUnc?oc=5",
+     "title": "เงินเยนญี่ปุ่น: เงินเฟ้อสนับสนุนแนวทางการปรับขึ้นดอกเบี้ยของ BoJ อย่างระมัดระวัง – MUFG",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HVHJsSF8zUGl6aWJ3Q05lZXI3R1Nya1JFMXZqdlZJa1JpTElfdjItbFJqbkVNN3lEUDhUVFJ5VXJlVVFBNk1vSG50YTU4VVdKcU9QNkF2N0M1U21KTFNIVTJxVWtibFFsQWc?oc=5",
      "source": "TradingView",
      "source_url": "https://www.tradingview.com",
-     "published": "2026-11-27T09:13:31+00:00",
+     "published": "2026-11-27T14:44:39+00:00",
      "lang": "th"
     }
    ]
   },
   "us_debt": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "US Government Fiscal Mess: Interest Payments on the Debt, Interest Rates, Tax Receipts, Deficits, Debt-to-GDP in Q3 2026",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbms3dGFUR0FiX1hxT1VnbGptNDB2Y0RITUl1SG9JaXVkQXhmdl9nQmI0U3lkeUJoRGNsS29FaENWNHBuZGVOYXlqa3pPdFhnRDFLQ2RidU14U3F4TTVpcVlRRDhGUy1PTC1CWm5wQjY2OVlJcDFiTVpuTzVrSlVkOVY0T1poekttcUFMVmJJc1lSLVRWUTRjSUF2TDlvaTFua1g1cmpmYW0yd21haktldVptSTJLaEpYLVlVX2FHMmduNnAySnFGczVKRmlYVlBkZUtmMWs3bzZJQmYxd280UFZzREZmTmF4cWc?oc=5",
+     "source": "Wolf Street",
+     "source_url": "https://wolfstreet.com",
+     "published": "2026-11-27T21:25:35+00:00",
+     "lang": "en"
+    },
     {
      "title": "Dollar Moves Higher With T-Note Yields",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZTVENFRwSmVra0dMSGN3ZGkzVzlBa1VrdzN4OUh2bmRoakFfNXlsLWx0MGVOSHFnUUdmWnFOekxuWGJKbHV6MmJmdTJfMURrQjN1bV9uUzNxemlOZVVIX1FrX2I2Wk1NSldoZzlrVENkT1RnUkhQR3BYVl9CdmFSZGJiTjR1eFZsc1E?oc=5",
      "source": "Barchart.com",
      "source_url": "https://www.barchart.com",
      "published": "2026-11-27T19:27:55+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "US Government Fiscal Mess: Interest Payments on the Debt, Interest Rates, Tax Receipts, Deficits, Debt-to-GDP in Q3 2026",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbms3dGFUR0FiX1hxT1VnbGptNDB2Y0RITUl1SG9JaXVkQXhmdl9nQmI0U3lkeUJoRGNsS29FaENWNHBuZGVOYXlqa3pPdFhnRDFLQ2RidU14U3F4TTVpcVlRRDhGUy1PTC1CWm5wQjY2OVlJcDFiTVpuTzVrSlVkOVY0T1poekttcUFMVmJJc1lSLVRWUTRjSUF2TDlvaTFua1g1cmpmYW0yd21haktldVptSTJLaEpYLVlVX2FHMmduNnAySnFGczVKRmlYVlBkZUtmMWs3bzZJQmYxd280UFZzREZmTmF4cWc?oc=5",
-     "source": "Wolf Street",
-     "source_url": "https://wolfstreet.com",
-     "published": "2026-11-27T17:51:07+00:00",
      "lang": "en"
     },
     {
@@ -1029,22 +1029,22 @@
   },
   "opec": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "Crude Prices Retreat on Possible Increase in OPEC Crude Output",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMU04eDJwaUNhbEhzY0RZajdRRURlcm9oZ2lKNXNjSmxlNHZNaDZhb0FVZUZGTEZ3MlNmcWVjbmRtRUhDS3VVdUZDNUpxZExsd0lPeEtqS1ZiZnBvR1BfQ0k4YmtseFZUbXE1QmcxcjQxcGV6WHVqSVgtbjJFVzd4djhwNkVybVBWclpIWDBTdHdQWkVfUFFXbzJiUEJPdURfLTh0VFFqNGR6UQ?oc=5",
+     "source": "Barchart.com",
+     "source_url": "https://www.barchart.com",
+     "published": "2026-11-27T20:11:14+00:00",
+     "lang": "en"
+    },
     {
      "title": "OPEC+ set to keep oil production targets steady: Report",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMjRfOWtwZTQ2Y3hkNFd6aXdMeV9OcURTZjRYYU13UzBDc2Zla2RhYk5VN1diNEJTRXNjT0RpdFI3cG1NSGs0dms5ZjNZTmVfU25HdVlKcXJGRkZYVnJzMVRUZEtrTmtsTE5MbEJoU3RRU05IUXRiY2Zic1RpMHA3SE0zUTJRZy1BbllpcjJvY0RUU3dlR1V6dk85dFk2Z05reDZTazYzaWp1cmVIdm8tZU5pd3NUQjc5U0JQTlU0dzhxN1BHVmfSAcsBQVVfeXFMTzBnOVN3cTJQdGFKY05DZXRVTVd3WTJBTURMZTYxa1VZNnZYNjVOMnZHeWRSb3ZpdjZOMzAzX2QxcF9ob0lTUjVXS09OdXpTVVNzNUVQS0dVT1NfMDM0OE1SZ2huNDJ2bzgxZjR4c2FsWWRxLXllZDNUMDJUZEd1eGlJbnZSTk80X09yd2NDcW51UmV2ZmxlUmt3QXRITTMxbWgtQTNFR09Tamw2aGtRNUlXYXk5YW9oX0pienZIRkVyMDAxcVJpRmZGa3M?oc=5",
      "source": "The Economic Times",
      "source_url": "https://m.economictimes.com",
      "published": "2026-11-27T18:46:42+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "US urged Venezuela, Iraq to consider leaving OPEC amid oil output push",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWkZzdGJqTFdnZHBBSHVtV2JQdEd3QkRSbDFtS1VDUVFpdFJoZF9HbGlOTzZYVmNQZEMxUmlqWVptY1Q2YlZsUlVKd0drRHNCaEJ3Tk8wY2xTRF9ZQ1RWdUdFa25VU25JcG9tXzhlZGk3dzFZQnhQVmhObnBUdVU3WlNzaXZFYVdiN2hwUzJGUDAyN2xTVy1UVF9RZEh0cnhCcy1tdzdzc3JIc1dLVFQ1SEhON2xVYzBjS0FRT3hLNGhiMkVNMTNpa3QyNS1rWWfSAdQBQVVfeXFMTUZ1SWlSUGtuR201WU9kck1FbzVtbUJhUmRtSmpUeFRxdzF6Wk43VXJhUEpmRUg0QVZYbXI0akNMY0RwN3JZaEV1SFJ2V25GS0k4QjZ3ZGtQdU84Nk9kY2RnTFVabFl6ZGJUdHE5WkR1ZW45SmxjeUtaWExObWpGUzV1dGtMZG9SeWdESUJUZjJobnlOZnVuRmEyWXdvQ0hsdUtOZWNzdjhEaVlmSWJBOFhZRmFqVXdYVkY4WFpqWlJUWWV0UTQtVWFhQ3BJOEhWQzkyT1c?oc=5",
-     "source": "Business Standard",
-     "source_url": "https://www.business-standard.com",
-     "published": "2026-11-27T18:37:28+00:00",
      "lang": "en"
     },
     {
@@ -1067,7 +1067,7 @@
   },
   "oil_war": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "Russia's oil production falls to 18-year low as revenues take a hit",
@@ -1105,7 +1105,7 @@
   },
   "oil_stocks": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
     {
      "title": "USA Crude Oil Stocks Rise Week on Week",
@@ -1143,22 +1143,22 @@
   },
   "china_oil": {
    "status": "ok",
-   "fetched_at": "2026-11-27T19:40:05.785782+00:00",
+   "fetched_at": "2026-11-27T22:45:28.741435+00:00",
    "items": [
+    {
+     "title": "Copper sweeps higher as China offers stock market support",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaFA3NzRnc1lZRHpXb09SWE5MSkdud1hSY3J0azY3TW90OXY2bDdBVUE5VjRZOEltcWxrSHo4cDNpa3hXUk9pU3NadUwyODRVWTd2T2JsbnZjTzVMUGxPRlVLaDI2NmRWRUNrS2lFR3U1dS15UVdUYVFHdnRScXlLRC1BajlZUUx6dWktNUs5aHBaRGpRa3dIZUV6X1pnUW5selUtdkxQeEowQ3cwZGlSTFE5T3RFRVJQbkllT1dGb1VVU0JvRm1qYUVsWdIB0AFBVV95cUxPbllTbHR6QjNMdVZzX2pwdUl6OXFjVlZoWkNzM29JUzhwcklWRnpoX0lXYUtFVHR1Y0lhTFRlUS1zMVJOMzRCMEZfVFJkNlRxVUlaMFZacFNZYi1mcDRiWkNNZHcxaklMX0dVOGNLa0czUHlJMlpOZlBvTDN2Qkcyc3lUVm5XYlcxSEx0Nl9IQjc2MWFIZS0zeUctS1VFY0EyMi1HT0RSMzFTaXNOcG9lWW1nakpWTjczUmxpSHVFN29rTDVpbGw0c19uYUlMNFRx?oc=5",
+     "source": "The Economic Times",
+     "source_url": "https://m.economictimes.com",
+     "published": "2026-11-27T18:43:45+00:00",
+     "lang": "en"
+    },
     {
      "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
      "source": "EnergyNow.com",
      "source_url": "https://energynow.com",
      "published": "2026-11-27T16:51:19+00:00",
-     "lang": "en"
-    },
-    {
-     "title": "Kazakhstan accounts for around a third of China's sunflower and rapeseed oil imports",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GWDBFU0ZodW55TWMyTGtENDRqTmNiWXlGSVdQS2lxakpVWUtzRGJVa2Zya2N6dGM2dVdwQUpmd2tXakFnenhPUHN3VXNnSkxHZ3ZyUg?oc=5",
-     "source": "АПК-Інформ",
-     "source_url": "https://www.apk-inform.com",
-     "published": "2026-11-27T14:25:48+00:00",
      "lang": "en"
     },
     {
@@ -1170,11 +1170,11 @@
      "lang": "th"
     },
     {
-     "title": "รู้จัก “E20 และ B20” พลังงานทางเลือก ที่ร่วมขับเคลื่อนเศรษฐกิจฐานราก",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ1NkUmVOU1d6QUdldGMzV0hWYnlPZmtZbnloazZ3WFh4Mm5peGUwVkJwbFNJWWtiSFNjeHhKcE1jUUVGNWFHMko4eDFzaVRQaWFXbDB4bVg0VEU3OFRielgzWjIwbWlDVXU4ODVjazFVZmc4cUtCdDJib1ZsQk92RUN4dzZQbEp0VzNYSU04WXBtckR4LTNTcQ?oc=5",
-     "source": "efin.finance",
-     "source_url": "https://www.efin.finance",
-     "published": "2026-11-27T09:36:19+00:00",
+     "title": "ทูตจีนเป็นห่วงเป็นอย่างยิ่งต่อปัญหามลพิษในแม่น้ำ เผยเข้าใจความรู้สึกของพี่น้องประชาชนชาวไทยเป็นอย่างดี | The Better",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9haE9ma2oxSjVfZmVvMm91clJzOHVNMFh3dDlRUzF1QlJrdnIyZlZGQlppRVZ5ek94Z2RmWFY1X2JOSVlGb3RuRHEya25ROEgtWEdreW5n?oc=5",
+     "source": "LINE TODAY",
+     "source_url": "https://today.line.me",
+     "published": "2026-11-27T07:35:13+00:00",
      "lang": "th"
     }
    ]
