@@ -4,25 +4,15 @@
  "institution": null,
  "proprietary": null,
  "retail": null,
- "confirmed": true,
+ "confirmed": false,
  "sources": [
   {
-   "title": "ต่างชาติขายสุทธิ 2,582.73 ลบ. สถาบันร่วมเท สวนทางรายย่อย-พอร์ตโบรกเข้าช้อน",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vNmx2R1d4NTBZMTVsd2dFRk9rTEpoam5aOVlvNWxzNUEwZ1JlU3kyQVEwM25oRmJtMllLZGNTQTFldHN5U2stOG9ic01jUUxwR2hn?oc=5",
-   "source": "Thunhoon"
-  },
-  {
-   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,582.73 ลบ.(SET)",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5GOWJZOU9MOTlyR2FCa21DTXNxWTU0ZnBpandCOU1IVW1qMk9FRk5rRkFIWUY0SlJ2cEl4YUtHck9VSE94RkprQjdB?oc=5",
-   "source": "RYT9"
-  },
-  {
-   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,570.31 ลบ.(SET+MAI) : อินโฟเควสท์",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UejU0T3d2XzZjXzFjOW1rTjl2UFlBQ3FMaEVaYlZnazZxNFZ2R1hrS25JZjljdFdoSFJWQWFDcjZiWnpheDlLQV9aelBaT29x?oc=5",
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,582.73 ลบ.(SET) : อินโฟเควสท์",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04WTBQNDRzZy1QajVqX2xxX2xpcTN3VldXWGdrYjB0V1hyOHQ5TVdTdlVlU29TY0xRNHBoeFlXY01LS2hNWENka0JwZkliMHFW?oc=5",
    "source": "สำนักข่าวอินโฟเควสท์"
   }
  ],
  "status": "ok",
- "fetched_at": "2026-11-27T18:03:01+07:00",
+ "fetched_at": "2026-11-28T02:40:44+07:00",
  "method": "พาดหัวข่าว"
 }
